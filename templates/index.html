@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIナビゲーションチャット (Google Maps 版)</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> 
+    <style>
+        /* 1. 全体レイアウト */
+        body { margin: 0; padding: 0; display: flex; height: 100vh; overflow: hidden; background-color: #f0f0f0; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        #map { flex: 1; height: 100%; z-index: 1; } 
+
+        /* 2. チャットオーバーレイコンテナ */
+        #chat-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0 20px 0;
+            box-sizing: border-box;
+            z-index: 10; 
+            transition: transform 0.3s ease-out; 
+        }
+
+        /* 3. チャットラッパー */
+        #chat-wrapper {
+             width: 90%;
+             max-width: 600px;
+             position: relative; 
+        }
+        
+        /* 4. チャット表示エリア */
+        #chat-display-area {
+            width: 100%;
+            max-height: 30vh; 
+            margin-bottom: -1px; 
+            overflow-y: auto;
+            background-color: rgba(0, 0, 0, 0.6); 
+            border-radius: 12px 0 0 0; 
+            padding: 15px;
+            padding-top: 45px; 
+            color: white; 
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out; 
+            box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.5); 
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        #chat-display-area.chat-minimized { max-height: 15vh !important; }
+        
+        /* 5. 表示/非表示ボタン */
+        #toggle-button {
+            position: absolute;
+            top: -30px; 
+            right: 0; 
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 8px 8px 0 0; 
+            cursor: pointer;
+            z-index: 20; 
+            font-size: 13px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); 
+        }
+
+        /* 6. チャット入力フォーム */
+        #chat-input-form { 
+            width: 100%; 
+            display: flex; 
+            margin-top: 0; 
+            border-radius: 0 0 20px 20px; 
+            overflow: hidden; 
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); 
+        }
+        #chat-input { 
+            flex-grow: 1; padding: 12px; border: none; background-color: white; 
+            border-radius: 0; 
+            margin-right: 0; font-size: 16px; transition: border-radius 0.3s; 
+        }
+        /* 7. 送信ボタン */
+        #send-button { 
+            padding: 10px 24px; background-color: #4CAF50; color: white; border: none; 
+            border-radius: 0; 
+            cursor: pointer; font-size: 16px; font-weight: bold;
+        }
+        
+        /* 8. メッセージスタイル */
+        #chat-output { display: flex; flex-direction: column; gap: 8px; }
+        .message { padding: 10px 14px; border-radius: 12px; max-width: 75%; line-height: 1.5; font-size: 15px; } 
+        .user-message { 
+            align-self: flex-end; text-align: left; 
+            background-color: #4285F4; 
+            color: white; margin-right: 0; margin-left: auto; 
+            border-bottom-right-radius: 2px;
+        } 
+        .system-message { 
+            align-self: flex-start; text-align: left; 
+            background-color: rgba(255, 255, 255, 0.2); 
+            color: #eee;
+            margin-right: auto; margin-left: 0; 
+            border-bottom-left-radius: 2px;
+        } 
+        .loading-message { align-self: center; text-align: center; background-color: transparent; color: #FFC107; font-style: italic; font-size: 14px; }
+        
+        /* 9. 非表示時のスタイル */
+        .hidden { max-height: 0 !important; padding: 0 15px !important; opacity: 0; margin-bottom: 0 !important; overflow: hidden; }
+
+        /* 10. 選択肢ボタン */
+        .action-button {
+            display: flex; align-items: center; justify-content: space-between;
+            width: 100%; margin: 5px 0; padding: 10px 15px;
+            background-color: rgba(255, 255, 255, 0.15); 
+            color: white; border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .action-button:hover { background-color: rgba(255, 255, 255, 0.25); }
+        .action-button:active { transform: scale(0.98); }
+        
+        .spot-button { border-left: 4px solid #FFC107; } 
+        .spot-button .name { font-weight: bold; font-size: 15px; }
+        .spot-button .meta { font-size: 12px; opacity: 0.8; }
+        
+        .category-button { border-left: 4px solid #00E676; } 
+        .category-button i { margin-right: 8px; }
+        
+        .route-button { border-left: 4px solid #4285F4; } 
+
+        /* 11. 非表示時の入力欄の丸み */
+        #chat-wrapper.chat-hidden-radius #chat-input-form { border-radius: 20px 0 20px 20px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+        #chat-wrapper.chat-hidden-radius #chat-input { border-radius: 20px 0 0 20px !important; }
+        #chat-wrapper.chat-hidden-radius #send-button { border-radius: 0 0 20px 0 !important; }
+
+        /* 12. 経路サマリーパネル */
+        #route-summary-panel {
+            position: absolute; top: 20px; left: 20px; z-index: 10;
+            background-color: rgba(255, 255, 255, 0.95); color: #333; padding: 12px 18px; 
+            border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+            font-size: 15px; line-height: 1.5; display: none; max-width: 300px; 
+        }
+        #route-summary-panel strong { font-size: 17px; color: #4CAF50; }
+        #route-summary-panel > div:first-child { font-weight: bold; margin-bottom: 8px; border-bottom: 1px solid #ddd; padding-bottom: 8px; }
+        
+        /* 周辺検索ボタン */
+        #search-buttons-container { position: absolute; top: 20px; right: 20px; z-index: 10; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+        #search-main-button { width: 50px; height: 50px; border-radius: 50%; background-color: white; box-shadow: 0 4px 8px rgba(0,0,0,0.3); border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; color: #4CAF50; font-size: 24px; transition: background-color 0.2s; z-index: 12; }
+        #search-main-button:hover { background-color: #f0f0f0; }
+        .sub-button { width: 40px; height: 40px; border-radius: 50%; background-color: white; box-shadow: 0 3px 6px rgba(0,0,0,0.3); border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; color: #555; font-size: 18px; transition: all 0.3s ease; opacity: 1; transform: translateY(0); }
+        .sub-button:hover { background-color: #f9f9f9; color: #000; }
+        #sub-buttons-wrapper { display: flex; flex-direction: column; gap: 10px; align-items: center; overflow: hidden; transition: all 0.3s ease; }
+        #sub-buttons-wrapper.collapsed { max-height: 0; opacity: 0; margin: 0; pointer-events: none; }
+        #sub-buttons-wrapper.expanded { max-height: 300px; opacity: 1; margin-top: 5px; pointer-events: auto; }
+        
+        /* InfoWindow */
+        .poi-info-window { font-family: Arial, sans-serif; max-width: 250px; }
+        .poi-info-window img { width: 100%; height: 120px; object-fit: cover; border-radius: 5px; margin-bottom: 5px; }
+        .poi-info-window h3 { margin: 0 0 5px; font-size: 16px; color: #333; }
+        .poi-info-window p { margin: 0 0 5px; font-size: 13px; color: #666; line-height: 1.4; }
+        .poi-info-window .rating { color: #f4b400; font-weight: bold; }
+        .poi-info-window .payment-info { font-size: 12px; color: #4CAF50; font-weight: bold; margin-top: 5px; }
+        
+        /* AI生成中の表示 (黒文字シンプル) */
+        .ai-loading { display: block; width: 100%; text-align: center; font-weight: bold; font-style: italic; font-size: 13px; margin-top: 8px; border-top: 1px dashed #ddd; padding-top: 8px; color: #333; }
+        .ai-loading i { margin-right: 5px; animation: fa-spin 2s infinite linear; color: #333; }
+        .loading-dots::after { content: ''; animation: dots 1.5s steps(4, end) infinite; }
+        @keyframes dots { 0%, 20% { content: ''; } 40% { content: '.'; } 60% { content: '..'; } 80%, 100% { content: '...'; } }
+
+        /* 「この場所に行く」ボタン */
+        .go-here-btn { display: inline-block; margin-top: 8px; padding: 8px 16px; background-color: #4285F4; color: white; border: none; border-radius: 20px; font-size: 14px; font-weight: bold; cursor: pointer; width: 100%; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.2); transition: background-color 0.2s; }
+        .go-here-btn:hover { background-color: #3367D6; }
+        .location-name { font-size: 14px; font-weight: bold; color: #333; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+    <div id="route-summary-panel"></div>
+    
+    <div id="search-buttons-container">
+        <button id="search-main-button" title="周辺検索メニュー"><i class="fas fa-search-location"></i></button>
+        <div id="sub-buttons-wrapper" class="collapsed">
+            <button class="sub-button" id="search-train-button" title="駅を表示" style="color: #F4B400;"><i class="fas fa-train"></i></button>
+            <button class="sub-button" id="search-bus-button" title="バス停を表示" style="color: #2196F3;"><i class="fas fa-bus"></i></button>
+            <button class="sub-button" id="search-cycle-button" title="シェアサイクル/レンタサイクルを表示" style="color: #FF5722;"><i class="fas fa-bicycle"></i></button>
+        </div>
+    </div>
+
+    <div id="chat-overlay">
+        <div id="chat-wrapper">
+            <button id="toggle-button">非表示</button>
+            <div id="chat-display-area">
+                <div id="chat-output"></div>
+            </div>
+            <form id="chat-input-form">
+                <input type="text" id="chat-input" placeholder="メッセージを入力..." required>
+                <button type="submit" id="send-button">送信</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const MAPS_KEY = "{{google_maps_api_key}}"; 
+        function loadGoogleMapsScript() {
+            if (MAPS_KEY === "" || MAPS_KEY.includes('YOUR_GOOGLE_MAPS_API_KEY')) {
+                console.error("FATAL: Google Maps API Key is not configured in .enc file.");
+                document.getElementById('map').innerHTML = '<div style="padding: 50px; text-align: center; color: red;">FATAL: Google Maps APIキーが設定されていません。</div>';
+                return;
+            }
+            const script = document.createElement('script');
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_KEY}&callback=initApp&libraries=geometry,places`; 
+            script.defer = true;
+            script.async = true;
+            document.head.appendChild(script);
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            window.global_chatOutput = document.getElementById('chat-output');
+            window.global_locationStatus = document.getElementById('location-status');
+            window.global_chatDisplayArea = document.getElementById('chat-display-area');
+            window.global_toggleButton = document.getElementById('toggle-button');
+            window.global_chatWrapper = document.getElementById('chat-wrapper');
+            window.global_routeSummaryPanel = document.getElementById('route-summary-panel');
+            
+            const mainBtn = document.getElementById('search-main-button');
+            const subWrapper = document.getElementById('sub-buttons-wrapper');
+            const trainBtn = document.getElementById('search-train-button');
+            const busBtn = document.getElementById('search-bus-button');
+            const cycleBtn = document.getElementById('search-cycle-button');
+            const chatInput = document.getElementById('chat-input');
+            
+            loadGoogleMapsScript();
+            
+            mainBtn.addEventListener('click', () => {
+                if (subWrapper.classList.contains('collapsed')) {
+                    subWrapper.classList.remove('collapsed'); subWrapper.classList.add('expanded'); mainBtn.innerHTML = '<i class="fas fa-times"></i>'; 
+                } else {
+                    subWrapper.classList.remove('expanded'); subWrapper.classList.add('collapsed'); mainBtn.innerHTML = '<i class="fas fa-search-location"></i>'; 
+                }
+            });
+            trainBtn.addEventListener('click', () => { handleSearchSpecificPoi('train'); });
+            busBtn.addEventListener('click', () => { handleSearchSpecificPoi('bus'); });
+            cycleBtn.addEventListener('click', () => { handleSearchSpecificPoi('cycle'); });
+            
+            global_toggleButton.addEventListener('click', () => {
+                const isCurrentlyHidden = global_chatDisplayArea.classList.contains('hidden');
+                global_chatDisplayArea.classList.toggle('hidden');
+                if (!isCurrentlyHidden) {
+                    global_toggleButton.textContent = '表示';
+                    global_chatWrapper.classList.add('chat-hidden-radius'); 
+                } else {
+                    global_toggleButton.textContent = '非表示';
+                    global_toggleButton.style.top = '-30px';
+                    global_chatWrapper.classList.remove('chat-hidden-radius'); 
+                    global_chatOutput.scrollTop = global_chatOutput.scrollHeight; 
+                }
+            });
+            
+            chatInput.addEventListener('focus', () => {
+                if (global_chatDisplayArea.classList.contains('hidden')) {
+                    global_toggleButton.click(); 
+                }
+            });
+            
+            document.getElementById('chat-input-form').addEventListener('submit', handleChatSubmit);
+
+            addMessageToChat('AIナビゲーションへようこそ。', true); 
+            addMessageToChat('目的地を入力してください！', true); 
+        });
+    </script>
+    
+    <script>
+        let map;
+        let userMarker;
+        let destinationMarker;
+        let poiMarkers = []; 
+        let routePolylines = []; // ★新しく追加 (実線用)
+        let glowPolylines = [];  // ★新しく追加 (太い背景線用)
+        let userLat = null;
+        let userLng = null;
+        let loadingMessageElement = null;
+        let loadingAnimationInterval; 
+        let currentInfoWindow = null; 
+        let geocoder = null; 
+
+        const API_URL = 'http://127.0.0.1:5000/api/process_chat';
+        const SEARCH_NEARBY_URL = 'http://127.0.0.1:5000/api/search_nearby';
+        const SPOT_DETAILS_URL = 'http://127.0.0.1:5000/api/get_spot_details'; 
+        const SPOT_DESCRIPTION_URL = 'http://127.0.0.1:5000/api/get_spot_ai_description'; 
+
+        function initApp() {
+            const initialLocation = { lat: 33.2275, lng: 131.6153 }; // 大分市
+            map = new google.maps.Map(document.getElementById('map'), { 
+                center: initialLocation, zoom: 13, disableDefaultUI: true, clickableIcons: false 
+            });
+            geocoder = new google.maps.Geocoder(); 
+
+            // ★★★ ここに追加：地図の準備ができてからツールを作る ★★★
+            directionsService = new google.maps.DirectionsService();
+            
+            walkingRenderer = new google.maps.DirectionsRenderer({
+                map: null, 
+                suppressMarkers: true, 
+                polylineOptions: {
+                    strokeColor: "#757575", // グレー
+                    strokeOpacity: 0.8,
+                    strokeWeight: 5,
+                    icons: [{ 
+                        icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 3 },
+                        offset: '0',
+                        repeat: '20px'
+                    }]
+                }
+            });
+            startWalkingRenderer = new google.maps.DirectionsRenderer({
+                map: null, suppressMarkers: true, 
+                polylineOptions: {
+                    strokeColor: "#757575", strokeOpacity: 0.8, strokeWeight: 5,
+                    icons: [{ icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 3 }, offset: '0', repeat: '20px' }]
+                }
+            });
+            // ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+            map.addListener("click", (e) => { handleMapClick(e.latLng); });
+            getUserLocation();
+        }
+
+        function handleMapClick(latLng) {
+            if (currentInfoWindow) currentInfoWindow.close();
+            geocoder.geocode({ location: latLng }, (results, status) => {
+                if (status === "OK" && results[0]) {
+                    let address = results[0].formatted_address;
+                    address = address.replace(/^日本、(〒\d{3}-\d{4}\s*)?/, '');
+                    showLocationInfoWindow(latLng, address);
+                } else {
+                    const coordsStr = `${latLng.lat().toFixed(5)}, ${latLng.lng().toFixed(5)}`;
+                    showLocationInfoWindow(latLng, coordsStr);
+                }
+            });
+        }
+
+        function showLocationInfoWindow(latLng, name) {
+            const contentDiv = document.createElement("div");
+            contentDiv.style.padding = "5px";
+            const nameDiv = document.createElement("div");
+            nameDiv.className = "location-name";
+            nameDiv.innerText = name;
+            const btn = document.createElement("button");
+            btn.className = "go-here-btn";
+            btn.innerHTML = '<i class="fas fa-location-arrow"></i> この場所に行く';
+            
+            btn.onclick = () => {
+                const message = `${name}に行きたい`;
+                const input = document.getElementById('chat-input');
+                input.value = message;
+                const submitEvent = new Event('submit', { bubbles: true, cancelable: true });
+                document.getElementById('chat-input-form').dispatchEvent(submitEvent);
+                if (currentInfoWindow) currentInfoWindow.close();
+            };
+            contentDiv.appendChild(nameDiv); contentDiv.appendChild(btn);
+            const infoWindow = new google.maps.InfoWindow({ content: contentDiv, position: latLng });
+            infoWindow.open(map); currentInfoWindow = infoWindow;
+        }
+
+        function setMarkerVisited(marker) {
+            if (!marker) return;
+            const VISITED_COLOR = '#00E676'; 
+            const currentIcon = marker.getIcon();
+            // SVGパスの場合は fillColor を変更
+            if (currentIcon && typeof currentIcon === 'object' && currentIcon.path) {
+                marker.setIcon({ ...currentIcon, fillColor: VISITED_COLOR });
+            }
+        }
+
+        async function handleMarkerClick(marker, poi) {
+            setMarkerVisited(marker);
+
+            if (currentInfoWindow) currentInfoWindow.close();
+
+            const loadingContent = `
+                <div class="poi-info-window">
+                    <h3>${poi.name}</h3>
+                    <p class="loading">
+                        <i class="fas fa-spinner fa-spin"></i> 情報を取得中<span class="loading-dots"></span>
+                    </p>
+                </div>
+            `;
+            
+            const infoWindow = new google.maps.InfoWindow({ content: loadingContent });
+            infoWindow.open(map, marker);
+            currentInfoWindow = infoWindow;
+
+            try {
+                const response = await fetch(SPOT_DETAILS_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ place_id: poi.place_id || null, name: poi.name.replace(/\[.*?\]\s*/, ''), lat: poi.lat, lon: poi.lon })
+                });
+                const data = await response.json();
+                
+                let contentHtml = `<div class="poi-info-window">`;
+                if (data.photo_url) { contentHtml += `<img src="${data.photo_url}" alt="${data.name}">`; }
+                contentHtml += `<h3>${data.name}</h3>`;
+                if (data.rating) { contentHtml += `<p class="rating">★ ${data.rating}</p>`; }
+                
+                // ★修正: おすすめスポット(detour)の時だけAI要約の表示領域を作成
+                if (poi.type === 'detour') {
+                    contentHtml += `<p id="poi-ai-desc" class="ai-loading"><i class="fas fa-magic"></i> AI解説を生成中<span class="loading-dots"></span></p>`;
+                }
+                
+                contentHtml += `<div class="payment-info"><i class="fas fa-wallet"></i> ${data.payment}</div></div>`;
+                
+                infoWindow.setContent(contentHtml);
+                
+                // ★修正: おすすめスポット(detour)の時だけAI要約をリクエスト
+                if (poi.type === 'detour') {
+                    fetch(SPOT_DESCRIPTION_URL, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ name: data.name }) 
+                    })
+                    .then(res => res.json())
+                    .then(aiData => {
+                        const descElement = document.getElementById('poi-ai-desc');
+                        if (descElement) {
+                            descElement.className = ''; 
+                            descElement.style.background = 'none';
+                            descElement.style.webkitBackgroundClip = 'initial';
+                            descElement.style.color = '#333'; 
+                            descElement.innerHTML = aiData.description; 
+                        }
+                    })
+                    .catch(err => {
+                        const descElement = document.getElementById('poi-ai-desc');
+                        if (descElement) descElement.textContent = "解説の取得に失敗しました。";
+                    });
+                }
+
+            } catch (error) {
+                console.error("Details fetch error:", error);
+                infoWindow.setContent(`<div class="poi-info-window"><h3>${poi.name}</h3><p>情報の取得に失敗しました。</p></div>`);
+            }
+        }
+
+        // ★修正: ピンの中にアイコンを表示するロジック (シェア・レンタ両対応)
+        function placePoiMarkers(pois, color, isDetour = false) { 
+            // 既存のアイコン
+            const TRAIN_PATH = "M12 2c-4.42 0-8 .5-8 4v10.5c0 .95.38 1.81 1 2.44V22h2v-2h10v2h2v-3.06c.62-.63 1-1.49 1-2.44V6c0-3.5-3.58-4-8-4zm5.5 14h-11v-1h11v1zm0-4h-11V7h11v5z M 7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 6h14v5H5V6z";
+            const BUS_PATH = "M4 16c0 .88.39 1.67 1 2.22V20c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 6h14v5H5V6z";
+            const DETOUR_PATH = "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z";
+            
+            // 穴のない塗りつぶしピン (ここにラベルを重ねます)
+            const SOLID_PIN_PATH = "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13C19 5.13 15.87 2 12 2z";
+
+            pois.forEach(poi => {
+                let titleText; let iconPath; let fillColor; let zIndex;
+                let scale = 1.5;
+                let anchor = new google.maps.Point(12, 12); 
+                let markerLabel = null; // ラベル設定用
+
+                if (poi.type === 'train_station' || poi.type === 'subway_station') {
+                    titleText = `駅: ${poi.name}`; iconPath = TRAIN_PATH; fillColor = '#FFC107'; zIndex = 2;
+                } else if (poi.type === 'bus_station' || poi.type === 'bus_station_gmp' || poi.type === 'other_transit') {
+                    titleText = `バス停: ${poi.name}`; iconPath = BUS_PATH; fillColor = '#2196F3'; zIndex = 2;
+                
+                // ★ シェアサイクル (オレンジ)
+                } else if (poi.type === 'share_cycle') {
+                    titleText = `シェアサイクル: ${poi.name}`; 
+                    iconPath = SOLID_PIN_PATH; 
+                    fillColor = '#FF5722'; // オレンジ
+                    zIndex = 2;
+                    scale = 1.8; 
+                    anchor = new google.maps.Point(12, 24); 
+                    markerLabel = {
+                        text: '\uf206', // fa-bicycle
+                        fontFamily: '"Font Awesome 6 Free", "FontAwesome"',
+                        fontWeight: '900',
+                        color: 'white',
+                        fontSize: '14px',
+                    };
+
+                // ★ レンタサイクル (グリーン)
+                } else if (poi.type === 'rental_cycle' || poi.type === 'bicycle_rental') { 
+                    titleText = `レンタサイクル: ${poi.name}`; 
+                    iconPath = SOLID_PIN_PATH; 
+                    fillColor = '#4CAF50'; // グリーン
+                    zIndex = 2;
+                    scale = 1.8; 
+                    anchor = new google.maps.Point(12, 24); 
+                    markerLabel = {
+                        text: '\uf206', // fa-bicycle
+                        fontFamily: '"Font Awesome 6 Free", "FontAwesome"',
+                        fontWeight: '900',
+                        color: 'white',
+                        fontSize: '14px',
+                    };
+
+                } else if (poi.type === 'detour') {
+                    titleText = `寄り道: ${poi.name}`; 
+                    iconPath = DETOUR_PATH; 
+                    fillColor = '#FFD700'; 
+                    zIndex = 3; 
+                    anchor = new google.maps.Point(12, 24);
+                } else { return; }
+                
+                const marker = new google.maps.Marker({
+                    position: { lat: poi.lat, lng: poi.lon }, 
+                    map: map, 
+                    title: titleText,
+                    icon: { 
+                        path: iconPath,
+                        fillColor: fillColor, 
+                        fillOpacity: 1, 
+                        scale: scale, 
+                        strokeColor: '#ffffff', 
+                        strokeWeight: 1.5,
+                        anchor: anchor,
+                        labelOrigin: new google.maps.Point(12, 9) 
+                    },
+                    label: markerLabel, 
+                    zIndex: zIndex
+                });
+                
+                marker.poiData = poi;
+                marker.addListener("click", () => { handleMarkerClick(marker, poi); });
+                poiMarkers.push(marker);
+            });
+        }
+        
+        async function handleSearchSpecificPoi(type) {
+            if (!map) return;
+            const center = map.getCenter();
+            poiMarkers.forEach(marker => marker.setMap(null));
+            poiMarkers = [];
+            const searchRadii = [500, 1000, 2000];
+            let found = false;
+            
+            let btnId;
+            let displayType = 'バス停';
+            if (type === 'train') { btnId = 'search-train-button'; displayType = '駅'; }
+            else if (type === 'bus') { btnId = 'search-bus-button'; displayType = 'バス停'; }
+            else if (type === 'cycle') { btnId = 'search-cycle-button'; displayType = 'サイクルポート'; }
+            
+            const btn = document.getElementById(btnId);
+            const originalIcon = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+            btn.disabled = true;
+            try {
+                for (const radius of searchRadii) {
+                    const response = await fetch(SEARCH_NEARBY_URL, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ latitude: center.lat(), longitude: center.lng(), radius: radius, type: type })
+                    });
+                    const data = await response.json();
+                    if (data.pois && data.pois.length > 0) {
+                        const filteredPois = data.pois.filter(poi => {
+                            if (type === 'train') { return poi.type === 'train_station' || poi.type === 'subway_station'; } 
+                            else if (type === 'bus') { return poi.type === 'bus_station' || poi.type === 'bus_station_gmp' || poi.type === 'other_transit'; }
+                            else if (type === 'cycle') { 
+                                // シェアサイクルまたはレンタサイクルを表示
+                                return poi.type === 'share_cycle' || poi.type === 'rental_cycle' || poi.type === 'bicycle_rental'; 
+                            } 
+                            return false;
+                        });
+                        if (filteredPois.length > 0) {
+                            placePoiMarkers(filteredPois);
+                            addMessageToChat(`周辺 ${radius}m 以内の${displayType}を ${filteredPois.length} 件表示しました。`, true);
+                            found = true; break; 
+                        }
+                    }
+                }
+                if (!found) { addMessageToChat(`周辺 2km 以内に${displayType}は見つかりませんでした。`, true); }
+            } catch (error) { console.error("Search failed:", error); addMessageToChat('検索中にエラーが発生しました。', true);
+            } finally { btn.innerHTML = originalIcon; btn.disabled = false; }
+        }
+
+        function decodePolyline(encoded) {
+            const points = []; let index = 0, len = encoded.length; let lat = 0, lon = 0;
+            while (index < len) {
+                let b, shift = 0, result = 0;
+                do { b = encoded.charCodeAt(index++) - 63; result |= (b & 0x1f) << shift; shift += 5; } while (b >= 0x20);
+                const dlat = ((result & 1) ? ~(result >> 1) : (result >> 1)); lat += dlat;
+                shift = 0; result = 0;
+                do { b = encoded.charCodeAt(index++) - 63; result |= (b & 0x1f) << shift; shift += 5; } while (b >= 0x20);
+                const dlon = ((result & 1) ? ~(result >> 1) : (result >> 1)); lon += dlon;
+                points.push([lat / 1e5, lon / 1e5]);
+            }
+            return points;
+        }
+        function startLoadingAnimation(messageDiv) {
+            let dots = 0; const baseText = 'ルート検索中です';
+            if (loadingAnimationInterval) { clearInterval(loadingAnimationInterval); }
+            loadingAnimationInterval = setInterval(() => { dots = (dots % 3) + 1; const dotString = '.'.repeat(dots); messageDiv.textContent = baseText + dotString; }, 500); 
+        }
+        function stopLoadingAnimation() { if (loadingAnimationInterval) { clearInterval(loadingAnimationInterval); loadingAnimationInterval = null; } }
+        function clearMarkers() {
+            if (userMarker) userMarker.setMap(null);
+            if (destinationMarker) destinationMarker.setMap(null);
+            poiMarkers.forEach(marker => marker.setMap(null));
+            poiMarkers = [];
+            routePolylines.forEach(p => p.setMap(null));
+            routePolylines = [];
+            glowPolylines.forEach(p => p.setMap(null));
+            glowPolylines = [];
+            if (walkingRenderer) walkingRenderer.setMap(null);
+            if (startWalkingRenderer) startWalkingRenderer.setMap(null); // ★追加
+        }
+        async function getUserLocation(retries = 2) {
+            const statusElement = window.global_locationStatus;
+            if (!navigator.geolocation) { console.error("Browser doesn't support Geolocation."); if (statusElement) statusElement.textContent = '位置情報は利用できません。'; return; }
+
+            const options = { enableHighAccuracy: true, timeout: 8000, maximumAge: 0 };
+            if (statusElement) statusElement.textContent = '現在地を取得中です...';
+
+            for (let attempt = 0; attempt <= retries; attempt++) {
+                try {
+                    const pos = await new Promise((resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject, options));
+                    userLat = pos.coords.latitude; userLng = pos.coords.longitude;
+                    const userLocation = { lat: userLat, lng: userLng };
+                    map.setCenter(userLocation); map.setZoom(15);
+                    if (statusElement) statusElement.textContent = `現在地を設定しました`;
+                    clearMarkers();
+                    if (userMarker) userMarker.setMap(null);
+                    userMarker = new google.maps.Marker({ position: userLocation, map: map, icon: { path: google.maps.SymbolPath.CIRCLE, scale: 10, fillColor: '#0070FF', strokeWeight: 3, strokeColor: '#FFFFFF', fillOpacity: 1 }, title: 'あなたの現在地', zIndex: 100 });
+                    return true;
+                } catch (err) {
+                    console.warn('Geolocation attempt failed:', err);
+                    if (attempt < retries) {
+                        if (statusElement) statusElement.textContent = `現在地取得を再試行中... (${attempt + 1})`;
+                        await new Promise(r => setTimeout(r, 1000));
+                        continue;
+                    } else {
+                        if (statusElement) statusElement.textContent = '現在地を取得できませんでした。大分市を表示しています。';
+                        console.error('Geolocation unavailable after retries.');
+                        return false;
+                    }
+                }
+            }
+        }
+
+        // 簡易保証: 位置情報がなければ一度だけ取得を試みるユーティリティ
+        function ensureUserLocation(timeoutMs = 8000) {
+            return new Promise((resolve) => {
+                if (userLat && userLng) return resolve(true);
+                if (!navigator.geolocation) return resolve(false);
+                const options = { enableHighAccuracy: true, timeout: timeoutMs, maximumAge: 0 };
+                navigator.geolocation.getCurrentPosition(
+                    (pos) => { userLat = pos.coords.latitude; userLng = pos.coords.longitude; resolve(true); },
+                    (err) => { console.warn('ensureUserLocation failed:', err); resolve(false); },
+                    options
+                );
+            });
+        }
+        
+        async function handleChatSubmit(e) {
+            e.preventDefault();
+            const inputElement = document.getElementById('chat-input');
+            const message = inputElement.value.trim();
+            if (!message) return;
+            addMessageToChat(message, false);
+            inputElement.value = '';
+            try {
+                // 送信前に必ず位置情報を確保する
+                const hasLoc = await ensureUserLocation();
+                if (!hasLoc) {
+                    addMessageToChat('位置情報が取得できません。ブラウザの位置情報許可を確認してください。', true);
+                    return;
+                }
+
+                clearMarkers(); 
+                loadingMessageElement = addMessageToChat('ルート検索中です...', true, 'loading-message');
+                startLoadingAnimation(loadingMessageElement);
+
+                const response = await fetch(API_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: message, latitude: userLat, longitude: userLng }) });
+                const data = await response.json();
+                stopLoadingAnimation(); 
+                if (loadingMessageElement) { loadingMessageElement.remove(); loadingMessageElement = null; }
+                if (data.response) {
+                    addMessageToChat(data.response, true, '', false); // 自動スクロールなし
+                    if (data.parsed_data && data.parsed_data.destination_coords) {
+                        const coords = data.parsed_data.destination_coords;
+                        placeDestinationMarker(coords.lat, coords.lon, data.parsed_data.destination);
+                    }
+                    
+                    const detourPois = data.parsed_data.detour_pois || [];
+                    const routeCandidates = data.parsed_data.route_candidates || [];
+                    
+                    if (routeCandidates.length > 0) {
+                        displayRouteChoices(routeCandidates, detourPois);
+                    } else {
+                        addMessageToChat('最適な経路候補が見つかりませんでした。', true);
+                    }
+                }
+            } catch (error) {
+                stopLoadingAnimation(); 
+                if (loadingMessageElement) loadingMessageElement.remove();
+                console.error('チャットAPIエラー:', error);
+                addMessageToChat('予期せぬエラーが発生しました。サーバーを確認してください。', true);
+            }
+        }
+
+        // 自動スクロール制御追加
+        function addMessageToChat(text, isSystem, extraClass = '', autoScroll = true) { 
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message');
+            messageDiv.classList.add(isSystem ? 'system-message' : 'user-message');
+            if (extraClass) { messageDiv.classList.add(extraClass); }
+            messageDiv.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            const outputArea = window.global_chatOutput;
+            outputArea.appendChild(messageDiv);
+            if (autoScroll) {
+                window.global_chatDisplayArea.scrollTop = window.global_chatDisplayArea.scrollHeight;
+            }
+            return messageDiv;
+        }
+
+        function placeDestinationMarker(lat, lon, name) { 
+            const coords = { lat: lat, lng: lon };
+            map.setCenter(coords); map.setZoom(15);
+            if (destinationMarker) destinationMarker.setMap(null);
+            destinationMarker = new google.maps.Marker({ position: coords, map: map, icon: { path: google.maps.SymbolPath.FLAG, scale: 5, fillColor: '#DB4437', fillOpacity: 0.9, strokeWeight: 2, strokeColor: '#ffffff' }, title: name });
+        }
+        
+        // ---------------------------------------------------------
+        // ▼▼▼ ここから貼り付け（上書き） ▼▼▼
+        // ---------------------------------------------------------
+
+        // 徒歩ルート用のレンダラー（グローバル変数に追加）
+// ここでは変数を用意するだけにします（中身は initApp で作ります）
+        let walkingRenderer;
+        let startWalkingRenderer;
+        let directionsService;
+        function drawRoute(geometry_data, summary) {
+            clearMarkers();
+            if (walkingRenderer) walkingRenderer.setMap(null);
+            if (startWalkingRenderer) startWalkingRenderer.setMap(null);
+
+            try {
+                // --- 描画データの準備 ---
+                let segmentsToDraw = [];
+
+                if (summary.segments && summary.segments.length > 0) {
+                    summary.segments.forEach(seg => {
+                        segmentsToDraw.push({
+                            path: seg.geometry.map(pt => ({ lat: pt[0], lng: pt[1] })),
+                            type: seg.type // 'bus', 'train', 'walk'
+                        });
+                    });
+                } else {
+                    // 単一ルートの場合
+                    let path;
+                    if (summary.is_raw_path) {
+                        path = geometry_data.map(pt => ({ lat: pt[0], lng: pt[1] }));
+                    } else {
+                        path = google.maps.geometry.encoding.decodePath(geometry_data);
+                    }
+                    const type = summary.profile.includes('train') ? 'train' : 
+                                 summary.profile.includes('car') ? 'car' : 'bus';
+                    segmentsToDraw.push({ path: path, type: type });
+                }
+
+                // --- 色とスタイルの設定 ---
+                const STYLES = {
+                    bus:   { color: "#2196F3", weight: 5, opacity: 1.0, icons: null },
+                    train: { color: "#FF9800", weight: 5, opacity: 1.0, icons: null },
+                    car:   { color: "#4CAF50", weight: 5, opacity: 1.0, icons: null },
+                    walk:  { 
+                        color: "#757575", weight: 5, opacity: 0, // 透明にしてアイコンだけ表示
+                        icons: [{ icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 3, strokeColor: "#757575" }, offset: '0', repeat: '20px' }] 
+                    },
+                    other: { color: "#9E9E9E", weight: 5, opacity: 1.0, icons: null }
+                };
+
+                const bounds = new google.maps.LatLngBounds();
+
+                // --- セグメントの描画 ---
+                segmentsToDraw.forEach(seg => {
+                    const style = STYLES[seg.type] || STYLES.other;
+
+                    // 1. 背景の太い線（Glow） - 徒歩以外
+                    if (seg.type !== 'walk') {
+                        const glow = new google.maps.Polyline({ 
+                            path: seg.path, geodesic: true, 
+                            strokeColor: style.color, strokeOpacity: 0.3, strokeWeight: 10, zIndex: 1, map: map 
+                        });
+                        glowPolylines.push(glow);
+                    }
+
+                    // 2. メインの線
+                    const line = new google.maps.Polyline({ 
+                        path: seg.path, geodesic: true, 
+                        strokeColor: style.color, 
+                        strokeOpacity: style.opacity, 
+                        strokeWeight: style.weight, 
+                        icons: style.icons,
+                        zIndex: 2, map: map 
+                    });
+                    routePolylines.push(line);
+
+                    seg.path.forEach(p => bounds.extend(p));
+                });
+
+                // --- ★修正: 徒歩ルート描画 (lon -> lng 変換) ---
+                
+                // 座標変換ヘルパー: Pythonからの {lat, lon} を Google用の {lat, lng} に変換
+                const toLatLng = (coord) => {
+                    if (!coord) return null;
+                    return { lat: coord.lat, lng: (coord.lng !== undefined ? coord.lng : coord.lon) };
+                };
+
+                const startPos = toLatLng(summary.start_coords);
+                const firstStopPos = toLatLng(summary.first_stop_coords);
+                const lastStopPos = toLatLng(summary.last_stop_coords);
+                const destPos = toLatLng(summary.final_dest_coords);
+
+                // 1. 後半の徒歩 (降り場 -> 目的地)
+                if (lastStopPos && destPos && directionsService && walkingRenderer) {
+                    directionsService.route({
+                        origin: lastStopPos, 
+                        destination: destPos, 
+                        travelMode: google.maps.TravelMode.WALKING
+                    }, (res, status) => { 
+                        if (status === 'OK') { 
+                            walkingRenderer.setMap(map); 
+                            walkingRenderer.setDirections(res); 
+                        } 
+                    });
+                }
+
+                // 2. 前半の徒歩 (出発地 -> 乗り場)
+                if (startPos && firstStopPos && directionsService && startWalkingRenderer) {
+                    directionsService.route({
+                        origin: startPos, 
+                        destination: firstStopPos, 
+                        travelMode: google.maps.TravelMode.WALKING
+                    }, (res, status) => { 
+                        if (status === 'OK') { 
+                            startWalkingRenderer.setMap(map); 
+                            startWalkingRenderer.setDirections(res); 
+                        } 
+                    });
+                }
+                // ----------------------------------------------------
+
+                // --- カメラ調整 ---
+                if (destinationMarker) bounds.extend(destinationMarker.getPosition());
+                if (userMarker) bounds.extend(userMarker.getPosition());
+                map.fitBounds(bounds);
+                
+                displayRouteSummary(summary);
+                if (window.innerWidth < 600) global_toggleButton.click();
+
+            } catch (e) { 
+                console.error('経路描画エラー:', e); 
+            }
+        }
+        
+        // ---------------------------------------------------------
+        // ▲▲▲ ここまで貼り付け ▲▲▲
+        // ---------------------------------------------------------
+        
+        // ★修正: カテゴリ選択画面を表示する関数
+        function displayRouteChoices(candidates, detourPois) {
+            global_chatDisplayArea.classList.remove('hidden');
+            global_chatDisplayArea.classList.remove('chat-minimized'); 
+            global_toggleButton.textContent = '非表示';
+            
+            addMessageToChat('--- 検索結果 ---', true);
+            const containerDiv = document.createElement('div'); // ボタン格納用コンテナ
+
+            // 1. おすすめスポットボタン (あれば表示)
+            if (detourPois && detourPois.length > 0) {
+                const spotButton = document.createElement('button');
+                spotButton.classList.add('action-button', 'spot-button'); 
+                spotButton.innerHTML = `<div><strong>✨ おすすめスポットを見る</strong></div><div class="meta">${detourPois.length}件</div>`;
+                spotButton.addEventListener('click', () => { displayDetourCategories(detourPois); });
+                containerDiv.appendChild(spotButton);
+            }
+
+            // 2. ルートをカテゴリ別に分類
+            const categories = {
+                train: { label: '電車ルート', icon: '<i class="fas fa-train"></i>', color: '#4285F4', items: [] },
+                bus:   { label: 'バスルート',   icon: '<i class="fas fa-bus"></i>',   color: '#2196F3', items: [] },
+                car:   { label: '自動車ルート', icon: '<i class="fas fa-car"></i>',   color: '#4CAF50', items: [] },
+                other: { label: 'その他',       icon: '<i class="fas fa-route"></i>', color: '#9E9E9E', items: [] }
+            };
+
+            candidates.forEach(route => {
+                if (route.profile.includes('train')) categories.train.items.push(route);
+                else if (route.profile.includes('bus')) {
+                    // 高速バスなどを除外する（表示・選択させない）
+                    const s = (route.summary || '').toString();
+                    if (!/高速|高速バス|express/i.test(s)) {
+                        categories.bus.items.push(route);
+                    }
+                }
+                else if (route.profile.includes('car')) categories.car.items.push(route);
+                else categories.other.items.push(route);
+            });
+
+            // 3. カテゴリごとのボタンを生成（これが「ワンテンポ」になります）
+            let hasRoute = false;
+            Object.keys(categories).forEach(key => {
+                const cat = categories[key];
+                if (cat.items.length > 0) {
+                    hasRoute = true;
+                    const btn = document.createElement('button');
+                    btn.classList.add('action-button');
+                    btn.style.borderLeft = `4px solid ${cat.color}`;
+                    // 例: [アイコン] 電車ルートを見る (3候補)
+                    btn.innerHTML = `<div><strong>${cat.icon} ${cat.label}を見る</strong></div><div class="meta">${cat.items.length} 候補</div>`;
+                    
+                    btn.addEventListener('click', () => {
+                        // クリックされたら、そのカテゴリのルート一覧を表示
+                        displaySpecificRouteList(cat.label, cat.items);
+                    });
+                    containerDiv.appendChild(btn);
+                }
+            });
+            
+            if (!hasRoute) {
+                addMessageToChat('条件に合うルートが見つかりませんでした。', true);
+            } else {
+                window.global_chatOutput.appendChild(containerDiv);
+            }
+            window.global_chatDisplayArea.scrollTop = window.global_chatDisplayArea.scrollHeight;
+        }
+
+        // ルート表示用のサニタイズ: 不正な行き先表示 (nan / None / undefined) を除去
+        function sanitizeRouteSummary(summary) {
+            if (!summary) return '';
+            try {
+                let s = summary + '';
+                // 不正な「○○行き」を削除
+                s = s.replace(/\b(?:nan|NaN|None|undefined)\s*行き/gi, '');
+                // 丸括弧内に nan 系が入っている場合は丸ごと削除
+                s = s.replace(/[（(][^）)]*(?:nan|NaN|None|undefined)[^）)]*[）)]/gi, '');
+                // 空になった丸括弧を削除
+                s = s.replace(/（\s*）|\(\s*\)/g, '');
+                s = s.replace(/\s{2,}/g, ' ').trim();
+                return s;
+            } catch (e) { return summary; }
+        }
+
+        // ★追加: カテゴリ選択後に詳細ルート一覧を表示する関数
+        // ★修正: カテゴリ選択後に詳細ルート一覧を表示する関数
+        function displaySpecificRouteList(title, routes) {
+            // 区切り線とタイトルを表示
+            addMessageToChat(`${title} の一覧:`, true);
+            const containerDiv = document.createElement('div');
+
+            // --- 1. 並び替えロジック (時刻順) ---
+            routes.sort((a, b) => {
+                // "12:00" のような時間を抽出する関数
+                const getTime = (summary) => {
+                    const match = summary.match(/(\d{1,2}):(\d{2})/);
+                    if (match) {
+                        return parseInt(match[1]) * 60 + parseInt(match[2]);
+                    }
+                    return null; // 時間が見つからない場合
+                };
+
+                const timeA = getTime(a.summary);
+                const timeB = getTime(b.summary);
+
+                // 両方に時間があれば、時間の早い順
+                if (timeA !== null && timeB !== null) {
+                    return timeA - timeB;
+                }
+                // 片方しか時間がなければ、時間がある方を優先（または適宜調整）
+                if (timeA !== null) return -1;
+                if (timeB !== null) return 1;
+
+                // 両方とも時間がなければ、所要時間の短い順
+                return a.total_duration_s - b.total_duration_s;
+            });
+
+            // --- 2. リスト生成 ---
+            routes.forEach((route, index) => {
+                const duration_min = Math.ceil(route.total_duration_s / 60);
+                
+                // アイコン設定
+                let iconHtml = '<i class="fas fa-route"></i>';
+                let isPublicTransit = false;
+
+                if (route.profile.includes('car')) {
+                    iconHtml = '<i class="fas fa-car"></i>';
+                } else if (route.profile.includes('train')) {
+                    iconHtml = '<i class="fas fa-train"></i>';
+                    isPublicTransit = true;
+                } else if (route.profile.includes('bus')) {
+                    iconHtml = '<i class="fas fa-bus"></i>';
+                    isPublicTransit = true;
+                }
+
+                // 表示テキストの作成 (距離の表示/非表示)
+                let metaText = `約 ${duration_min} 分`;
+                
+                // 公共交通機関以外（車など）の場合だけ距離を表示
+                if (!isPublicTransit) {
+                     const distance_km = (route.total_distance_m / 1000).toFixed(1);
+                     if (route.total_distance_m > 0) {
+                         metaText += ` / ${distance_km} km`;
+                     }
+                }
+
+                const button = document.createElement('button');
+                button.classList.add('action-button', 'route-button'); 
+                
+                // サマリをサニタイズしてから表示（nan等の不正な行き先を除去）
+                const cleanSummary = sanitizeRouteSummary(route.summary || '');
+                // ボタンの中身
+                button.innerHTML = `<div><strong>${index + 1}. ${iconHtml} ${cleanSummary}</strong></div><div class="meta">${metaText}</div>`;
+                
+                button.addEventListener('click', () => {
+                    addMessageToChat(`${cleanSummary} を選択しました。`, false);
+                    drawRoute(route.geometry, route);
+                });
+                containerDiv.appendChild(button);
+            });
+            
+            window.global_chatOutput.appendChild(containerDiv);
+            window.global_chatDisplayArea.scrollTop = window.global_chatDisplayArea.scrollHeight;
+        }
+
+        function displayDetourCategories(pois) {
+            const categories = [...new Set(pois.map(p => p.category || 'その他'))];
+            addMessageToChat('どのジャンルのスポットを探しますか？', true);
+            const containerDiv = addMessageToChat('', true); 
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.classList.add('action-button', 'category-button'); 
+                btn.innerHTML = `<div><strong>${cat}</strong></div><div class="meta"><i class="fas fa-chevron-right"></i></div>`;
+                btn.addEventListener('click', () => { displayDetourSpots(pois, cat); });
+                containerDiv.appendChild(btn);
+            });
+            window.global_chatDisplayArea.scrollTop = window.global_chatDisplayArea.scrollHeight;
+        }
+
+        function displayDetourSpots(pois, category) {
+            const filteredPois = pois.filter(p => (p.category || 'その他') === category);
+            filteredPois.sort((a, b) => a.distance - b.distance);
+            
+            placePoiMarkers(filteredPois, null, true); 
+            if (filteredPois.length > 0) {
+                const bounds = new google.maps.LatLngBounds();
+                filteredPois.forEach(p => bounds.extend({ lat: p.lat, lng: p.lon }));
+                map.fitBounds(bounds);
+            }
+            
+            // タイトル (スクロール対象)
+            const titleMsg = addMessageToChat(`${category} の一覧 (${filteredPois.length}件):`, true, '', false);
+            const containerDiv = addMessageToChat('', true, '', false);
+            
+            filteredPois.forEach(poi => {
+                const distKm = (poi.distance / 1000).toFixed(1);
+                const btn = document.createElement('button');
+                btn.classList.add('action-button', 'spot-button'); 
+                btn.innerHTML = `<div><strong>${poi.name.replace(/\[.*?\]\s*/, '')}</strong></div><div class="meta">距離: ${distKm} km</div>`;
+                btn.addEventListener('click', () => {
+                    const targetMarker = poiMarkers.find(m => m.poiData && m.poiData.name === poi.name);
+                    if (targetMarker) {
+                        map.setCenter(targetMarker.getPosition()); map.setZoom(15);
+                        new google.maps.event.trigger( targetMarker, 'click' ); 
+                    }
+                    addMessageToChat(`「${poi.name}」を選択しました。`, false);
+                    global_toggleButton.click(); 
+                });
+                containerDiv.appendChild(btn);
+            });
+
+            // 一覧の先頭が見えるようにスクロール
+            titleMsg.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function displayRouteSummary(summary) {
+            const duration_min = Math.ceil(summary.total_duration_s / 60);
+            // 距離表示: summary.total_distance_m が無い/0 の場合は geometry から算出する
+            let distance_km = null;
+            try {
+                if (summary.total_distance_m && Number(summary.total_distance_m) > 0) {
+                    distance_km = (Number(summary.total_distance_m) / 1000).toFixed(1);
+                } else if (summary.geometry) {
+                    // geometry は配列またはエンコード済みポリライン文字列の可能性あり
+                    let pts = [];
+                    if (Array.isArray(summary.geometry)) {
+                        if (summary.geometry.length > 0 && Array.isArray(summary.geometry[0])) {
+                            pts = summary.geometry; // [[lat,lon], ...]
+                        } else if (summary.geometry.length > 0 && typeof summary.geometry[0] === 'object') {
+                            pts = summary.geometry.map(p => [p.lat, (p.lng !== undefined ? p.lng : p.lon)]);
+                        }
+                    } else if (typeof summary.geometry === 'string') {
+                        pts = decodePolyline(summary.geometry);
+                    }
+                    if (pts.length >= 2) {
+                        const meters = computePolylineDistanceMeters(pts);
+                        if (meters > 0.5) distance_km = (meters / 1000).toFixed(1);
+                    }
+                }
+            } catch (e) { console.warn('Distance calc failed', e); }
+
+            let html = `<div>${sanitizeRouteSummary(summary.summary || '')}</div><div>所要時間: <strong>約 ${duration_min} 分</strong></div>`;
+            if (distance_km) html += `<div>距離: ${distance_km} km</div>`;
+            global_routeSummaryPanel.innerHTML = html;
+            global_routeSummaryPanel.style.display = 'block';
+        }
+
+        // ポリラインの距離をメートルで計算
+        function computePolylineDistanceMeters(points) {
+            let total = 0;
+            for (let i = 1; i < points.length; i++) {
+                const a = points[i - 1]; const b = points[i];
+                total += haversineMeters(a[0], a[1], b[0], b[1]);
+            }
+            return total;
+        }
+
+        function haversineMeters(lat1, lon1, lat2, lon2) {
+            const R = 6371000; // meters
+            const toRad = Math.PI / 180;
+            const phi1 = lat1 * toRad; const phi2 = lat2 * toRad;
+            const dphi = (lat2 - lat1) * toRad; const dlambda = (lon2 - lon1) * toRad;
+            const a = Math.sin(dphi/2) * Math.sin(dphi/2) + Math.cos(phi1) * Math.cos(phi2) * Math.sin(dlambda/2) * Math.sin(dlambda/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+﻿feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+玖珠観光バス,https://www.oitakotsu.co.jp/,ja,20250401,20260401,20250404

@@ -1,0 +1,4 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+3320001000286,大分バス,https://www.oitabus.co.jp/,Asia/Tokyo,ja,0975327000,,
+4000020442011,大分市（大分きゃんバス）,https://www.city.oita.oita.jp/,Asia/Tokyo,ja,0975787795,,
+2000020442054,佐伯市コミュニティバス,https://www.city.saiki.oita.jp/,Asia/Tokyo,ja,0972223005,,

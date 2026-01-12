@@ -1,0 +1,695 @@
+﻿trans_id,lang,translation
+挾間小学校前,ja,挾間小学校前
+挾間小学校前,zh-cn,挾间小学校前
+挾間小学校前,zh-tw,挾間小學校前
+挾間小学校前,ko,사이마 초등학교 앞
+挾間小学校前,ja-Hrkt,はさましょうがっこうまえ
+挾間小学校前,en,Hasamashogakkou mae
+下檪木,ja,下檪木
+下檪木,zh-cn,下檪木
+下檪木,zh-tw,下檪木
+下檪木,ko,시모키
+下檪木,ja-Hrkt,しもいちぎ
+下檪木,en,Shimoichigi
+高津野,ja,高津野
+高津野,zh-cn,高津野
+高津野,zh-tw,高津野
+高津野,ko,다카쓰노
+高津野,ja-Hrkt,こうづの
+高津野,en,Kozuno
+庄内中学校,ja,庄内中学校
+庄内中学校,zh-cn,庄内中学
+庄内中学校,zh-tw,莊內中學
+庄内中学校,ko,쇼나이 중학교
+庄内中学校,ja-Hrkt,しょうないちゅうがっこう
+庄内中学校,en,Shonaichugakkou
+上重,ja,上重
+上重,zh-cn,上重
+上重,zh-tw,上重
+上重,ko,상중
+上重,ja-Hrkt,あげじゅう
+上重,en,Agejyu
+白岳,ja,白岳
+白岳,zh-cn,白岳
+白岳,zh-tw,白岳
+白岳,ko,백악
+白岳,ja-Hrkt,しらたけ
+白岳,en,Shiratake
+医大３丁目,ja,医大３丁目
+医大３丁目,zh-cn,医科大学三丁目
+医大３丁目,zh-tw,醫科大學三丁目
+医大３丁目,ko,의대 3가
+医大３丁目,ja-Hrkt,いだいさんちょうめ
+医大３丁目,en,Idaisanchoume
+桑鶴入口,ja,桑鶴入口
+桑鶴入口,zh-cn,桑鹤入口
+桑鶴入口,zh-tw,桑鶴入口
+桑鶴入口,ko,쿠와츠루 입구
+桑鶴入口,ja-Hrkt,くわづるいりぐち
+桑鶴入口,en,Kuwazuru Iriguchi
+庄内庁舎前,ja,庄内庁舎前
+庄内庁舎前,zh-cn,庄内政府大楼前
+庄内庁舎前,zh-tw,莊內政府大樓前
+庄内庁舎前,ko,쇼나이 청사 앞
+庄内庁舎前,ja-Hrkt,しょうないちょうしゃまえ
+庄内庁舎前,en,Shonaichousha mae
+下詰上,ja,下詰上
+下詰上,zh-cn,下詰上
+下詰上,zh-tw,下詰上
+下詰上,ko,밑바닥 위
+下詰上,ja-Hrkt,しもつめかみ
+下詰上,en,Shimotsumekami
+瓜生田,ja,瓜生田
+瓜生田,zh-cn,瓜生田
+瓜生田,zh-tw,瓜生田
+瓜生田,ko,료쿠다
+瓜生田,ja-Hrkt,うりゅうだ
+瓜生田,en,uryuda
+ほのぼの温泉,ja,ほのぼの温泉
+ほのぼの温泉,zh-cn,温暖人心的温泉
+ほのぼの温泉,zh-tw,溫暖人心的溫泉
+ほのぼの温泉,ko,호노 보노 온천
+ほのぼの温泉,ja-Hrkt,ほのぼのおんせん
+ほのぼの温泉,en,Honobono Onsen
+宮田団地入口,ja,宮田団地入口
+宮田団地入口,zh-cn,宫田住宅区入口
+宮田団地入口,zh-tw,宮田住宅區入口
+宮田団地入口,ko,미야다 단지 입구
+宮田団地入口,ja-Hrkt,みやただんちいりぐち
+宮田団地入口,en,Miyadanchiriguchi
+日ケ暮下,ja,日ケ暮下
+日ケ暮下,zh-cn,日暮下
+日ケ暮下,zh-tw,日暮下
+日ケ暮下,ko,해산물
+日ケ暮下,ja-Hrkt,ひがくれしも
+日ケ暮下,en,Higakureshimo
+柏野入口,ja,柏野入口
+柏野入口,zh-cn,柏野入口
+柏野入口,zh-tw,柏野入口
+柏野入口,ko,카시와노 입구
+柏野入口,ja-Hrkt,かしわのいりぐち
+柏野入口,en,Kashiwa no Iriguchi
+池の上,ja,池の上
+池の上,zh-cn,池上
+池の上,zh-tw,池上
+池の上,ko,연못 위
+池の上,ja-Hrkt,いけのうえ
+池の上,en,Ikenoue
+檪木,ja,檪木
+檪木,zh-cn,檪木
+檪木,zh-tw,檪木
+檪木,ko,이치기
+檪木,ja-Hrkt,いちぎ
+檪木,en,Ichigi
+芝尾,ja,芝尾
+芝尾,zh-cn,芝尾
+芝尾,zh-tw,芝尾
+芝尾,ko,잔디
+芝尾,ja-Hrkt,しばお
+芝尾,en,Shibao
+生田原入口,ja,生田原入口
+生田原入口,zh-cn,生田原入口
+生田原入口,zh-tw,生田原入口
+生田原入口,ko,이쿠타하라 입구
+生田原入口,ja-Hrkt,いきたばるいりぐち
+生田原入口,en,Ikutabaru Iriguchi
+何松医院,ja,何松医院
+何松医院,zh-cn,何松诊所
+何松医院,zh-tw,何松診所
+何松医院,ko,아무마츠 의원
+何松医院,ja-Hrkt,なにまついいん
+何松医院,en,Nanimatsuiin
+情和苑,ja,情和苑
+情和苑,zh-cn,情和苑
+情和苑,zh-tw,情和苑
+情和苑,ko,정화원
+情和苑,ja-Hrkt,じょうわえん
+情和苑,en,Jouwaen
+小挾間大橋,ja,小挾間大橋
+小挾間大橋,zh-cn,小挾间大桥
+小挾間大橋,zh-tw,小挾閒大橋
+小挾間大橋,ko,오타마마오하시
+小挾間大橋,ja-Hrkt,おばさまおおはし
+小挾間大橋,en,Obasamaoohashi
+五福,ja,五福
+五福,zh-cn,五福
+五福,zh-tw,五福
+五福,ko,고후쿠
+五福,ja-Hrkt,ごふく
+五福,en,Gofuku
+影戸,ja,影戸
+影戸,zh-cn,影户
+影戸,zh-tw,影戶
+影戸,ko,그림자
+影戸,ja-Hrkt,かげと
+影戸,en,Kageto
+阿蘇野支所前,ja,阿蘇野支所前
+阿蘇野支所前,zh-cn,阿蘇野店前
+阿蘇野支所前,zh-tw,阿蘇野店前
+阿蘇野支所前,ko,아소노 출장소 앞
+阿蘇野支所前,ja-Hrkt,あそのししょ
+阿蘇野支所前,en,Asonoshisho
+十合野,ja,十合野
+十合野,zh-cn,十合野
+十合野,zh-tw,十合野
+十合野,ko,도리노
+十合野,ja-Hrkt,じゅうごの
+十合野,en,Juugono
+古野,ja,古野
+古野,zh-cn,古野
+古野,zh-tw,古野
+古野,ko,후루노
+古野,ja-Hrkt,ふるの
+古野,en,Furuno
+内山,ja,内山
+内山,zh-cn,内山
+内山,zh-tw,內山
+内山,ko,우치야마
+内山,ja-Hrkt,うちやま
+内山,en,Uchiyama
+小学校前,ja,小学校前
+小学校前,zh-cn,小学前
+小学校前,zh-tw,小學前
+小学校前,ko,초등학교 앞
+小学校前,ja-Hrkt,しょうがっこうまえ
+小学校前,en,shougakkou mae
+丸田,ja,丸田
+丸田,zh-cn,丸田
+丸田,zh-tw,丸田
+丸田,ko,마루다
+丸田,ja-Hrkt,まるた
+丸田,en,Maruta
+中村,ja,中村
+中村,zh-cn,中村
+中村,zh-tw,中村
+中村,ko,나카무라
+中村,ja-Hrkt,なかむら
+中村,en,Nakamura
+庄内診療所前,ja,庄内診療所前
+庄内診療所前,zh-cn,庄内诊所前
+庄内診療所前,zh-tw,莊內診所前
+庄内診療所前,ko,쇼나이 진료소 앞
+庄内診療所前,ja-Hrkt,しょうないしんりょうしょまえ
+庄内診療所前,en,Shounaishinryousho mae
+下笠,ja,下笠
+下笠,zh-cn,下笠
+下笠,zh-tw,下笠
+下笠,ko,시모카사
+下笠,ja-Hrkt,したがさ
+下笠,en,Shitagasa
+東行,ja,東行
+東行,zh-cn,东行
+東行,zh-tw,東行
+東行,ko,동행
+東行,ja-Hrkt,とうぎょう
+東行,en,Tougyo
+酒野,ja,酒野
+酒野,zh-cn,酒野
+酒野,zh-tw,酒野
+酒野,ko,사카노
+酒野,ja-Hrkt,さけの
+酒野,en,Sakeno
+赤野,ja,赤野
+赤野,zh-cn,赤野
+赤野,zh-tw,赤野
+赤野,ko,아카노
+赤野,ja-Hrkt,あかの
+赤野,en,Akano
+檪木ダム入口,ja,檪木ダム入口
+檪木ダム入口,zh-cn,檪木坝的入口
+檪木ダム入口,zh-tw,檪木壩的入口
+檪木ダム入口,ko,히로키 댐 입구
+檪木ダム入口,ja-Hrkt,いちぎだむいりぐち
+檪木ダム入口,en,Ichigidamuiriguchi
+伊小野,ja,伊小野
+伊小野,zh-cn,伊小野
+伊小野,zh-tw,伊小野
+伊小野,ko,이오노
+伊小野,ja-Hrkt,いおの
+伊小野,en,Iono
+石上小学校前,ja,石上小学校前
+石上小学校前,zh-cn,石上小学前
+石上小学校前,zh-tw,石上小學前
+石上小学校前,ko,이시가미 초등학교 앞
+石上小学校前,ja-Hrkt,せきじょうしょうがっこうまえ
+石上小学校前,en,Sekijoushogakkou mae
+由布高校入口,ja,由布高校入口
+由布高校入口,zh-cn,由布高中门口
+由布高校入口,zh-tw,由布高中門口
+由布高校入口,ko,유후 고교 입구
+由布高校入口,ja-Hrkt,ゆふこうこういりぐち
+由布高校入口,en,Yufukoukouiriguchi
+大津留交流センター,ja,大津留交流センター
+大津留交流センター,zh-cn,大津留交流中心
+大津留交流センター,zh-tw,大津留交流中心
+大津留交流センター,ko,오츠루 교류 센터
+大津留交流センター,ja-Hrkt,おおつるこうりゅうせんたー
+大津留交流センター,en,Otsuru Koryu Center
+大龍原口,ja,大龍原口
+大龍原口,zh-cn,大龙原口
+大龍原口,zh-tw,大龍原口
+大龍原口,ko,대룡원구
+大龍原口,ja-Hrkt,おおたつはるぐち
+大龍原口,en,Otatsuharuguchi
+井手下,ja,井手下
+井手下,zh-cn,井手下
+井手下,zh-tw,井手下
+井手下,ko,이데시타
+井手下,ja-Hrkt,いでした
+井手下,en,Ideshita
+篠原入口,ja,篠原入口
+篠原入口,zh-cn,筱原入口
+篠原入口,zh-tw,篠原入口
+篠原入口,ko,시노하라 입구
+篠原入口,ja-Hrkt,しのはらいりぐち
+篠原入口,en,Shinohara Iguchi
+鬼瀬,ja,鬼瀬
+鬼瀬,zh-cn,鬼濑
+鬼瀬,zh-tw,鬼瀨
+鬼瀬,ko,오니세
+鬼瀬,ja-Hrkt,おにせ
+鬼瀬,en,Onise
+一木,ja,一木
+一木,zh-cn,一木
+一木,zh-tw,一木
+一木,ko,이치키
+一木,ja-Hrkt,いちぎ
+一木,en,Ichigi
+宮崎医院前,ja,宮崎医院前
+宮崎医院前,zh-cn,宫崎诊所前
+宮崎医院前,zh-tw,宮崎診所前
+宮崎医院前,ko,미야자키 의원 앞
+宮崎医院前,ja-Hrkt,みやざきいいんまえ
+宮崎医院前,en,Miyazaki Iin mae
+仁瀬坂,ja,仁瀬坂
+仁瀬坂,zh-cn,仁濑坂
+仁瀬坂,zh-tw,仁瀨坂
+仁瀬坂,ko,니세자카
+仁瀬坂,ja-Hrkt,にせのさか
+仁瀬坂,en,Nisenosaka
+挾間郵便局前,ja,挾間郵便局前
+挾間郵便局前,zh-cn,挾间邮局前
+挾間郵便局前,zh-tw,挾間郵局前
+挾間郵便局前,ko,지마우체국 앞
+挾間郵便局前,ja-Hrkt,はさまゆうびんきょくまえ
+挾間郵便局前,en,Hasama Yuubinkyoku mae
+茶園畑,ja,茶園畑
+茶園畑,zh-cn,茶园畑
+茶園畑,zh-tw,茶園畑
+茶園畑,ko,차원밭
+茶園畑,ja-Hrkt,ちやえんばた
+茶園畑,en,Chiyaenbata
+五反田,ja,五反田
+五反田,zh-cn,五反田
+五反田,zh-tw,五反田
+五反田,ko,고탄다
+五反田,ja-Hrkt,ごたんだ
+五反田,en,Gotanda
+葛小野,ja,葛小野
+葛小野,zh-cn,葛小野
+葛小野,zh-tw,葛小野
+葛小野,ko,카츠오노
+葛小野,ja-Hrkt,くずおの
+葛小野,en,Kuzuono
+そうず川,ja,そうず川
+そうず川,zh-cn,宗洲川
+そうず川,zh-tw,宗洲川
+そうず川,ko,그렇게 강
+そうず川,ja-Hrkt,そうずがわ
+そうず川,en,sozugawa
+中恵,ja,中恵
+中恵,zh-cn,中恵
+中恵,zh-tw,中恵
+中恵,ko,중혜
+中恵,ja-Hrkt,なかえ
+中恵,en,Nakae
+阿蘇野,ja,阿蘇野
+阿蘇野,zh-cn,阿蘇野
+阿蘇野,zh-tw,阿蘇野
+阿蘇野,ko,아소노
+阿蘇野,ja-Hrkt,あその
+阿蘇野,en,Asono
+詰公民館,ja,詰公民館
+詰公民館,zh-cn,Tsume 詰公会堂
+詰公民館,zh-tw,Tsume 詰公會堂
+詰公民館,ko,충전 공민관
+詰公民館,ja-Hrkt,つめこうみんかん
+詰公民館,en,Tsumekominkan
+下直野,ja,下直野
+下直野,zh-cn,下野野
+下直野,zh-tw,下野野
+下直野,ko,시모 나오노
+下直野,ja-Hrkt,しもなおの
+下直野,en,Shimonaono
+瓜生田中,ja,瓜生田中
+瓜生田中,zh-cn,瓜生田中
+瓜生田中,zh-tw,瓜生田中
+瓜生田中,ko,아오이 타나카
+瓜生田中,ja-Hrkt,うりゅうだなか
+瓜生田中,en,Uryudanaka
+大学病院,ja,大学病院
+大学病院,zh-cn,大学医院
+大学病院,zh-tw,大學醫院
+大学病院,ko,대학병원
+大学病院,ja-Hrkt,だいがくびょういん
+大学病院,en,Daigakubyouin
+下瀬口,ja,下瀬口
+下瀬口,zh-cn,下濑口
+下瀬口,zh-tw,下瀨口
+下瀬口,ko,시모세구치
+下瀬口,ja-Hrkt,しもせぐち
+下瀬口,en,Shimoseguchi
+挾間中学校入口,ja,挾間中学校入口
+挾間中学校入口,zh-cn,挾间中学入口
+挾間中学校入口,zh-tw,挾間中學入口
+挾間中学校入口,ko,지마 중학교 입구
+挾間中学校入口,ja-Hrkt,はさまちゅうがっこういりぐち
+挾間中学校入口,en,Hasamachugakkouiriguchi
+下五福,ja,下五福
+下五福,zh-cn,下五福
+下五福,zh-tw,下五福
+下五福,ko,시모고후쿠
+下五福,ja-Hrkt,しもごふく
+下五福,en,Shimogofuku
+所小野,ja,所小野
+所小野,zh-cn,所小野
+所小野,zh-tw,所小野
+所小野,ko,소오노
+所小野,ja-Hrkt,ところおの
+所小野,en,Tokoroono
+平原入口,ja,平原入口
+平原入口,zh-cn,平原入口
+平原入口,zh-tw,平原入口
+平原入口,ko,평원입구
+平原入口,ja-Hrkt,ひらばるいりぐち
+平原入口,en,Hirabari Iriguchi
+庄内公民館,ja,庄内公民館
+庄内公民館,zh-cn,庄内公民馆
+庄内公民館,zh-tw,莊內公民館
+庄内公民館,ko,쇼나이 공민관
+庄内公民館,ja-Hrkt,しょうないこうみんかん
+庄内公民館,en,Shonaikouminkan
+日ケ暮上,ja,日ケ暮上
+日ケ暮上,zh-cn,日暮上
+日ケ暮上,zh-tw,日暮上
+日ケ暮上,ko,해산물
+日ケ暮上,ja-Hrkt,ひがくれかみ
+日ケ暮上,en,Higakuregami
+牧ノ原,ja,牧ノ原
+牧ノ原,zh-cn,牧之原
+牧ノ原,zh-tw,牧之原
+牧ノ原,ko,마키노하라
+牧ノ原,ja-Hrkt,まきのはる
+牧ノ原,en,MakinoHaru
+下詰,ja,下詰
+下詰,zh-cn,下詰
+下詰,zh-tw,下詰
+下詰,ko,언더필
+下詰,ja-Hrkt,しもつめ
+下詰,en,Shimotsume
+下市入口,ja,下市入口
+下市入口,zh-cn,下市入口
+下市入口,zh-tw,下市入口
+下市入口,ko,시모시 입구
+下市入口,ja-Hrkt,しもいちいりぐち
+下市入口,en,Shimoichi Iriguchi
+三船,ja,三船
+三船,zh-cn,三船
+三船,zh-tw,三船
+三船,ko,미후네
+三船,ja-Hrkt,みふね
+三船,en,Mifune
+東の山,ja,東の山
+東の山,zh-cn,东山
+東の山,zh-tw,東山
+東の山,ko,동쪽 산
+東の山,ja-Hrkt,ひがしのやま
+東の山,en,Higashinoyama
+下原入口,ja,下原入口
+下原入口,zh-cn,下原入口
+下原入口,zh-tw,下原入口
+下原入口,ko,시모하라 입구
+下原入口,ja-Hrkt,したはるいりぐち
+下原入口,en,Shitaharuguchi
+由布川ハイツ前,ja,由布川ハイツ前
+由布川ハイツ前,zh-cn,由布川高地前
+由布川ハイツ前,zh-tw,由布川高地前
+由布川ハイツ前,ko,유후가와 하이츠마에
+由布川ハイツ前,ja-Hrkt,ゆふがわはいつまえ
+由布川ハイツ前,en,Fuyugawa Heights mae
+向之原駅,ja,向之原駅
+向之原駅,zh-cn,向之原站
+向之原駅,zh-tw,向之原站
+向之原駅,ko,무코노하라 역
+向之原駅,ja-Hrkt,むかいのはるえき
+向之原駅,en,Mukainoharueki
+かぐらちゃや前,ja,かぐらちゃや前
+かぐらちゃや前,zh-cn,神乐茶屋前
+かぐらちゃや前,zh-tw,神樂茶屋前
+かぐらちゃや前,ko,카구라 챠야
+かぐらちゃや前,ja-Hrkt,かぐらちゃやまえ
+かぐらちゃや前,en,Kagurachaya mae
+森本整形,ja,森本整形
+森本整形,zh-cn,森本骨科
+森本整形,zh-tw,森本骨科
+森本整形,ko,모리모토 성형
+森本整形,ja-Hrkt,もりもとせいけい
+森本整形,en,Morimoto Seikei
+高津原,ja,高津原
+高津原,zh-cn,高津原
+高津原,zh-tw,高津原
+高津原,ko,다카쓰하라
+高津原,ja-Hrkt,こうつはる
+高津原,en,Koutsuharu
+挾間保育所前,ja,挾間保育所前
+挾間保育所前,zh-cn,挾间保育园前
+挾間保育所前,zh-tw,挾間保育園前
+挾間保育所前,ko,지마 보육소 앞
+挾間保育所前,ja-Hrkt,はさまほいくしょまえ
+挾間保育所前,en,Hasama Hoikusho Mae
+茶屋場,ja,茶屋場
+茶屋場,zh-cn,茶屋馆
+茶屋場,zh-tw,茶屋館
+茶屋場,ko,찻집
+茶屋場,ja-Hrkt,ちゃやば
+茶屋場,en,Chayaba
+柚の木,ja,柚の木
+柚の木,zh-cn,柚之木
+柚の木,zh-tw,柚之木
+柚の木,ko,유나무
+柚の木,ja-Hrkt,ゆのき
+柚の木,en,Yunoki
+北大津留,ja,北大津留
+北大津留,zh-cn,北大津留
+北大津留,zh-tw,北大津留
+北大津留,ko,기타오쓰루
+北大津留,ja-Hrkt,きたおおつる
+北大津留,en,KitaOotsuru
+久保,ja,久保
+久保,zh-cn,久保
+久保,zh-tw,久保
+久保,ko,쿠보
+久保,ja-Hrkt,くぼ
+久保,en,Kubo
+柚の木橋,ja,柚の木橋
+柚の木橋,zh-cn,柚木桥
+柚の木橋,zh-tw,柚木橋
+柚の木橋,ko,유나무 다리
+柚の木橋,ja-Hrkt,ゆのきばし
+柚の木橋,en,Yunokibashi
+佐藤医院入口,ja,佐藤医院入口
+佐藤医院入口,zh-cn,佐藤诊所入口
+佐藤医院入口,zh-tw,佐藤診所入口
+佐藤医院入口,ko,사토 의원 입구
+佐藤医院入口,ja-Hrkt,さとういいんいりぐち
+佐藤医院入口,en,SatouIiniriguchi
+下田上,ja,下田上
+下田上,zh-cn,下田上
+下田上,zh-tw,下田上
+下田上,ko,시모다 카미
+下田上,ja-Hrkt,しもだかみ
+下田上,en,Shimodakami
+医大ヶ丘１丁目,ja,医大ヶ丘１丁目
+医大ヶ丘１丁目,zh-cn,医大丘1丁目
+医大ヶ丘１丁目,zh-tw,医大丘1丁目
+医大ヶ丘１丁目,ko,의 오오가오카 1가
+医大ヶ丘１丁目,ja-Hrkt,いだいがおかいっちょうめ
+医大ヶ丘１丁目,en,Idaigaokaicchome
+上市,ja,上市
+上市,zh-cn,上市
+上市,zh-tw,上市
+上市,ko,가미시
+上市,ja-Hrkt,かみいち
+上市,en,Kamiichi
+亀甲橋,ja,亀甲橋
+亀甲橋,zh-cn,龟甲桥
+亀甲橋,zh-tw,龜甲橋
+亀甲橋,ko,카메코바시
+亀甲橋,ja-Hrkt,かめこうばし
+亀甲橋,en,Kamekoubashi
+小野屋駅前,ja,小野屋駅前
+小野屋駅前,zh-cn,小野屋站前
+小野屋駅前,zh-tw,小野屋站前
+小野屋駅前,ko,오노야 에키마에
+小野屋駅前,ja-Hrkt,おのやえきまえ
+小野屋駅前,en,Onoya Ekimae
+永畑,ja,永畑
+永畑,zh-cn,永畑
+永畑,zh-tw,永畑
+永畑,ko,나가하타
+永畑,ja-Hrkt,ながばたけ
+永畑,en,Nagabatake
+岩下,ja,岩下
+岩下,zh-cn,岩下
+岩下,zh-tw,岩下
+岩下,ko,이와시타
+岩下,ja-Hrkt,いわした
+岩下,en,Iwashita
+鹿倉,ja,鹿倉
+鹿倉,zh-cn,鹿仓
+鹿倉,zh-tw,鹿倉
+鹿倉,ko,가쿠라
+鹿倉,ja-Hrkt,かくら
+鹿倉,en,Kakura
+上瀬口,ja,上瀬口
+上瀬口,zh-cn,上濑口
+上瀬口,zh-tw,上瀨口
+上瀬口,ko,가미세구치
+上瀬口,ja-Hrkt,かみせぐち
+上瀬口,en,Kamiseguchi
+夫婦岩,ja,夫婦岩
+夫婦岩,zh-cn,夫妇岩
+夫婦岩,zh-tw,夫婦岩
+夫婦岩,ko,부부 바위
+夫婦岩,ja-Hrkt,めおといわ
+夫婦岩,en,Meotoiwa
+七蔵司,ja,七蔵司
+七蔵司,zh-cn,七藏司
+七蔵司,zh-tw,七藏司
+七蔵司,ko,나나조지
+七蔵司,ja-Hrkt,ななぞうし
+七蔵司,en,Nanazoshi
+中中村,ja,中中村
+中中村,zh-cn,中中村
+中中村,zh-tw,中中村
+中中村,ko,나카나카무라
+中中村,ja-Hrkt,なかなかむら
+中中村,en,Nakanakamura
+北方入口,ja,北方入口
+北方入口,zh-cn,北方入口
+北方入口,zh-tw,北方入口
+北方入口,ko,북방 입구
+北方入口,ja-Hrkt,きたがたいりぐち
+北方入口,en,Kitagatairiguchi
+小野屋駅裏口,ja,小野屋駅裏口
+小野屋駅裏口,zh-cn,小野屋站后门
+小野屋駅裏口,zh-tw,小野屋站後門
+小野屋駅裏口,ko,오노야역 뒷문
+小野屋駅裏口,ja-Hrkt,おのやえきうらぐち
+小野屋駅裏口,en,OnoyaEkiUraguchi
+古宮,ja,古宮
+古宮,zh-cn,古宫
+古宮,zh-tw,古宮
+古宮,ko,고궁
+古宮,ja-Hrkt,ふるみや
+古宮,en,furumiya
+のぞみ園,ja,のぞみ園
+のぞみ園,zh-cn,希园
+のぞみ園,zh-tw,希園
+のぞみ園,ko,노조미엔
+のぞみ園,ja-Hrkt,のぞみえん
+のぞみ園,en,Nozomien
+由布市コミュニティバス,ja,由布市コミュニティバス
+由布市コミュニティバス,zh-cn,由布市社区公交车
+由布市コミュニティバス,zh-tw,由布市社區公交車
+由布市コミュニティバス,ko,유후시 커뮤니티 버스
+由布市コミュニティバス,ja-Hrkt,ユフシコミュニティバス
+由布市コミュニティバス,en,Yufushi Community Bus
+下詰コース,ja,下詰コース
+下詰コース,en,Shimozume course
+下詰コース,zh-cn,下詰路线
+下詰コース,zh-tw,下詰路線
+下詰コース,ko,언더코스
+阿蘇野（復路）コース,ja,阿蘇野（復路）コース
+阿蘇野（復路）コース,en,Asono (return) course
+阿蘇野（復路）コース,zh-cn,阿蘇野（返回）路线
+阿蘇野（復路）コース,zh-tw,阿蘇野（返回）路線
+阿蘇野（復路）コース,ko,아소노(귀국) 코스
+シャトルバス庄内庁舎～大学病院線,ja,シャトルバス庄内庁舎～大学病院線
+シャトルバス庄内庁舎～大学病院線,en,Shuttle bus ShonaiChosha - university hospital line
+シャトルバス庄内庁舎～大学病院線,zh-cn,穿梭巴士庄内政府大楼-大学医院线
+シャトルバス庄内庁舎～大学病院線,zh-tw,穿梭巴士莊內政府大樓-大學醫院線
+シャトルバス庄内庁舎～大学病院線,ko,셔틀버스 쇼나이청사-대학병원선
+シャトルバススクール石城線,ja,シャトルバススクール石城線
+シャトルバススクール石城線,en,Shuttle Bus School Sekijo Line
+シャトルバススクール石城線,zh-cn,穿梭巴士学校关城线
+シャトルバススクール石城線,zh-tw,穿梭巴士學校關城線
+シャトルバススクール石城線,ko,셔틀 버스 스쿨 이시 조선
+スクールバス大津留コース,ja,スクールバス大津留コース
+スクールバス大津留コース,en,School Bus Otsuru Course
+スクールバス大津留コース,zh-cn,校车大津留路线
+スクールバス大津留コース,zh-tw,校車大津留路線
+スクールバス大津留コース,ko,스쿨 버스 오츠루 코스
+酒野コース,ja,酒野コース
+酒野コース,en,Sakano course
+酒野コース,zh-cn,酒野路线
+酒野コース,zh-tw,酒野路線
+酒野コース,ko,사카노 코스
+スクールバス阿蘇野コース,ja,スクールバス阿蘇野コース
+スクールバス阿蘇野コース,en,School Bus Asono Course
+スクールバス阿蘇野コース,zh-cn,校车阿园路线
+スクールバス阿蘇野コース,zh-tw,校車淺野路線
+スクールバス阿蘇野コース,ko,스쿨 버스 아소노 코스
+阿蘇野（往路）コース,ja,阿蘇野（往路）コース
+阿蘇野（往路）コース,en,Asono (outward) course
+阿蘇野（往路）コース,zh-cn,阿蘇野（外向）路线
+阿蘇野（往路）コース,zh-tw,阿蘇野（外向）套餐
+阿蘇野（往路）コース,ko,아소노(왕로) 코스
+向原駅,ja,向原駅
+向原駅,zh-cn,向原站
+向原駅,zh-tw,向原站
+向原駅,ko,무코노하라 역
+向原駅,ja-Hrkt,むかいのはるえき
+向原駅,en,Mukainoharueki
+池上,ja,池上
+池上,zh-cn,池上
+池上,zh-tw,池上
+池上,ko,연못 위
+池上,ja-Hrkt,いけのうえ
+池上,en,Ikenoue
+東ノ山,ja,東ノ山
+東ノ山,zh-cn,东山
+東ノ山,zh-tw,東山
+東ノ山,ko,동쪽 산
+東ノ山,ja-Hrkt,ひがしのやま
+東ノ山,en,Higashinoyama
+石城小学校前,ja,石城小学校前
+石城小学校前,zh-cn,石城小学前
+石城小学校前,zh-tw,石城小學前
+石城小学校前,ko,이시가미 초등학교 앞
+石城小学校前,ja-Hrkt,せきじょうしょうがっこうまえ
+石城小学校前,en,Sekijoushogakkou mae
+中天神山,ja,中天神山
+中天神山,ja-Hrkt,なかてんじんやま
+中天神山,zh-cn,中天神山
+中天神山,zh-tw,中天神山
+中天神山,ko,나카텐진산
+中天神山,en,Nakatenjinyama
+天神山,ja,天神山
+天神山,ja-Hrkt,てんじんやま
+天神山,zh-cn,天神山
+天神山,zh-tw,天神山
+天神山,ko,텐진산
+天神山,en,Tenjinyama
+天神山駅前,ja,天神山駅前
+天神山駅前,ja-Hrkt,てんじんやまえきまえ
+天神山駅前,zh-cn,天神山站
+天神山駅前,zh-tw,天神山站
+天神山駅前,ko,텐진산역 앞
+天神山駅前,en,Tenjinyama Station
+旧庄内公民館,ja,旧庄内公民館
+旧庄内公民館,ja-Hrkt,きゅうしょうないこうみんかん
+旧庄内公民館,zh-cn,旧庄内社区中心
+旧庄内公民館,zh-tw,舊莊內社區中心
+旧庄内公民館,ko,구 쇼나이 공민관
+旧庄内公民館,en,Kyuu Shonai Kouminkan

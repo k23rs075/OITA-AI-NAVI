@@ -1,0 +1,3 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+6320001010183,日田バス,https://hitabus.com/,Asia/Tokyo,ja,0973227105,,
+2000020442046,日田市（ひたはしり号）,https://www.city.hita.oita.jp/,Asia/Tokyo,ja,0973228356,,

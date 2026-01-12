@@ -1,0 +1,2 @@
+﻿feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+大分交通,https://www.oitakotsu.co.jp/,ja,20251116,20261116,20251111

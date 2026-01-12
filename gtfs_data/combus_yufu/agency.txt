@@ -1,0 +1,2 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+4000020442135,由布市コミュニティバス,https://www.city.yufu.oita.jp/kurashi/koutuu/bus,Asia/Tokyo,ja,0975821111,,

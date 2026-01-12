@@ -1,0 +1,2 @@
+﻿fare_id,price,currency_type,payment_method,transfers,transfer_duration,agency_id
+4000020442135_200_00,200,JPY,0,0,,4000020442135

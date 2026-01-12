@@ -1,0 +1,2 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+7320001002007,大交北部バス,https://www.oitakotsu.co.jp/,Asia/Tokyo,ja,0979220071,,

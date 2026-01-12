@@ -1,0 +1,2 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+4320001001003,玖珠観光バス,https://www.oitakotsu.co.jp/,Asia/Tokyo,ja,0973721131,,

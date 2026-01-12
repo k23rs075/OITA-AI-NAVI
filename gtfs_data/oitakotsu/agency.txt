@@ -1,0 +1,3 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+4320001000062,大分交通,https://www.oitakotsu.co.jp/,Asia/Tokyo,ja,0975347455,,
+4000020442011,大分市（大分きゃんバス）,https://www.city.oita.oita.jp/,Asia/Tokyo,ja,0975787795,,

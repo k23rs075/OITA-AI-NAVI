@@ -1,0 +1,2127 @@
+﻿trans_id,lang,translation
+泉町,ja,泉町
+泉町,ja-Hrkt,いずみまち
+泉町,en,Izumimachi
+泉町,ko,이즈미마치
+泉町,zh-cn,泉町
+泉町,zh-tw,泉町
+亀川新川,ja,亀川新川
+亀川新川,ja-Hrkt,かめがわしんかわ
+亀川新川,en,Kamegawa Shinkawa
+亀川新川,ko,가메가와신카와
+亀川新川,zh-cn,龟川新川
+亀川新川,zh-tw,龜川新川
+生石,ja,生石
+生石,ja-Hrkt,いくし
+生石,en,Ikushi
+生石,ko,이쿠시
+生石,zh-cn,生石
+生石,zh-tw,生石
+八坂,ja,八坂
+八坂,ja-Hrkt,やさか
+北新田,ja,北新田
+北新田,ja-Hrkt,きたしんでん
+西大分,ja,西大分
+西大分,ja-Hrkt,にしおおいた
+鬼丸,ja,鬼丸
+鬼丸,ja-Hrkt,おじまる
+鬼丸,en,Ojimaru
+鬼丸,ko,오지마루
+鬼丸,zh-cn,鬼丸
+鬼丸,zh-tw,鬼丸
+王子港町,ja,王子港町
+王子港町,ja-Hrkt,おうじみなとまち
+別府北浜,ja,別府北浜
+別府北浜,ja-Hrkt,べっぷきたはま
+別府北浜,en,Beppu Kitahama
+別府北浜,ko,벳푸키타하마
+別府北浜,zh-cn,别府北滨
+別府北浜,zh-tw,別府北濱
+守江,ja,守江
+守江,ja-Hrkt,もりえ
+汐見町,ja,汐見町
+汐見町,ja-Hrkt,しおみちょう
+汐見町,en,Shiomicho
+汐見町,ko,시오미초
+汐見町,zh-cn,汐见町
+汐見町,zh-tw,汐見町
+季の坂入口,ja,季の坂入口
+季の坂入口,ja-Hrkt,きのさかいりぐち
+佐伯駅,ja,佐伯駅
+佐伯駅,ja-Hrkt,さいきえき
+佐伯駅,en,Saiki Station
+佐伯駅,ko,사이키 에키
+佐伯駅,zh-cn,佐伯站
+佐伯駅,zh-tw,佐伯站
+流川ゆめタウン前,ja,流川ゆめタウン前
+流川ゆめタウン前,ja-Hrkt,ながれかわゆめたうんまえ
+流川ゆめタウン前,en,Nagarekawa Yume Town Mae
+流川ゆめタウン前,ko,나가레카와유메타운마에
+流川ゆめタウン前,zh-cn,流川梦想城前
+流川ゆめタウン前,zh-tw,流川夢想城前
+大分市役所合同新聞社,ja,大分市役所合同新聞社
+大分市役所合同新聞社,ja-Hrkt,おおいたしやくしょごうどうしんぶんしゃ
+関の江海水浴場前,ja,関の江海水浴場前
+関の江海水浴場前,ja-Hrkt,せきのえかいすいよくじょうまえ
+にじが丘北,ja,にじが丘北
+にじが丘北,ja-Hrkt,にじがおかきた
+にじが丘北,en,Nijigaoka Kita
+にじが丘北,ko,니지가오카키타
+にじが丘北,zh-cn,虹丘北
+にじが丘北,zh-tw,虹丘北
+生石１丁目,ja,生石１丁目
+生石１丁目,ja-Hrkt,いくしいっちょうめ
+駄の原豊和銀行前,ja,駄の原豊和銀行前
+駄の原豊和銀行前,ja-Hrkt,だのはるほうわぎんこうまえ
+大分空港,ja,大分空港
+大分空港,ja-Hrkt,おおいたくうこう
+東別府駅前,ja,東別府駅前
+東別府駅前,ja-Hrkt,ひがしべっぷえきまえ
+団地南区,ja,団地南区
+団地南区,ja-Hrkt,だんちみなみく
+団地南区,en,Danchi Minamiku
+団地南区,ko,단치미나미쿠
+団地南区,zh-cn,团地南区
+団地南区,zh-tw,團地南區
+国東市役所前,ja,国東市役所前
+国東市役所前,ja-Hrkt,くにさきしやくしょまえ
+国東市役所前,en,Kunisaki Shiyakusho mae
+国東市役所前,ko,구니사키시야쿠쇼마에
+国東市役所前,zh-cn,国东市役所前
+国東市役所前,zh-tw,國東市役所前
+石垣八丁目,ja,石垣八丁目
+石垣八丁目,ja-Hrkt,いしがきはっちょうめ
+石垣八丁目,en,Ishigaki 8 Chome
+石垣八丁目,ko,이시가키핫초메
+石垣八丁目,zh-cn,石垣八丁目
+石垣八丁目,zh-tw,石垣八丁目
+古市/亀川,ja,古市/亀川
+古市/亀川,ja-Hrkt,ふるいち　かめがわ
+的ヶ浜公園前,ja,的ヶ浜公園前
+的ヶ浜公園前,ja-Hrkt,まとがはまこうえんまえ
+狩宿,ja,狩宿
+狩宿,ja-Hrkt,かりしゅく
+机張原,ja,机張原
+机張原,ja-Hrkt,きちょうばる
+緑町,ja,緑町
+緑町,ja-Hrkt,みどりまち
+照川,ja,照川
+照川,ja-Hrkt,てるかわ
+照川,en,Terukawa
+照川,ko,데루카와
+照川,zh-cn,照川
+照川,zh-tw,照川
+大分市営グランド前,ja,大分市営グランド前
+大分市営グランド前,ja-Hrkt,おおいたしえいぐらんどまえ
+富士見三丁目,ja,富士見三丁目
+富士見三丁目,ja-Hrkt,ふじみさんちょうめ
+安岐町役場前,ja,安岐町役場前
+安岐町役場前,ja-Hrkt,あきまちやくば
+安岐町役場前,en,Akimachi Yakuba
+安岐町役場前,ko,아키마치야쿠바
+安岐町役場前,zh-cn,安岐町役場
+安岐町役場前,zh-tw,安岐町役場
+天村,ja,天村
+天村,ja-Hrkt,あまむら
+安岐町役場,ja,安岐町役場
+安岐町役場,ja-Hrkt,あきまちやくば
+みのり村前,ja,みのり村前
+みのり村前,ja-Hrkt,みのりむらまえ
+みのり村前,en,Minorimura Mae
+みのり村前,ko,미노리무라마에
+みのり村前,zh-cn,御法村前
+みのり村前,zh-tw,御法村前
+会下,ja,会下
+会下,ja-Hrkt,えげ
+会下,en,Ege
+会下,ko,에게
+会下,zh-cn,会下
+会下,zh-tw,會下
+温水入口,ja,温水入口
+温水入口,ja-Hrkt,ぬくみいりぐち
+大塚,ja,大塚
+大塚,ja-Hrkt,おおつか
+大塚,en,Otsuka
+大塚,ko,오쓰카
+大塚,zh-cn,大冢
+大塚,zh-tw,大塚
+下八幡,ja,下八幡
+下八幡,ja-Hrkt,しもやはた
+上金谷迫,ja,上金谷迫
+上金谷迫,ja-Hrkt,かみかなやさこ
+APﾊｳｽ前,ja,APﾊｳｽ前
+APﾊｳｽ前,ja-Hrkt,えーぴーはうすまえ
+APﾊｳｽ前,en,AP House Mae
+APﾊｳｽ前,ko,에피하우스마에
+APﾊｳｽ前,zh-cn,ＡＰ之家前
+APﾊｳｽ前,zh-tw,ＡＰ之家前
+第三埠頭入口,ja,第三埠頭入口
+第三埠頭入口,ja-Hrkt,だいさんふとういりぐち
+第三埠頭入口,en,Daisan Futo Iriguchi
+第三埠頭入口,ko,다이산후토이리구치
+第三埠頭入口,zh-cn,第三埠头入口
+第三埠頭入口,zh-tw,第三碼頭入口
+花山団地前,ja,花山団地前
+花山団地前,ja-Hrkt,はなやまだんちまえ
+荷揚町,ja,荷揚町
+荷揚町,ja-Hrkt,にあげまち
+高松,ja,高松
+高松,ja-Hrkt,たかまつ
+高松,en,Takamatsu
+高松,ko,다카마쓰
+高松,zh-cn,高松
+高松,zh-tw,高松
+青葉台南,ja,青葉台南
+青葉台南,ja-Hrkt,あおばだいみなみ
+青葉台南,en,Aobadai Minami
+青葉台南,ko,아오바다이미나미
+青葉台南,zh-cn,青叶台南
+青葉台南,zh-tw,青葉台南
+住吉浜入口,ja,住吉浜入口
+住吉浜入口,ja-Hrkt,すみよしはまいりぐち
+住吉浜入口,en,Sumiyoshihama Iriguchi
+住吉浜入口,ko,스미요시하마이리구치
+住吉浜入口,zh-cn,住吉滨入口
+住吉浜入口,zh-tw,住吉濱入口
+重藤,ja,重藤
+重藤,ja-Hrkt,しげふじ
+杵築駅前,ja,杵築駅前
+杵築駅前,ja-Hrkt,きつきえきまえ
+野田,ja,野田
+野田,ja-Hrkt,のだ
+中平,ja,中平
+中平,ja-Hrkt,なかひら
+新別府,ja,新別府
+新別府,ja-Hrkt,しんべっぷ
+日出本町,ja,日出本町
+日出本町,ja-Hrkt,ひじほんまち
+日出本町,en,Hiji Hommachi
+日出本町,ko,히지혼마치
+日出本町,zh-cn,日出本町
+日出本町,zh-tw,日出本町
+祇園,ja,祇園
+祇園,ja-Hrkt,ぎおん
+国東中学校前,ja,国東中学校前
+国東中学校前,ja-Hrkt,くにさきちゅうがっこうまえ
+県庁正門前,ja,県庁正門前
+県庁正門前,ja-Hrkt,ｹﾝﾁﾖｳｾｲﾓﾝﾏｴ
+県庁正門前,en,Kencho Seimon mae
+県庁正門前,ko,켄초세이몬마에
+県庁正門前,zh-cn,县厅正门前
+県庁正門前,zh-tw,縣廳正門前
+ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前,ja,ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前
+ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前,ja-Hrkt,すかいたうんたかさきせんたーまえ
+中大山,ja,中大山
+中大山,ja-Hrkt,なかおおやま
+中大山,en,Naka Oyama
+中大山,ko,나카오야마
+中大山,zh-cn,中大山
+中大山,zh-tw,中大山
+高尾台公民館入口,ja,高尾台公民館入口
+高尾台公民館入口,ja-Hrkt,たかおだいこうみんかんいりぐち
+高尾台公民館入口,en,Takaodai Kominkan Iriguchi
+高尾台公民館入口,ko,다카오다이코민칸이리구치
+高尾台公民館入口,zh-cn,高尾台公民馆入口
+高尾台公民館入口,zh-tw,高尾台公民館入口
+別府医療センター入口,ja,別府医療センター入口
+別府医療センター入口,ja-Hrkt,べっぷいりょうせんたーいりぐち
+別府医療センター入口,en,Beppu Iryo Center Iriguchi
+別府医療センター入口,ko,벳푸이료센터이리구치
+別府医療センター入口,zh-cn,别府医疗中心入口
+別府医療センター入口,zh-tw,別府醫療中心入口
+十条,ja,十条
+十条,ja-Hrkt,じゅうじょう
+十条,en,Jujo
+十条,ko,주조
+十条,zh-cn,十条
+十条,zh-tw,十條
+別府医療センター前,ja,別府医療センター前
+別府医療センター前,ja-Hrkt,べっぷいりょうせんたーまえ
+別府医療センター前,en,Beppu Iryo Center Mae
+別府医療センター前,ko,벳푸이료센터마에
+別府医療センター前,zh-cn,别府医疗中心前
+別府医療センター前,zh-tw,別府醫療中心前
+浜町,ja,浜町
+浜町,ja-Hrkt,はままち
+亀川亀陽泉前,ja,亀川亀陽泉前
+亀川亀陽泉前,ja-Hrkt,かめがわきようせんまえ
+亀川亀陽泉前,en,Kamegawa Kiyosen Mae
+亀川亀陽泉前,ko,가메가와키요센마에
+亀川亀陽泉前,zh-cn,龟川龟阳泉前
+亀川亀陽泉前,zh-tw,龜川龜陽泉前
+富士見六丁目,ja,富士見六丁目
+富士見六丁目,ja-Hrkt,ふじみろくちょうめ
+弁天宮前,ja,弁天宮前
+弁天宮前,ja-Hrkt,べんてんぐうまえ
+弁天宮前,en,Bentengu Mae
+弁天宮前,ko,벤텐구마에
+弁天宮前,zh-cn,弁天宫前
+弁天宮前,zh-tw,弁天宮前
+駄の原豊和銀行前,en,Danoharu Howa Ginko Mae
+駄の原豊和銀行前,ko,다노하루호와긴코마에
+駄の原豊和銀行前,zh-cn,驮之原丰和银行前
+駄の原豊和銀行前,zh-tw,馱之原豐和銀行前
+大分市営グランド前,en,Oita Shiei Ground Mae
+大分市営グランド前,ko,오이타시에이그랜드마에
+大分市営グランド前,zh-cn,大分市营运动场前
+大分市営グランド前,zh-tw,大分市營運動場前
+娘田,ja,娘田
+娘田,ja-Hrkt,むすめだ
+幸通り,ja,幸通り
+幸通り,ja-Hrkt,しあわせどおり
+幸通り,en,Shiawase Dori
+幸通り,ko,시아와세도리
+幸通り,zh-cn,幸通
+幸通り,zh-tw,幸通
+大藪,ja,大藪
+大藪,ja-Hrkt,おおやぶ
+若宮入口,ja,若宮入口
+若宮入口,ja-Hrkt,わかみやいりぐち
+若宮入口,en,Wakamiya Iriguchi
+若宮入口,ko,와카미야이리구치
+若宮入口,zh-cn,若宫入口
+若宮入口,zh-tw,若宮入口
+本庄,ja,本庄
+本庄,ja-Hrkt,ほんじょう
+矢黒入口,ja,矢黒入口
+矢黒入口,ja-Hrkt,やぐろいりぐち
+矢黒入口,en,Yaguro Iriguchi
+矢黒入口,ko,야구로이리구치
+矢黒入口,zh-cn,矢黑入口
+矢黒入口,zh-tw,矢黑入口
+亀川駅,ja,亀川駅
+亀川駅,ja-Hrkt,かめがわえきまえ
+日出,ja,日出
+日出,ja-Hrkt,ひじ
+日出,en,Hiji
+日出,ko,히지
+日出,zh-cn,日出
+日出,zh-tw,日出
+一の坂,ja,一の坂
+一の坂,ja-Hrkt,いちのさか
+春木川,ja,春木川
+春木川,ja-Hrkt,はるきがわ
+関の江公園前,ja,関の江公園前
+関の江公園前,ja-Hrkt,せきのえこうえんまえ
+関の江公園前,en,Sekinoe Koen Mae
+関の江公園前,ko,세키노에코엔마에
+関の江公園前,zh-cn,关之江公园前
+関の江公園前,zh-tw,關之江公園前
+杵築バスターミナル,ja,杵築バスターミナル
+杵築バスターミナル,ja-Hrkt,きつきばすたーみなる
+杵築バスターミナル,en,Kitsuki Bus Terminal
+杵築バスターミナル,ko,기쓰키버스터미널
+杵築バスターミナル,zh-cn,杵筑巴士总站
+杵築バスターミナル,zh-tw,杵築巴士總站
+豊岡小学校入口,ja,豊岡小学校入口
+豊岡小学校入口,ja-Hrkt,とよおかしょうがっこういりぐち
+豊岡小学校入口,en,Toyooka Shogakko Iriguchi
+豊岡小学校入口,ko,도요오카쇼갓코이리구치
+豊岡小学校入口,zh-cn,丰冈小学校入口
+豊岡小学校入口,zh-tw,豐岡小學校入口
+無田,ja,無田
+無田,ja-Hrkt,むた
+無田,en,Muta
+無田,ko,무타
+無田,zh-cn,无田
+無田,zh-tw,無田
+由布院駅前,ja,由布院駅前
+由布院駅前,ja-Hrkt,ゆふいんえきまえ
+由布院駅前,en,Yufuin Eki Mae
+由布院駅前,ko,유후인에키마에
+由布院駅前,zh-cn,由布院站前
+由布院駅前,zh-tw,由布院站前
+弁天１丁目,ja,弁天１丁目
+弁天１丁目,ja-Hrkt,べんてんいっちょうめ
+六勝園,ja,六勝園
+六勝園,ja-Hrkt,ろくしょうえん
+両郡橋,ja,両郡橋
+両郡橋,ja-Hrkt,りょうぐんばし
+両郡橋,en,Ryogumbashi
+両郡橋,ko,료군바시
+両郡橋,zh-cn,两郡桥
+両郡橋,zh-tw,兩郡橋
+別府交通センター,ja,別府交通センター
+別府交通センター,ja-Hrkt,べっぷこうつうせんたー
+別府交通センター,en,Beppu Kotsu Center(For Beppu Sta・Mountain Side)
+別府交通センター,ko,벳푸코쓰센터(벳푸에키방면・산측)
+別府交通センター,zh-cn,别府交通中心(别府站方向・山边)
+別府交通センター,zh-tw,別府交通中心(別府站方向・山邊)
+古市,ja,古市
+古市,ja-Hrkt,ふるいち
+古市,en,Furuichi
+古市,ko,후루이치
+古市,zh-cn,古市
+古市,zh-tw,古市
+豊海三丁目,ja,豊海三丁目
+豊海三丁目,ja-Hrkt,とよみさんちょうめ
+豊海三丁目,en,Toyomi 3 Chome
+豊海三丁目,ko,도요미산초메
+豊海三丁目,zh-cn,丰海三丁目
+豊海三丁目,zh-tw,豐海三丁目
+中央通り④,ja,中央通り④
+中央通り④,ja-Hrkt,ﾁｭｳｵｳﾄﾞｵﾘ4
+中央通り④,en,Chuo Dori [Oitashi]
+中央通り④,ko,추오도리 [오이타시]
+中央通り④,zh-cn,中央通［大分市］
+中央通り④,zh-tw,中央通［大分市］
+深町,ja,深町
+深町,ja-Hrkt,ふかまち
+別府浜町,ja,別府浜町
+別府浜町,ja-Hrkt,べっぷはままち
+別府浜町,en,Beppu Hamamachi
+別府浜町,ko,벳푸하마마치
+別府浜町,zh-cn,别府滨町
+別府浜町,zh-tw,別府濱町
+田室町,ja,田室町
+田室町,ja-Hrkt,たむろまち
+胡麻ヶ坂,ja,胡麻ヶ坂
+胡麻ヶ坂,ja-Hrkt,ごまがさか
+照波園,ja,照波園
+照波園,ja-Hrkt,しょうはえん（べっぷけいりんじょうまえ）
+照波園,en,Shohaen
+照波園,ko,쇼하엔
+照波園,zh-cn,照波园
+照波園,zh-tw,照波園
+安岐,ja,安岐
+安岐,ja-Hrkt,あき
+安岐,en,Aki
+安岐,ko,아키
+安岐,zh-cn,安岐
+安岐,zh-tw,安岐
+西の台入口,ja,西の台入口
+西の台入口,ja-Hrkt,にしのだいいりぐち
+西の台入口,en,Nishinodai Iriguchi
+西の台入口,ko,니시노다이이리구치
+西の台入口,zh-cn,西之台入口
+西の台入口,zh-tw,西之台入口
+弁天三丁目,ja,弁天三丁目
+弁天三丁目,ja-Hrkt,べんてんさんちょうめ
+コンパルホール入口,ja,コンパルホール入口
+コンパルホール入口,ja-Hrkt,こんぱるほーるいりぐち
+上人ヶ浜公園前,ja,上人ヶ浜公園前
+上人ヶ浜公園前,ja-Hrkt,しょうにんがはまこうえんまえ
+上人ヶ浜公園前,en,Shoningahama Koen Mae
+上人ヶ浜公園前,ko,쇼닌가하마코엔마에
+上人ヶ浜公園前,zh-cn,上人滨公园前
+上人ヶ浜公園前,zh-tw,上人濱公園前
+宮川橋,ja,宮川橋
+宮川橋,ja-Hrkt,みやかわばし
+上春日町,ja,上春日町
+上春日町,ja-Hrkt,かみかすがまち
+国東市民病院前,ja,国東市民病院前
+国東市民病院前,ja-Hrkt,くにさきしみんびょういんまえ
+餅ヶ浜,ja,餅ヶ浜
+餅ヶ浜,ja-Hrkt,もちがはま
+餅ヶ浜,en,Mochigahama
+餅ヶ浜,ko,모치가하마
+餅ヶ浜,zh-cn,饼滨
+餅ヶ浜,zh-tw,餅濱
+ジャパンセミコンダクター入口,ja,ジャパンセミコンダクター入口
+ジャパンセミコンダクター入口,ja-Hrkt,じゃぱんせみこんだくたーいりぐち
+大道校区公民館前,ja,大道校区公民館前
+大道校区公民館前,ja-Hrkt,おおみちこうくこうみんかんまえ
+東大道2丁目,ja,東大道2丁目
+東大道2丁目,ja-Hrkt,ひがしおおみちにちょうめ
+杵築中学校前,ja,杵築中学校前
+杵築中学校前,ja-Hrkt,きつきちゅうがっこうまえ
+杵築中学校前,en,Kitsuki Chugakko Mae
+杵築中学校前,ko,기쓰키추갓코마에
+杵築中学校前,zh-cn,杵筑中学校前
+杵築中学校前,zh-tw,杵築中學校前
+関の江３丁目,ja,関の江３丁目
+関の江３丁目,ja-Hrkt,せきのえさんちょうめ
+関の江３丁目,en,Sekinoe 3 Chome
+関の江３丁目,ko,세키노에산초메
+関の江３丁目,zh-cn,关之江３丁目
+関の江３丁目,zh-tw,關之江３丁目
+豊岡小学校前,ja,豊岡小学校前
+豊岡小学校前,ja-Hrkt,とよおかしょうがっこうまえ
+田深,ja,田深
+田深,ja-Hrkt,たぶか
+王子中町,ja,王子中町
+王子中町,ja-Hrkt,おうじなかまち
+新川,ja,新川
+新川,ja-Hrkt,しんかわ
+北奈多,ja,北奈多
+北奈多,ja-Hrkt,きたなだ
+武蔵,ja,武蔵
+武蔵,ja-Hrkt,むさし
+武蔵,en,Musashi
+武蔵,ko,무사시
+武蔵,zh-cn,武藏
+武蔵,zh-tw,武藏
+春日浦,ja,春日浦
+春日浦,ja-Hrkt,かすがうら
+大西,ja,大西
+大西,ja-Hrkt,おおにし
+大西,en,Onishi
+大西,ko,오니시
+大西,zh-cn,大西
+大西,zh-tw,大西
+別府交通ｾﾝﾀー/観光港,ja,別府交通ｾﾝﾀー/観光港
+別府交通ｾﾝﾀー/観光港,ja-Hrkt,べっぷこうつうせんたー/かんこうこう
+上坂本,ja,上坂本
+上坂本,ja-Hrkt,うわさかもと
+上坂本,en,Uwasakamoto
+上坂本,ko,우와사카모토
+上坂本,zh-cn,上坂本
+上坂本,zh-tw,上坂本
+石垣九丁目,ja,石垣九丁目
+石垣九丁目,ja-Hrkt,いしがききゅうちょうめ
+石垣九丁目,en,Ishigaki 9 Chome
+石垣九丁目,ko,이시가키큐초메
+石垣九丁目,zh-cn,石垣九丁目
+石垣九丁目,zh-tw,石垣九丁目
+小城入口,ja,小城入口
+小城入口,ja-Hrkt,おぎいりぐち
+小城入口,en,Ogi Iriguchi
+小城入口,ko,오기이리구치
+小城入口,zh-cn,小城入口
+小城入口,zh-tw,小城入口
+国東港,ja,国東港
+国東港,ja-Hrkt,くにさきこう
+国東港,en,Kunisakiko
+国東港,ko,구니사키항
+国東港,zh-cn,国东港
+国東港,zh-tw,國東港
+黒津崎国民休養地入口,ja,黒津崎国民休養地入口
+黒津崎国民休養地入口,ja-Hrkt,くろつざきこくみんきゅうようちいりぐち
+黒津崎国民休養地入口,en,Kurotsuzaki Kokumin Kyuyochi Iriguchi
+黒津崎国民休養地入口,ko,구로쓰자키코쿠민큐요치이리구치
+黒津崎国民休養地入口,zh-cn,黑津崎国民休养地入口
+黒津崎国民休養地入口,zh-tw,黑津崎國民休養地入口
+あおば公園前,ja,あおば公園前
+あおば公園前,ja-Hrkt,あおばこうえんまえ
+竹町,ja,竹町
+竹町,ja-Hrkt,たけまち
+ホルトホール大分,ja,ホルトホール大分
+ホルトホール大分,ja-Hrkt,ほるとほーるおおいた
+ホルトホール大分,en,Horuto Hall Oita
+ホルトホール大分,ko,홀토홀오이타
+ホルトホール大分,zh-cn,杜英大廳大分
+ホルトホール大分,zh-tw,杜英大厅大分
+日出役場前,ja,日出役場前
+日出役場前,ja-Hrkt,ひじやくばまえ
+大神駅前,ja,大神駅前
+大神駅前,ja-Hrkt,おおがえきまえ
+大神駅前,en,Oga Eki Mae
+大神駅前,ko,오가에키마에
+大神駅前,zh-cn,大神站前
+大神駅前,zh-tw,大神站前
+王子南町,ja,王子南町
+王子南町,ja-Hrkt,おうじみなみまち
+春日町小学校前,ja,春日町小学校前
+春日町小学校前,ja-Hrkt,かすがまちしょうがっこうまえ
+亀川駅,en,Kamegawa Station(To APU)
+亀川駅,ko,가메가와에키(APU행)
+亀川駅,zh-cn,龟川站(APU线)
+亀川駅,zh-tw,龜川站(APU線)
+千騎,ja,千騎
+千騎,ja-Hrkt,せんぎ
+千騎,en,Sengi
+千騎,ko,센기
+千騎,zh-cn,千骑
+千騎,zh-tw,千騎
+富士見四丁目,ja,富士見四丁目
+富士見四丁目,ja-Hrkt,ふじみよんちょうめ
+富士見四丁目,en,Fujimi 4 Chome
+富士見四丁目,ko,후지미욘초메
+富士見四丁目,zh-cn,富士见四丁目
+富士見四丁目,zh-tw,富士見四丁目
+志口,ja,志口
+志口,ja-Hrkt,しぐち
+志口,en,Shiguchi
+志口,ko,시구치
+志口,zh-cn,志口
+志口,zh-tw,志口
+北中,ja,北中
+北中,ja-Hrkt,きたじゅう
+北中,en,Kitaju
+北中,ko,기타주
+北中,zh-cn,北中
+北中,zh-tw,北中
+春日町小学校前,en,Kasugamachi Shogakko Mae
+春日町小学校前,ko,가스가마치쇼갓코마에
+春日町小学校前,zh-cn,春日町小学校前
+春日町小学校前,zh-tw,春日町小學校前
+横町,ja,横町
+横町,ja-Hrkt,よこまち（くにさきし）
+春木,ja,春木
+春木,ja-Hrkt,はるき
+春木,en,Haruki
+春木,ko,하루키
+春木,zh-cn,春木
+春木,zh-tw,春木
+机張原,en,Kichobaru
+机張原,ko,기초바루
+机張原,zh-cn,机张原
+机張原,zh-tw,機張原
+穴井,ja,穴井
+穴井,ja-Hrkt,あない
+穴井,en,Anai
+穴井,ko,아나이
+穴井,zh-cn,穴井
+穴井,zh-tw,穴井
+柞原,ja,柞原
+柞原,ja-Hrkt,いすはら
+柞原,en,Yusuhara
+柞原,ko,유스하라
+柞原,zh-cn,柞原
+柞原,zh-tw,柞原
+下野田,ja,下野田
+下野田,ja-Hrkt,しものだ
+大神,ja,大神
+大神,ja-Hrkt,おおが
+昭和通り,ja,昭和通り
+昭和通り,ja-Hrkt,しようわどおり
+西大分,en,Nishi Oita
+西大分,ko,니시오이타
+西大分,zh-cn,西大分
+西大分,zh-tw,西大分
+深町,en,Fukamachi
+深町,ko,후카마치
+深町,zh-cn,深町
+深町,zh-tw,深町
+美里,ja,美里
+美里,ja-Hrkt,みさと
+美里,en,Misato
+美里,ko,미사토
+美里,zh-cn,美里
+美里,zh-tw,美里
+浜脇,ja,浜脇
+浜脇,ja-Hrkt,はまわき
+浜脇,en,Hamawaki
+浜脇,ko,하마와키
+浜脇,zh-cn,滨胁
+浜脇,zh-tw,濱脇
+季の坂入口,en,Kinosaka Iriguchi
+季の坂入口,ko,기노사카이리구치
+季の坂入口,zh-cn,季之坂入口
+季の坂入口,zh-tw,季之坂入口
+つつじヶ丘団地前,ja,つつじヶ丘団地前
+つつじヶ丘団地前,ja-Hrkt,つつじがおかだんちまえ
+弁天前,ja,弁天前
+弁天前,ja-Hrkt,べんてんまえ
+石垣幸橋,ja,石垣幸橋
+石垣幸橋,ja-Hrkt,いしがきさいわいばし
+石垣幸橋,en,Ishigaki Saiwaibashi
+石垣幸橋,ko,이시가키사이와이바시
+石垣幸橋,zh-cn,石垣幸桥
+石垣幸橋,zh-tw,石垣幸橋
+にじが丘公民館前,ja,にじが丘公民館前
+にじが丘公民館前,ja-Hrkt,にじがおかこうみんかんまえ
+にじが丘公民館前,en,Nijigaoka Kominkan Mae
+にじが丘公民館前,ko,니지가오카코민칸마에
+にじが丘公民館前,zh-cn,虹丘公民馆前
+にじが丘公民館前,zh-tw,虹丘公民館前
+高崎一丁目,ja,高崎一丁目
+高崎一丁目,ja-Hrkt,たかさきいっちょうめ
+高崎一丁目,en,Takasaki 1 Chome
+高崎一丁目,ko,다카사키잇초메
+高崎一丁目,zh-cn,高崎一丁目
+高崎一丁目,zh-tw,高崎一丁目
+温水団地入口,ja,温水団地入口
+温水団地入口,ja-Hrkt,ぬくみだんちいりぐち
+温水団地入口,en,Nukumi Danchi Iriguchi
+温水団地入口,ko,누쿠미단치이리구치
+温水団地入口,zh-cn,温水团地入口
+温水団地入口,zh-tw,溫水團地入口
+天神前,ja,天神前
+天神前,ja-Hrkt,てんじんまえ
+天神前,en,Tenjin Mae
+天神前,ko,덴진마에
+天神前,zh-cn,天神前
+天神前,zh-tw,天神前
+ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前,en,Sky Town Takasaki Center Mae
+ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前,ko,스카이타운타카사키센터마에
+ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前,zh-cn,蓝天城高崎中心前
+ｽｶｲﾀｳﾝ高崎ｾﾝﾀｰ前,zh-tw,藍天城高崎中心前
+上野田,ja,上野田
+上野田,ja-Hrkt,かみのだ
+上野田,en,Kaminoda [Kitsukishi]
+上野田,ko,가미노다 [기쓰키시]
+上野田,zh-cn,上野田［杵筑市］
+上野田,zh-tw,上野田［杵築市］
+娘田,en,Musumeda
+娘田,ko,무스메다
+娘田,zh-cn,娘田
+娘田,zh-tw,娘田
+西春日町,ja,西春日町
+西春日町,ja-Hrkt,にしかすがまち
+別府駅前,ja,別府駅前
+別府駅前,ja-Hrkt,べっぷえきまえ
+別府駅前,en,Beppu Eki Mae
+別府駅前,ko,벳푸에키마에
+別府駅前,zh-cn,别府站前
+別府駅前,zh-tw,別府站前
+池の内,ja,池の内
+池の内,ja-Hrkt,いけのうち
+豊岡駅前,ja,豊岡駅前
+豊岡駅前,ja-Hrkt,とよおかえきまえ
+王子町,ja,王子町
+王子町,ja-Hrkt,おうじまち
+王子町,en,Ojimachi
+王子町,ko,오지마치
+王子町,zh-cn,王子町
+王子町,zh-tw,王子町
+南石垣,ja,南石垣
+南石垣,ja-Hrkt,みなみいしがき
+南石垣,en,Minami Ishigaki
+南石垣,ko,미나미이시가키
+南石垣,zh-cn,南石垣
+南石垣,zh-tw,南石垣
+赤山,ja,赤山
+赤山,ja-Hrkt,あかやま
+大分中央署前,ja,大分中央署前
+大分中央署前,ja-Hrkt,おおいたちゅうおうしょまえ
+関の江海水浴場前,en,Sekinoe Kaisui Yokujo Mae
+関の江海水浴場前,ko,세키노에카이스이요쿠조마에
+関の江海水浴場前,zh-cn,关之江海水浴场前
+関の江海水浴場前,zh-tw,關之江海水浴場前
+上糸原,ja,上糸原
+上糸原,ja-Hrkt,かみいとはる
+上糸原,en,Kami Itoharu
+上糸原,ko,가미이토하루
+上糸原,zh-cn,上糸原
+上糸原,zh-tw,上糸原
+北新田,en,Kita Shinden
+北新田,ko,기타신덴
+北新田,zh-cn,北新田
+北新田,zh-tw,北新田
+古市入江橋,ja,古市入江橋
+古市入江橋,ja-Hrkt,ふるいちいりえばし
+古市入江橋,en,Furuichi Iriebashi
+古市入江橋,ko,후루이치이리에바시
+古市入江橋,zh-cn,古市入江桥
+古市入江橋,zh-tw,古市入江橋
+田深,en,Tabuka
+田深,ko,다부카
+田深,zh-cn,田深
+田深,zh-tw,田深
+南須賀入口,ja,南須賀入口
+南須賀入口,ja-Hrkt,みなみすがいりぐち
+南須賀入口,en,Minami Suga Iriguchi
+南須賀入口,ko,미나미스가이리구치
+南須賀入口,zh-cn,南须贺入口
+南須賀入口,zh-tw,南須賀入口
+松屋寺入口,ja,松屋寺入口
+松屋寺入口,ja-Hrkt,しょうおくじいりぐち
+東別府駅前,en,Higashi Beppu Eki Mae
+東別府駅前,ko,히가시벳푸에키마에
+東別府駅前,zh-cn,东别府站前
+東別府駅前,zh-tw,東別府站前
+王子西町,ja,王子西町
+王子西町,ja-Hrkt,おうじにしまち
+王子西町,en,Oji Nishimachi
+王子西町,ko,오지니시마치
+王子西町,zh-cn,王子西町
+王子西町,zh-tw,王子西町
+しらさぎ公園前,ja,しらさぎ公園前
+しらさぎ公園前,ja-Hrkt,しらさぎこうえんまえ
+しらさぎ公園前,en,Shirasagi Koen Mae
+しらさぎ公園前,ko,시라사기코엔마에
+しらさぎ公園前,zh-cn,白鹭公园前
+しらさぎ公園前,zh-tw,白鷺公園前
+にじが丘東公園前,ja,にじが丘東公園前
+にじが丘東公園前,ja-Hrkt,にじがおかひがしこうえんまえ
+杵築城入口,ja,杵築城入口
+杵築城入口,ja-Hrkt,きつきじょういりぐち
+奈多八幡,ja,奈多八幡
+奈多八幡,ja-Hrkt,なだはちまん
+かんたん,ja,かんたん
+かんたん,ja-Hrkt,かんたん
+かんたん,en,Kantan 1
+かんたん,ko,간탄 1
+かんたん,zh-cn,ＫＡＮＴＡＮ 1
+かんたん,zh-tw,ＫＡＮＴＡＮ 4
+中央公民館前,ja,中央公民館前
+中央公民館前,ja-Hrkt,ちゅうおうこうみんかんまえ
+中央公民館前,en,Chuo Kominkan Mae
+中央公民館前,ko,추오코민칸마에
+中央公民館前,zh-cn,中央公民馆前
+中央公民館前,zh-tw,中央公民館前
+別府郵便局前,ja,別府郵便局前
+別府郵便局前,ja-Hrkt,べっぷゆうびんきょくまえ
+国東中学校前,en,Kunisaki Chugakko Mae
+国東中学校前,ko,구니사키추갓코마에
+国東中学校前,zh-cn,国东中学校前
+国東中学校前,zh-tw,國東中學校前
+豊岡,ja,豊岡
+豊岡,ja-Hrkt,とよおか
+青葉台北,ja,青葉台北
+青葉台北,ja-Hrkt,あおばだいきた
+小原,ja,小原
+小原,ja-Hrkt,おわら
+浜町,en,Hamamachi
+浜町,ko,하마마치
+浜町,zh-cn,滨町
+浜町,zh-tw,濱町
+鉄輪温泉,ja,鉄輪温泉
+鉄輪温泉,ja-Hrkt,かんなわおんせん
+白木,ja,白木
+白木,ja-Hrkt,しらき
+白木,en,Shiraki
+白木,ko,시라키
+白木,zh-cn,白木
+白木,zh-tw,白木
+南生石,ja,南生石
+南生石,ja-Hrkt,みなみいくし
+かなりや公園前,ja,かなりや公園前
+かなりや公園前,ja-Hrkt,かなりやこうえんまえ
+奈多八幡,en,Nada Hachiman
+奈多八幡,ko,나다하치만
+奈多八幡,zh-cn,奈多八幡
+奈多八幡,zh-tw,奈多八幡
+大藪,en,Oyabu
+大藪,ko,오야부
+大藪,zh-cn,大薮
+大藪,zh-tw,大藪
+長水入口,ja,長水入口
+長水入口,ja-Hrkt,ちょうすいいりぐち
+都町四丁目,ja,都町四丁目
+都町四丁目,ja-Hrkt,みやこまちよんちょうめ
+灘手,ja,灘手
+灘手,ja-Hrkt,なだて
+灘手,en,Nadate
+灘手,ko,나다테
+灘手,zh-cn,滩手
+灘手,zh-tw,灘手
+狩宿,en,Karishuku
+狩宿,ko,가리슈쿠
+狩宿,zh-cn,狩宿
+狩宿,zh-tw,狩宿
+竹町大分銀行前,ja,竹町大分銀行前
+竹町大分銀行前,ja-Hrkt,たけまちおおいたぎんこうまえ
+竹町大分銀行前,en,Takemachi Oita Ginko Mae
+竹町大分銀行前,ko,다케마치오이타긴코마에
+竹町大分銀行前,zh-cn,竹町大分银行前
+竹町大分銀行前,zh-tw,竹町大分銀行前
+六勝園,en,Rokushoen
+六勝園,ko,로쿠쇼엔
+六勝園,zh-cn,六胜园
+六勝園,zh-tw,六勝園
+森交差点,ja,森交差点
+森交差点,ja-Hrkt,もりこうさてん
+ソフトパーク前,ja,ソフトパーク前
+ソフトパーク前,ja-Hrkt,そふとぱーくまえ
+ソフトパーク前,en,Soft Park Mae
+ソフトパーク前,ko,소프트파크마에
+ソフトパーク前,zh-cn,软件园前
+ソフトパーク前,zh-tw,軟體園前
+武蔵古市,ja,武蔵古市
+武蔵古市,ja-Hrkt,むさしふるいち
+武蔵古市,en,Musashi Furuichi
+武蔵古市,ko,무사시후루이치
+武蔵古市,zh-cn,武藏古市
+武蔵古市,zh-tw,武藏古市
+春日町,ja,春日町
+春日町,ja-Hrkt,かすがまち
+春日町,en,Kasugamachi [Oitashi]
+春日町,ko,가스가마치 [오이타시]
+春日町,zh-cn,春日町［大分市］
+春日町,zh-tw,春日町［大分市］
+大神,en,Oga
+大神,ko,오가
+大神,zh-cn,大神
+大神,zh-tw,大神
+石垣９丁目,ja,石垣９丁目
+石垣９丁目,ja-Hrkt,いしがききゅうちょうめ
+南糸原,ja,南糸原
+南糸原,ja-Hrkt,みなみいとはる
+小原,en,Owara [Kunisakishi]
+小原,ko,오와라 [구니사키시]
+小原,zh-cn,小原［国东市］
+小原,zh-tw,小原［國東市］
+西春日町,en,Nishi Kasugamachi
+西春日町,ko,니시카스가마치
+西春日町,zh-cn,西春日町
+西春日町,zh-tw,西春日町
+北奈多,en,Kitanada
+北奈多,ko,기타나다
+北奈多,zh-cn,北奈多
+北奈多,zh-tw,北奈多
+辻間,ja,辻間
+辻間,ja-Hrkt,つじま
+辻間,en,Tsujima
+辻間,ko,쓰지마
+辻間,zh-cn,辻间
+辻間,zh-tw,辻間
+森入口,ja,森入口
+森入口,ja-Hrkt,もりいりぐち
+是城,ja,是城
+是城,ja-Hrkt,これしろ
+守末,ja,守末
+守末,ja-Hrkt,もりすえ
+守末,en,Morisue
+守末,ko,모리스에
+守末,zh-cn,守末
+守末,zh-tw,守末
+柑橘試験場前,ja,柑橘試験場前
+柑橘試験場前,ja-Hrkt,かんきつしけんじょうまえ
+オアシスひろば前,ja,オアシスひろば前
+オアシスひろば前,ja-Hrkt,おあしすひろばまえ
+六条,ja,六条
+六条,ja-Hrkt,ろくじょう
+六条,en,Rokujo
+六条,ko,로쿠조
+六条,zh-cn,六条
+六条,zh-tw,六條
+高崎３丁目,ja,高崎３丁目
+高崎３丁目,ja-Hrkt,たかさきさんちょうめ
+高崎３丁目,en,Takasaki 3 Chome
+高崎３丁目,ko,다카사키산초메
+高崎３丁目,zh-cn,高崎３丁目
+高崎３丁目,zh-tw,高崎３丁目
+高崎４丁目,ja,高崎４丁目
+高崎４丁目,ja-Hrkt,たかさきよんちょうめ
+新川,en,Shinkawa
+新川,ko,신카와
+新川,zh-cn,新川
+新川,zh-tw,新川
+亀川駅前,ja,亀川駅前
+亀川駅前,ja-Hrkt,かめがわえきまえ
+亀川駅前,en,Kamegawa Eki Mae(For Oita Sta.)
+亀川駅前,ko,가메가와에키마에(오이타역방면)
+亀川駅前,zh-cn,龟川站前(大分站方面)
+亀川駅前,zh-tw,龜川站前(大分站方向)
+三条,ja,三条
+三条,ja-Hrkt,さんじょう
+三条,en,Sanjo
+三条,ko,산조
+三条,zh-cn,三条
+三条,zh-tw,三條
+卸売市場前,ja,卸売市場前
+卸売市場前,ja-Hrkt,おろしうりしじょうまえ
+卸売市場前,en,Oroshiuri Shijo Mae
+卸売市場前,ko,오로시우리시조마에
+卸売市場前,zh-cn,批发市场前
+卸売市場前,zh-tw,批發市場前
+小坂入口,ja,小坂入口
+小坂入口,ja-Hrkt,おさかいりぐち
+大分駅前,ja,大分駅前
+大分駅前,ja-Hrkt,おおいたえきまえ
+大分駅前,en,Oita Eki Mae
+大分駅前,ko,오이타에키마에
+大分駅前,zh-cn,大分站前
+大分駅前,zh-tw,大分站前
+猪尾口,ja,猪尾口
+猪尾口,ja-Hrkt,いのおぐち
+猪尾口,en,Inooguchi
+猪尾口,ko,이노오구치
+猪尾口,zh-cn,猪尾口
+猪尾口,zh-tw,豬尾口
+オアシスひろば前,en,Oasis Hiroba Mae
+オアシスひろば前,ko,오아시스히로바마에
+オアシスひろば前,zh-cn,绿洲广场前
+オアシスひろば前,zh-tw,綠洲廣場前
+東大道1丁目,ja,東大道1丁目
+東大道1丁目,ja-Hrkt,ひがしおおみちいっちょうめ
+東大道1丁目,en,Higashi Omichi 1 Chome
+東大道1丁目,ko,히가시오미치잇초메
+東大道1丁目,zh-cn,东大道１丁目
+東大道1丁目,zh-tw,東大道１丁目
+三川,ja,三川
+三川,ja-Hrkt,みかわ
+都町三丁目,ja,都町三丁目
+都町三丁目,ja-Hrkt,みやこまちさんちょうめ
+都町三丁目,en,Miyakomachi 3 Chome
+都町三丁目,ko,미야코마치산초메
+都町三丁目,zh-cn,都町三丁目
+都町三丁目,zh-tw,都町三丁目
+金谷迫公民館前,ja,金谷迫公民館前
+金谷迫公民館前,ja-Hrkt,かなやさここうみんかんまえ
+王子神社前,ja,王子神社前
+王子神社前,ja-Hrkt,おうじじんじゃまえ
+日出役場前,en,Hiji Yakuba Mae
+日出役場前,ko,히지야쿠바마에
+日出役場前,zh-cn,日出役场前
+日出役場前,zh-tw,日出役場前
+大分中央署前,en,Oita Chuosho Mae
+大分中央署前,ko,오이타추오쇼마에
+大分中央署前,zh-cn,大分中央署前
+大分中央署前,zh-tw,大分中央署前
+高崎山,ja,高崎山
+高崎山,ja-Hrkt,たかさきやましぜんどうぶつえんまえ
+高崎山,en,Takasakiyama
+高崎山,ko,다카사키야마
+高崎山,zh-cn,高崎山
+高崎山,zh-tw,高崎山
+小浦,ja,小浦
+小浦,ja-Hrkt,こうら
+小浦,en,Koura(For Kitsuki・Kunisaki)
+小浦,ko,고우라 [코쿠도10호]
+小浦,zh-cn,小浦［国道１０号］
+小浦,zh-tw,小浦［國道１０號］
+熊丸,ja,熊丸
+熊丸,ja-Hrkt,くままる
+新大内,ja,新大内
+新大内,ja-Hrkt,しんおおうち
+治郎丸,ja,治郎丸
+治郎丸,ja-Hrkt,じろまる
+富士紡社宅前,ja,富士紡社宅前
+富士紡社宅前,ja-Hrkt,ふじぼうしゃたくまえ
+王子,ja,王子
+王子,ja-Hrkt,おうじ
+国東高校前,ja,国東高校前
+国東高校前,ja-Hrkt,くにさきこうこうまえ
+国東高校前,en,Kunisaki Koko Mae
+国東高校前,ko,구니사키코코마에
+国東高校前,zh-cn,国东高校前
+国東高校前,zh-tw,國東高校前
+熊丸,en,Kumamaru
+熊丸,ko,구마마루
+熊丸,zh-cn,熊丸
+熊丸,zh-tw,熊丸
+臥温,ja,臥温
+臥温,ja-Hrkt,がおん
+臥温,en,Gaon
+臥温,ko,가온
+臥温,zh-cn,卧温
+臥温,zh-tw,臥溫
+石垣８丁目,ja,石垣８丁目
+石垣８丁目,ja-Hrkt,いしがきはっちょうめ
+別府溝部学園短大前,ja,別府溝部学園短大前
+別府溝部学園短大前,ja-Hrkt,みぞべじょしたんだいまえ
+別府溝部学園短大前,en,Beppu Mizobe Gakuen Tandai Mae
+別府溝部学園短大前,ko,벳푸미조베가쿠엔탄다이마에
+別府溝部学園短大前,zh-cn,别府沟部学园短大前
+別府溝部学園短大前,zh-tw,別府溝部學園短大前
+豊岡駅前,en,Toyooka Eki Mae
+豊岡駅前,ko,도요오카에키마에
+豊岡駅前,zh-cn,丰冈站前
+豊岡駅前,zh-tw,豐岡站前
+５号地大交車庫,ja,５号地大交車庫
+５号地大交車庫,ja-Hrkt,ごごうちだいこうしゃこまえ
+５号地大交車庫,en,5 Gochi Daiko Shako Mae
+５号地大交車庫,ko,고고치다이코샤코마에
+５号地大交車庫,zh-cn,５号地大交车库前
+５号地大交車庫,zh-tw,５號地大交車庫前
+八幡小学校前,ja,八幡小学校前
+八幡小学校前,ja-Hrkt,やはたしょうがっこうまえ
+八幡小学校前,en,Yahata Shogakko Mae
+八幡小学校前,ko,야하타쇼갓코마에
+八幡小学校前,zh-cn,八幡小学校前
+八幡小学校前,zh-tw,八幡小學校前
+別府タワー前,ja,別府タワー前
+別府タワー前,ja-Hrkt,べっぷたわーまえ
+別府タワー前,en,Beppu Tower Mae
+別府タワー前,ko,벳푸타워마에
+別府タワー前,zh-cn,别府塔前
+別府タワー前,zh-tw,別府塔前
+錦江橋北詰,ja,錦江橋北詰
+錦江橋北詰,ja-Hrkt,きんこうばしきたづめ
+錦江橋北詰,en,Kinkobashi Kitazume
+錦江橋北詰,ko,긴코바시키타즈메
+錦江橋北詰,zh-cn,锦江桥北诘
+錦江橋北詰,zh-tw,錦江橋北詰
+附属特別支援学校前,ja,附属特別支援学校前
+附属特別支援学校前,ja-Hrkt,ふぞくとくべつしえんがっこうまえ
+附属特別支援学校前,en,Fuzoku Tokubetsu Shien Gakko Mae
+附属特別支援学校前,ko,후조쿠토쿠베쓰시엔갓코마에
+附属特別支援学校前,zh-cn,附属特别支援学校前
+附属特別支援学校前,zh-tw,附屬特別支援學校前
+八坂,en,Yasaka
+八坂,ko,야사카
+八坂,zh-cn,八坂
+八坂,zh-tw,八坂
+塩屋,ja,塩屋
+塩屋,ja-Hrkt,しおや
+杵築インター,ja,杵築インター
+杵築インター,ja-Hrkt,きつきいんたー
+大分市役所合同新聞社前,ja,大分市役所合同新聞社前
+大分市役所合同新聞社前,ja-Hrkt,ｵｵｲﾀｼﾔｸｼｮｺﾞｳﾄﾞｳｼﾝﾌﾞﾝｼｬﾏｴ
+横町,en,Yokomachi
+横町,ko,요코마치
+横町,zh-cn,横町
+横町,zh-tw,橫町
+的ヶ浜公園前,en,Matogahama Koen Mae
+的ヶ浜公園前,ko,마토가하마코엔마에
+的ヶ浜公園前,zh-cn,的滨公园前
+的ヶ浜公園前,zh-tw,的濱公園前
+豊岡,en,Toyooka [Kendo 521 Go]
+豊岡,ko,도요오카 [켄도521호]
+豊岡,zh-cn,丰冈［县道５２１号］
+豊岡,zh-tw,豐岡［縣道５２１號］
+糸原,ja,糸原
+糸原,ja-Hrkt,いとはる
+港町,ja,港町
+港町,ja-Hrkt,みなとまち
+内田,ja,内田
+内田,ja-Hrkt,うちだ
+豊海公園前,ja,豊海公園前
+豊海公園前,ja-Hrkt,とよみこうえんまえ
+豊海公園前,en,Toyomi Koen Mae
+豊海公園前,ko,도요미코엔마에
+豊海公園前,zh-cn,丰海公园前
+豊海公園前,zh-tw,豐海公園前
+桜町,ja,桜町
+桜町,ja-Hrkt,さくらまち
+附属中学校前,ja,附属中学校前
+附属中学校前,ja-Hrkt,ふぞくちゅうがっこうまえ
+附属中学校前,en,Fuzoku Chugakko Mae
+附属中学校前,ko,후조쿠추갓코마에
+附属中学校前,zh-cn,附属中学校前
+附属中学校前,zh-tw,附屬中學校前
+御馬山,ja,御馬山
+御馬山,ja-Hrkt,ごんばやま
+御馬山,en,Gombayama
+御馬山,ko,곤바야마
+御馬山,zh-cn,御马山
+御馬山,zh-tw,御馬山
+田深橋,ja,田深橋
+田深橋,ja-Hrkt,たぶかばし
+田深橋,en,Tabukabashi
+田深橋,ko,다부카바시
+田深橋,zh-cn,田深桥
+田深橋,zh-tw,田深橋
+上神田,ja,上神田
+上神田,ja-Hrkt,かみかんだ
+豊岡駅口,ja,豊岡駅口
+豊岡駅口,ja-Hrkt,とよおかえきぐち
+豊岡駅口,en,Toyooka Ekiguchi
+豊岡駅口,ko,도요오카에키구치
+豊岡駅口,zh-cn,丰冈站口
+豊岡駅口,zh-tw,豐岡站口
+京町,ja,京町
+京町,ja-Hrkt,きょうまち
+据場,ja,据場
+据場,ja-Hrkt,すえば
+春日浦,en,Kasugaura
+春日浦,ko,가스가우라
+春日浦,zh-cn,春日浦
+春日浦,zh-tw,春日浦
+大友氏館跡西側入口,ja,大友氏館跡西側入口
+大友氏館跡西側入口,ja-Hrkt,ｵｵﾄﾓｼﾔｶﾀｱﾄﾆｼｶﾞﾜｲﾘｸﾞﾁ
+王子神社前,en,Oji Jinja Mae
+王子神社前,ko,오지진자마에
+王子神社前,zh-cn,王子神社前
+王子神社前,zh-tw,王子神社前
+大分西高校前,ja,大分西高校前
+大分西高校前,ja-Hrkt,おおいたにしこうこうまえ
+大分西高校前,en,Oita Nishi Koko Mae
+大分西高校前,ko,오이타니시코코마에
+大分西高校前,zh-cn,大分西高校前
+大分西高校前,zh-tw,大分西高校前
+吉弘温泉前,ja,吉弘温泉前
+吉弘温泉前,ja-Hrkt,よしひろおんせんまえ
+にじが丘入口,ja,にじが丘入口
+にじが丘入口,ja-Hrkt,にじがおかいりぐち
+にじが丘入口,en,Nijigaoka Iriguchi
+にじが丘入口,ko,니지가오카이리구치
+にじが丘入口,zh-cn,虹丘入口
+にじが丘入口,zh-tw,虹丘入口
+錦江橋,ja,錦江橋
+錦江橋,ja-Hrkt,きんこうばし
+錦江橋,en,Kinkobashi
+錦江橋,ko,긴코바시
+錦江橋,zh-cn,锦江桥
+錦江橋,zh-tw,錦江橋
+実相寺,ja,実相寺
+実相寺,ja-Hrkt,じっそうじ
+ジャパンセミコンダクター入口,en,Japan Semiconductor Iriguchi
+ジャパンセミコンダクター入口,ko,재팬세미콘덕터이리구치
+ジャパンセミコンダクター入口,zh-cn,日本半導體公司入口
+ジャパンセミコンダクター入口,zh-tw,株式会社日本半导体入口
+赤山,en,Akayama
+赤山,ko,아카야마
+赤山,zh-cn,赤山
+赤山,zh-tw,赤山
+安岐湊局前,ja,安岐湊局前
+安岐湊局前,ja-Hrkt,あきみなときょくまえ
+安岐湊局前,en,Aki Minatokyoku Mae
+安岐湊局前,ko,아키미나토쿄쿠마에
+安岐湊局前,zh-cn,安岐凑局前
+安岐湊局前,zh-tw,安岐湊局前
+合同庁舎稲荷前,ja,合同庁舎稲荷前
+合同庁舎稲荷前,ja-Hrkt,ごうどうちょうしゃいなりまえ
+上野丘公園,ja,上野丘公園
+上野丘公園,ja-Hrkt,うえのがおかこうえん
+上野丘公園,en,Uenogaoka Koen
+上野丘公園,ko,우에노가오카코엔
+上野丘公園,zh-cn,上野丘公園
+上野丘公園,zh-tw,上野丘公园
+生石１丁目,en,Ikushi 1 Chome
+生石１丁目,ko,이쿠시잇초메
+生石１丁目,zh-cn,生石１丁目
+生石１丁目,zh-tw,生石１丁目
+荷揚町,en,Niagemachi
+荷揚町,ko,니아게마치
+荷揚町,zh-cn,荷扬町
+荷揚町,zh-tw,荷揚町
+西部公民館入口,ja,西部公民館入口
+西部公民館入口,ja-Hrkt,せいぶこうみんかんいりぐち
+県立図書館前,ja,県立図書館前
+県立図書館前,ja-Hrkt,けんりつとしょかんまえ
+森交差点,en,Mori Kosaten
+森交差点,ko,모리코사텐
+森交差点,zh-cn,森交叉点
+森交差点,zh-tw,森路口
+三川,en,Mikawa
+三川,ko,미카와
+三川,zh-cn,三川
+三川,zh-tw,三川
+重藤,en,Shigefuji
+重藤,ko,시게후지
+重藤,zh-cn,重藤
+重藤,zh-tw,重藤
+本庄,en,Honjo
+本庄,ko,혼조
+本庄,zh-cn,本庄
+本庄,zh-tw,本莊
+溝部女子短大前,ja,溝部女子短大前
+溝部女子短大前,ja-Hrkt,みぞべじょしたんだいまえ
+王子山の手公園前,ja,王子山の手公園前
+王子山の手公園前,ja-Hrkt,おうじやまのてこうえんまえ
+王子山の手公園前,en,Oji Yamanote Koen Mae
+王子山の手公園前,ko,오지야마노테코엔마에
+王子山の手公園前,zh-cn,王子山之手公园前
+王子山の手公園前,zh-tw,王子山之手公園前
+ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前,ja,ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前
+ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前,ja-Hrkt,すかいたうんたかさきぐらんどまえ
+ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前,en,Sky Town Takasaki Ground Mae
+ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前,ko,스카이타운타카사키그랜드마에
+ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前,zh-cn,蓝天城高崎运动场前
+ｽｶｲﾀｳﾝ高崎ｸﾞﾗﾝﾄﾞ前,zh-tw,藍天城高崎運動場前
+下野田,en,Shimo Noda
+下野田,ko,시모노다
+下野田,zh-cn,下野田
+下野田,zh-tw,下野田
+恵比須町,ja,恵比須町
+恵比須町,ja-Hrkt,えびすまち
+恵比須町,en,Ebisumachi
+恵比須町,ko,에비스마치
+恵比須町,zh-cn,惠比须町
+恵比須町,zh-tw,惠比須町
+国東,ja,国東
+国東,ja-Hrkt,くにさき
+パークプレイス大分,ja,パークプレイス大分
+パークプレイス大分,ja-Hrkt,ぱーくぷれいすおおいた
+大友氏館跡西側入口,en,Otomoshi Yakataato Nishigawa Iriguchi
+大友氏館跡西側入口,ko,오토모시야카타아토니시가와이리구치
+大友氏館跡西側入口,zh-cn,大友氏馆遗址西侧入口
+大友氏館跡西側入口,zh-tw,大友氏館遺址西側入口
+吉弘温泉前,en,Yoshihiro Onsen Mae
+吉弘温泉前,ko,요시히로온센마에
+吉弘温泉前,zh-cn,吉弘温泉前
+吉弘温泉前,zh-tw,吉弘溫泉前
+にじが丘西公園前,ja,にじが丘西公園前
+にじが丘西公園前,ja-Hrkt,にじがおかにしこうえんまえ
+にじが丘西公園前,en,Nijigaoka Nishi Koen Mae
+にじが丘西公園前,ko,니지가오카니시코엔마에
+にじが丘西公園前,zh-cn,虹丘西公园前
+にじが丘西公園前,zh-tw,虹丘西公園前
+港町,en,Minatomachi
+港町,ko,미나토마치
+港町,zh-cn,港町
+港町,zh-tw,港町
+ｽｶｲﾀｳﾝ高崎入口,ja,ｽｶｲﾀｳﾝ高崎入口
+ｽｶｲﾀｳﾝ高崎入口,ja-Hrkt,すかいたうんたかさきいりぐち
+辻間団地,ja,辻間団地
+辻間団地,ja-Hrkt,つじまだんち
+小坂入口,en,Osaka Iriguchi
+小坂入口,ko,고사카이리구치
+小坂入口,zh-cn,小坂入口
+小坂入口,zh-tw,小坂入口
+北中町,ja,北中町
+北中町,ja-Hrkt,きたじゅうまち
+北中町,en,Kitajumachi
+北中町,ko,기타주마치
+北中町,zh-cn,北中町
+北中町,zh-tw,北中町
+榎,ja,榎
+榎,ja-Hrkt,えのき
+榎,en,Enoki
+榎,ko,에노키
+榎,zh-cn,榎
+榎,zh-tw,榎
+大分空港,en,Oita Kuko
+大分空港,ko,오이타공항
+大分空港,zh-cn,大分机场
+大分空港,zh-tw,大分機場
+パークプレイス下,ja,パークプレイス下
+パークプレイス下,ja-Hrkt,ぱーくぷれいすした
+パークプレイス下,en,Park Place Shita
+パークプレイス下,ko,파크플레이스 시타
+パークプレイス下,zh-cn,公园广场下
+パークプレイス下,zh-tw,公園廣場下
+暘谷駅前,ja,暘谷駅前
+暘谷駅前,ja-Hrkt,ようこくえきまえ
+暘谷駅前,en,Yokoku Eki Mae
+暘谷駅前,ko,요코쿠에키마에
+暘谷駅前,zh-cn,暘谷站前
+暘谷駅前,zh-tw,暘谷站前
+コンパルホール入口,en,Compal Hall Iriguchi
+コンパルホール入口,ko,컴펄홀이리구치
+コンパルホール入口,zh-cn,ＣＯＭＰＡＬ大厅入口
+コンパルホール入口,zh-tw,ＣＯＭＰＡＬ大廳入口
+要町,ja,要町
+要町,ja-Hrkt,かなめまち
+要町,en,Kanamemachi
+要町,ko,가나메마치
+要町,zh-cn,要町
+要町,zh-tw,要町
+かなりや公園前,en,Kanariya Koen Mae
+かなりや公園前,ko,가나리야코엔마에
+かなりや公園前,zh-cn,金丝雀公园前
+かなりや公園前,zh-tw,金絲雀公園前
+八条,ja,八条
+八条,ja-Hrkt,はちじょう
+内竃,ja,内竃
+内竃,ja-Hrkt,うちかまど
+内竃,en,Uchikamado
+内竃,ko,우치카마도
+内竃,zh-cn,内灶
+内竃,zh-tw,內灶
+弁天三丁目,en,Benten 3 Chome
+弁天三丁目,ko,벤텐산초메
+弁天三丁目,zh-cn,弁天三丁目
+弁天三丁目,zh-tw,弁天三丁目
+スパランド豊海入口,ja,スパランド豊海入口
+スパランド豊海入口,ja-Hrkt,すぱらんどとよみいりぐち
+東八幡,ja,東八幡
+東八幡,ja-Hrkt,ひがしやはた
+東八幡,en,Higashi Yahata
+東八幡,ko,히가시야하타
+東八幡,zh-cn,东八幡
+東八幡,zh-tw,東八幡
+京町,en,Kyomachi
+京町,ko,교마치
+京町,zh-cn,京町
+京町,zh-tw,京町
+高尾台入口,ja,高尾台入口
+高尾台入口,ja-Hrkt,たかおだいいりぐち
+高尾台入口,en,Takaodai Iriguchi
+高尾台入口,ko,다카오다이이리구치
+高尾台入口,zh-cn,高尾台入口
+高尾台入口,zh-tw,高尾台入口
+塩屋,en,Shioya
+塩屋,ko,시오야
+塩屋,zh-cn,盐屋
+塩屋,zh-tw,鹽屋
+楓江団地前,ja,楓江団地前
+楓江団地前,ja-Hrkt,ふうこうだんちまえ
+楓江団地前,en,Fuko Danchi Mae
+楓江団地前,ko,후코단치마에
+楓江団地前,zh-cn,枫江团地前
+楓江団地前,zh-tw,楓江團地前
+宮川橋,en,Miyakawabashi
+宮川橋,ko,미야카와바시
+宮川橋,zh-cn,宫川桥
+宮川橋,zh-tw,宮川橋
+中原,ja,中原
+中原,ja-Hrkt,なかばる
+都町四丁目,en,Miyakomachi 4 Chome
+都町四丁目,ko,미야코마치욘초메
+都町四丁目,zh-cn,都町四丁目
+都町四丁目,zh-tw,都町四丁目
+中原,en,Nakabaru [Oitashi]
+中原,ko,나카바루 [오이타시]
+中原,zh-cn,中原［大分市］
+中原,zh-tw,中原［大分市］
+中平,en,Nakahira [Kitsukishi]
+中平,ko,나카히라 [기쓰키시]
+中平,zh-cn,中平［杵筑市］
+中平,zh-tw,中平［杵築市］
+AMANE RESORT前,ja,AMANE RESORT前
+AMANE RESORT前,ja-Hrkt,あまねりぞーとまえ
+AMANE RESORT前,en,Amane Resort mae
+AMANE RESORT前,ko,아마네리조트마에
+AMANE RESORT前,zh-cn,ＡＭＡＮＥＲＥＳＯＲＴ前
+AMANE RESORT前,zh-tw,ＡＭＡＮＥＲＥＳＯＲＴ前
+守江,en,Morie
+守江,ko,모리에
+守江,zh-cn,守江
+守江,zh-tw,守江
+中央通り⑥,ja,中央通り⑥
+中央通り⑥,ja-Hrkt,ちゅうおうどおり
+中央通り⑥,en,Chuo Dori ⑥[Oita Bus/Oita Kotsu]
+中央通り⑥,ko,추오도리⑥ [오이타버스/오이타코쓰]
+中央通り⑥,zh-cn,中央通⑥［大分巴士/大分交通］
+中央通り⑥,zh-tw,中央通⑥［大分巴士/大分交通］
+下坂本,ja,下坂本
+下坂本,ja-Hrkt,しもさかもと
+弁天前,en,Benten Mae
+弁天前,ko,벤텐마에
+弁天前,zh-cn,弁天前
+弁天前,zh-tw,弁天前
+秡谷,ja,秡谷
+秡谷,ja-Hrkt,はらいだに
+秡谷,en,Haraidani
+秡谷,ko,하라이다니
+秡谷,zh-cn,秡谷
+秡谷,zh-tw,秡谷
+春日神社前,ja,春日神社前
+春日神社前,ja-Hrkt,かすがじんじゃまえ
+春日神社前,en,Kasuga Jinja Mae
+春日神社前,ko,가스가진자마에
+春日神社前,zh-cn,春日神社前
+春日神社前,zh-tw,春日神社前
+相原,ja,相原
+相原,ja-Hrkt,あいわら
+相原,en,Aiwara
+相原,ko,아이와라
+相原,zh-cn,相原
+相原,zh-tw,相原
+黒津崎海岸,ja,黒津崎海岸
+黒津崎海岸,ja-Hrkt,くろつざきかいがん
+黒津崎海岸,en,Kurotsuzaki Kaigan
+黒津崎海岸,ko,구로쓰자키카이간
+黒津崎海岸,zh-cn,黑津崎海岸
+黒津崎海岸,zh-tw,黑津崎海岸
+太田,ja,太田
+太田,ja-Hrkt,たいだ
+太田,en,Taida [Hijimachi]
+太田,ko,다이다 [히지마치]
+太田,zh-cn,太田［日出町］
+太田,zh-tw,太田［日出町］
+市の原,ja,市の原
+市の原,ja-Hrkt,いちのはる
+鉄輪温泉,en,Kannawa Onsen
+鉄輪温泉,ko,간나와온센
+鉄輪温泉,zh-cn,铁轮温泉
+鉄輪温泉,zh-tw,鐵輪溫泉
+大道校区公民館前,en,Omichi Koku Kominkan Mae
+大道校区公民館前,ko,오미치코쿠코민칸마에
+大道校区公民館前,zh-cn,大道校区公民馆前
+大道校区公民館前,zh-tw,大道校區公民館前
+一の坂,en,Ichinosaka
+一の坂,ko,이치노사카
+一の坂,zh-cn,一之坂
+一の坂,zh-tw,一之坂
+駅前本町,ja,駅前本町
+駅前本町,ja-Hrkt,えきまえほんまち
+柑橘試験場入口,ja,柑橘試験場入口
+柑橘試験場入口,ja-Hrkt,かんきつしけんじょういりぐち
+柑橘試験場入口,en,Kankitsu Shikenjo Iriguchi
+柑橘試験場入口,ko,간키쓰시켄조이리구치
+柑橘試験場入口,zh-cn,柑橘试验场入口
+柑橘試験場入口,zh-tw,柑橘試驗場入口
+桜町,en,Sakuramachi
+桜町,ko,사쿠라마치
+桜町,zh-cn,樱町
+桜町,zh-tw,櫻町
+青葉台北,en,Aobadai Kita
+青葉台北,ko,아오바다이키타
+青葉台北,zh-cn,青叶台北
+青葉台北,zh-tw,青葉台北
+なかよし公園前,ja,なかよし公園前
+なかよし公園前,ja-Hrkt,なかよしこうえんまえ
+なかよし公園前,en,Nakayoshi Koen Mae
+なかよし公園前,ko,나카요시코엔마에
+なかよし公園前,zh-cn,好伙伴公园前
+なかよし公園前,zh-tw,好夥伴公園前
+内田,en,Uchida
+内田,ko,우치다
+内田,zh-cn,内田
+内田,zh-tw,內田
+北石垣,ja,北石垣
+北石垣,ja-Hrkt,きたいしがき
+北石垣,en,Kita Ishigaki
+北石垣,ko,기타이시가키
+北石垣,zh-cn,北石垣
+北石垣,zh-tw,北石垣
+市の原,en,Ichinoharu
+市の原,ko,이치노하루
+市の原,zh-cn,市之原
+市の原,zh-tw,市之原
+春木川,en,Harukigawa
+春木川,ko,하루키가와
+春木川,zh-cn,春木川
+春木川,zh-tw,春木川
+一条,ja,一条
+一条,ja-Hrkt,いちじょう
+一条,en,Ichijo
+一条,ko,이치조
+一条,zh-cn,一条
+一条,zh-tw,一條
+綱井,ja,綱井
+綱井,ja-Hrkt,つない
+綱井,en,Tsunai
+綱井,ko,쓰나이
+綱井,zh-cn,纲井
+綱井,zh-tw,綱井
+大手前,ja,大手前
+大手前,ja-Hrkt,おおてまえ
+笹川,ja,笹川
+笹川,ja-Hrkt,ささがわ
+笹川,en,Sasagawa
+笹川,ko,사사가와
+笹川,zh-cn,笹川
+笹川,zh-tw,笹川
+池の内,en,Ikenouchi
+池の内,ko,이케노우치
+池の内,zh-cn,池之内
+池の内,zh-tw,池之內
+亀川古市,ja,亀川古市
+亀川古市,ja-Hrkt,ふるいち
+亀川古市,en,Kamegawa Furuichi(To Oita Airport)
+亀川古市,ko,가메가와후루이치(오이타 공항)
+亀川古市,zh-cn,龟川古市(大分机场)
+亀川古市,zh-tw,龜川古市(大分機場)
+県庁前,ja,県庁前
+県庁前,ja-Hrkt,けんちょうまえ
+県庁前,en,Kencho Mae (Prefectural Office)
+県庁前,ko,켄초마에 [오이타]
+県庁前,zh-cn,县厅前［大分］
+県庁前,zh-tw,縣廳前［大分］
+地獄原・ひょうたん温泉,ja,地獄原・ひょうたん温泉
+地獄原・ひょうたん温泉,ja-Hrkt,じごくばる
+地獄原・ひょうたん温泉,en,Jigokubaru/Hyotan Onsen
+地獄原・ひょうたん温泉,ko,지고쿠바루
+地獄原・ひょうたん温泉,zh-cn,地狱原、葫芦温泉
+地獄原・ひょうたん温泉,zh-tw,地獄原、葫蘆溫泉
+豊町,ja,豊町
+豊町,ja-Hrkt,ゆたかまち
+豊町,en,Yutakamachi
+豊町,ko,유타카마치
+豊町,zh-cn,丰町
+豊町,zh-tw,豐町
+緑町,en,Midorimachi
+緑町,ko,미도리마치
+緑町,zh-cn,绿町
+緑町,zh-tw,綠町
+大山入口,ja,大山入口
+大山入口,ja-Hrkt,おおやまいりぐち
+南生石,en,Minami Ikushi
+南生石,ko,미나미이쿠시
+南生石,zh-cn,南生石
+南生石,zh-tw,南生石
+下坂本,en,Shimo Sakamoto
+下坂本,ko,시모사카모토
+下坂本,zh-cn,下坂本
+下坂本,zh-tw,下坂本
+長水入口,en,Chosui Iriguchi
+長水入口,ko,조스이이리구치
+長水入口,zh-cn,长水入口
+長水入口,zh-tw,長水入口
+パークプレイス大分,en,Park Place Oita
+パークプレイス大分,ko,파크플레이스 오이타
+パークプレイス大分,zh-cn,公園廣場大分
+パークプレイス大分,zh-tw,公园广场大分
+佐伯コスモタウン,ja,佐伯コスモタウン
+佐伯コスモタウン,ja-Hrkt,こすもたうん
+佐伯コスモタウン,en,Saiki Cosmo Town Mae
+佐伯コスモタウン,ko,사이키 코스모타운마에
+佐伯コスモタウン,zh-cn,佐伯科斯莫城前
+佐伯コスモタウン,zh-tw,佐伯ＣＯＳＭＯ　ＴＯＷＮ前
+上神田,en,Kami Kanda
+上神田,ko,가미칸다
+上神田,zh-cn,上神田
+上神田,zh-tw,上神田
+室屋,ja,室屋
+室屋,ja-Hrkt,むろや
+室屋,en,Muroya
+室屋,ko,무로야
+室屋,zh-cn,室屋
+室屋,zh-tw,室屋
+祇園,en,Gion
+祇園,ko,기온
+祇園,zh-cn,祗园
+祇園,zh-tw,祗園
+金谷迫,ja,金谷迫
+金谷迫,ja-Hrkt,かなやさこ
+金谷迫,en,Kanayasako
+金谷迫,ko,가나야사코
+金谷迫,zh-cn,金谷迫
+金谷迫,zh-tw,金谷迫
+治郎丸,en,Jiromaru
+治郎丸,ko,지로마루
+治郎丸,zh-cn,治郎丸
+治郎丸,zh-tw,治郎丸
+上春日町,en,Kami Kasugamachi
+上春日町,ko,가미카스가마치
+上春日町,zh-cn,上春日町
+上春日町,zh-tw,上春日町
+日赤病院入口,ja,日赤病院入口
+日赤病院入口,ja-Hrkt,にっせきびょういんいりぐち
+日赤病院入口,en,Nisseki Byoin Iriguchi
+日赤病院入口,ko,닛세키뵤인이리구치
+日赤病院入口,zh-cn,日赤医院入口
+日赤病院入口,zh-tw,日赤醫院入口
+志手南,ja,志手南
+志手南,ja-Hrkt,してみなみ
+志手南,en,Shite Minami
+志手南,ko,시테미나미
+志手南,zh-cn,志手南
+志手南,zh-tw,志手南
+弁天１丁目,en,Benten 1 Chome
+弁天１丁目,ko,벤텐잇초메
+弁天１丁目,zh-cn,弁天１丁目
+弁天１丁目,zh-tw,弁天１丁目
+臼杵インター,ja,臼杵インター
+臼杵インター,ja-Hrkt,うすきいんたー
+吉弘神社前,ja,吉弘神社前
+吉弘神社前,ja-Hrkt,よしひろじんじゃまえ
+コスモタウン,ja,コスモタウン
+コスモタウン,ja-Hrkt,こすもたうん
+関の江大交車庫前,ja,関の江大交車庫前
+関の江大交車庫前,ja-Hrkt,せきのえだいこうしゃこまえ
+実相寺,en,Jissoji
+実相寺,ko,짓소지
+実相寺,zh-cn,实相寺
+実相寺,zh-tw,實相寺
+大分キヤノン前,ja,大分キヤノン前
+大分キヤノン前,ja-Hrkt,おおいたきやのんまえ
+大分キヤノン前,en,Oita Canon Mae
+大分キヤノン前,ko,오이타캬논마에
+大分キヤノン前,zh-cn,大分佳能前
+大分キヤノン前,zh-tw,大分佳能前
+大山入口,en,Oyama Iriguchi
+大山入口,ko,오야마이리구치
+大山入口,zh-cn,大山入口
+大山入口,zh-tw,大山入口
+つつじヶ丘団地前,en,Tsutsujigaoka Danchi Mae
+つつじヶ丘団地前,ko,쓰쓰지가오카단치마에
+つつじヶ丘団地前,zh-cn,踯躅丘团地前
+つつじヶ丘団地前,zh-tw,躑躅丘團地前
+臼杵インター,en,Usuki Inter
+臼杵インター,ko,우스키 인터
+臼杵インター,zh-cn,臼杵交流道
+臼杵インター,zh-tw,臼杵交流道
+国東市民病院前,en,Kunisaki Shimin Byoin Mae
+国東市民病院前,ko,구니사키시민뵤인마에
+国東市民病院前,zh-cn,国东市民医院前
+国東市民病院前,zh-tw,國東市民醫院前
+八条,en,Hachijo
+八条,ko,하치조
+八条,zh-cn,八条
+八条,zh-tw,八條
+糸原,en,Itoharu
+糸原,ko,이토하루
+糸原,zh-cn,糸原
+糸原,zh-tw,糸原
+高尾台２丁目,ja,高尾台２丁目
+高尾台２丁目,ja-Hrkt,たかおだいにちょうめ
+松屋寺入口,en,Shookuji Iriguchi
+松屋寺入口,ko,쇼오쿠지이리구치
+松屋寺入口,zh-cn,松屋寺入口
+松屋寺入口,zh-tw,松屋寺入口
+豊海入口,ja,豊海入口
+豊海入口,ja-Hrkt,とよみいりぐち
+豊海入口,en,Toyomi Iriguchi
+豊海入口,ko,도요미이리구치
+豊海入口,zh-cn,丰海入口
+豊海入口,zh-tw,豐海入口
+あおば公園前,en,Aoba Koen Mae
+あおば公園前,ko,아오바코엔마에
+あおば公園前,zh-cn,青叶公园前
+あおば公園前,zh-tw,青葉公園前
+据場,en,Sueba
+据場,ko,스에바
+据場,zh-cn,据场
+据場,zh-tw,據場
+一本松,ja,一本松
+一本松,ja-Hrkt,いっぽんまつ
+一本松,en,Ippommatsu
+一本松,ko,잇폰마쓰
+一本松,zh-cn,一本松
+一本松,zh-tw,一本松
+新別府,en,Shin Beppu
+新別府,ko,신벳푸
+新別府,zh-cn,新别府
+新別府,zh-tw,新別府
+王子,en,Oji
+王子,ko,오지
+王子,zh-cn,王子
+王子,zh-tw,王子
+地獄原,ja,地獄原
+地獄原,ja-Hrkt,じごくばる
+特養柞原の里前,ja,特養柞原の里前
+特養柞原の里前,ja-Hrkt,とくよういすはらのさとまえ
+特養柞原の里前,en,Tokuyo Isuhara no Sato Mae
+特養柞原の里前,ko,도쿠요이스하라노사토마에
+特養柞原の里前,zh-cn,特养柞原之里前
+特養柞原の里前,zh-tw,特養柞原之里前
+温水入口,en,Nukumi Iriguchi
+温水入口,ko,누쿠미이리구치
+温水入口,zh-cn,温水入口
+温水入口,zh-tw,溫水入口
+西大分駅前,ja,西大分駅前
+西大分駅前,ja-Hrkt,にしおおいたえきまえ
+魚町,ja,魚町
+魚町,ja-Hrkt,うおまち
+中央通り,ja,中央通り
+中央通り,ja-Hrkt,ﾁｭｳｵｳﾄﾞｵﾘ
+北中[大分市],ja,北中[大分市]
+北中[大分市],ja-Hrkt,きたじゅう
+関の江入口,ja,関の江入口
+関の江入口,ja-Hrkt,せきのえいりぐち
+宝泉寺,ja,宝泉寺
+宝泉寺,ja-Hrkt,ほうせんじ
+宝泉寺,en,Hosenji [Beppushi]
+宝泉寺,ko,호센지 [벳푸시]
+宝泉寺,zh-cn,宝泉寺［别府市］
+宝泉寺,zh-tw,寶泉寺［別府市］
+北中町南,ja,北中町南
+北中町南,ja-Hrkt,きたじゅうまちみなみ
+北中町南,en,Kitajumachi Minami
+北中町南,ko,기타주마치미나미
+北中町南,zh-cn,北中町南
+北中町南,zh-tw,北中町南
+志手,ja,志手
+志手,ja-Hrkt,して
+森山,ja,森山
+森山,ja-Hrkt,もりやま
+森山,en,Moriyama [Beppushi]
+森山,ko,모리야마 [벳푸시]
+森山,zh-cn,森山［别府市］
+森山,zh-tw,森山［別府市］
+田の浦,ja,田の浦
+田の浦,ja-Hrkt,たのうら
+田の浦,en,Tanoura
+田の浦,ko,다노우라
+田の浦,zh-cn,田之浦
+田の浦,zh-tw,田之浦
+下八幡,en,Shimo Yahata
+下八幡,ko,시모야하타
+下八幡,zh-cn,下八幡
+下八幡,zh-tw,下八幡
+APU,ja,APU
+APU,ja-Hrkt,えーぴーゆー
+にじが丘東公園前,en,Nijigaoka Higashi Koen Mae
+にじが丘東公園前,ko,니지가오카히가시코엔마에
+にじが丘東公園前,zh-cn,虹丘东公园前
+にじが丘東公園前,zh-tw,虹丘東公園前
+東生石,ja,東生石
+東生石,ja-Hrkt,ひがしいくし
+合同新聞社前,ja,合同新聞社前
+合同新聞社前,ja-Hrkt,ごうどうしんぶんしゃまえ
+合同新聞社前,en,Godo Shimbunsha Mae
+合同新聞社前,ko,고도신분샤마에
+合同新聞社前,zh-cn,合同新闻社前
+合同新聞社前,zh-tw,合同新聞社前
+王子南町,en,Oji Minamimachi
+王子南町,ko,오지미나미마치
+王子南町,zh-cn,王子南町
+王子南町,zh-tw,王子南町
+辻間団地入口,ja,辻間団地入口
+辻間団地入口,ja-Hrkt,つじまだんちいりぐち
+杵築インター,en,Kitsuki Inter Change
+杵築インター,ko,기쓰키 인터체인지
+杵築インター,zh-cn,杵筑交流道
+杵築インター,zh-tw,杵築交流道
+天村,en,Amamura
+天村,ko,아마무라
+天村,zh-cn,天村
+天村,zh-tw,天村
+吉弘神社前,en,Yoshihiro Jinja Mae
+吉弘神社前,ko,요시히로진자마에
+吉弘神社前,zh-cn,吉弘神社前
+吉弘神社前,zh-tw,吉弘神社前
+胡麻ヶ坂,en,Gomagasaka
+胡麻ヶ坂,ko,고마가사카
+胡麻ヶ坂,zh-cn,胡麻坂
+胡麻ヶ坂,zh-tw,胡麻坂
+上村,ja,上村
+上村,ja-Hrkt,うわむら
+上村,en,Uwamura [Oitashi]
+上村,ko,우와무라 [오이타시]
+上村,zh-cn,上村［大分市］
+上村,zh-tw,上村［大分市］
+王子中町,en,Oji Nakamachi
+王子中町,ko,오지나카마치
+王子中町,zh-cn,王子中町
+王子中町,zh-tw,王子中町
+黒津崎,ja,黒津崎
+黒津崎,ja-Hrkt,くろつざき
+高砂町,ja,高砂町
+高砂町,ja-Hrkt,たかさごまち
+団地東区,ja,団地東区
+団地東区,ja-Hrkt,だんちひがしく
+団地東区,en,Danchi Higashiku
+団地東区,ko,단치히가시쿠
+団地東区,zh-cn,团地东区
+団地東区,zh-tw,團地東區
+水家,ja,水家
+水家,ja-Hrkt,みずけ
+西大分駅前,en,Nishi Oita Eki Mae
+西大分駅前,ko,니시오이타에키마에
+西大分駅前,zh-cn,西大分站前
+西大分駅前,zh-tw,西大分站前
+三河入口,ja,三河入口
+三河入口,ja-Hrkt,みかわいりぐち
+三河入口,en,Mikawa Iriguchi
+三河入口,ko,미카와이리구치
+三河入口,zh-cn,三河入口
+三河入口,zh-tw,三河入口
+富士見六丁目,en,Fujimi 6 Chome
+富士見六丁目,ko,후지미로쿠초메
+富士見六丁目,zh-cn,富士见六丁目
+富士見六丁目,zh-tw,富士見六丁目
+県立図書館前,en,Kenritsu Toshokan Mae
+県立図書館前,ko,켄리쓰토쇼칸마에
+県立図書館前,zh-cn,县立图书馆前
+県立図書館前,zh-tw,縣立圖書館前
+東生石,en,Higashi Ikushi
+東生石,ko,히가시이쿠시
+東生石,zh-cn,东生石
+東生石,zh-tw,東生石
+駅前本町,en,Ekimae Hommachi
+駅前本町,ko,에키마에혼마치
+駅前本町,zh-cn,站前本町
+駅前本町,zh-tw,站前本町
+大分市美術館,ja,大分市美術館
+大分市美術館,ja-Hrkt,おおいたしびじゅつかん
+南春日町,ja,南春日町
+南春日町,ja-Hrkt,みなみかすがまち
+南春日町,en,Minami Kasugamachi
+南春日町,ko,미나미카스가마치
+南春日町,zh-cn,南春日町
+南春日町,zh-tw,南春日町
+南糸原,en,Minami Itoharu
+南糸原,ko,미나미이토하루
+南糸原,zh-cn,南糸原
+南糸原,zh-tw,南糸原
+佐伯コスモタウン前,ja,佐伯コスモタウン前
+佐伯コスモタウン前,ja-Hrkt,さいきこすもたうんまえ
+富士見三丁目,en,Fujimi 3 Chome
+富士見三丁目,ko,후지미산초메
+富士見三丁目,zh-cn,富士见三丁目
+富士見三丁目,zh-tw,富士見三丁目
+富士紡社宅前,en,Fujibo Shataku Mae
+富士紡社宅前,ko,후지보샤타쿠마에
+富士紡社宅前,zh-cn,富士纺社宅前
+富士紡社宅前,zh-tw,富士紡社宅前
+辻間団地,en,Tsujima Danchi
+辻間団地,ko,쓰지마단치
+辻間団地,zh-cn,辻间团地
+辻間団地,zh-tw,辻間團地
+志手,en,Shite
+志手,ko,시테
+志手,zh-cn,志手
+志手,zh-tw,志手
+大分市役所前,ja,大分市役所前
+大分市役所前,ja-Hrkt,おおいたしやくしょまえ
+大分市役所前,en,Oita City Hall
+大分市役所前,ko,오이타시야쿠쇼마에
+大分市役所前,zh-cn,大分市役所前
+大分市役所前,zh-tw,大分市役所前
+国東,en,Kunisaki
+国東,ko,구니사키
+国東,zh-cn,国东
+国東,zh-tw,國東
+関の江大交車庫前,en,Sekinoe Daiko Shako Mae
+関の江大交車庫前,ko,세키노에다이코샤코마에
+関の江大交車庫前,zh-cn,关之江大交车库前
+関の江大交車庫前,zh-tw,關之江大交車庫前
+新大内,en,Shin Ouchi
+新大内,ko,신오우치
+新大内,zh-cn,新大内
+新大内,zh-tw,新大內
+高尾台２丁目,en,Takaodai 2 Chome
+高尾台２丁目,ko,다카오다이니초메
+高尾台２丁目,zh-cn,高尾台２丁目
+高尾台２丁目,zh-tw,高尾台２丁目
+田室町,en,Tamuromachi
+田室町,ko,다무로마치
+田室町,zh-cn,田室町
+田室町,zh-tw,田室町
+辻間団地入口,en,Tsujima Danchi Iriguchi
+辻間団地入口,ko,쓰지마단치이리구치
+辻間団地入口,zh-cn,辻间团地入口
+辻間団地入口,zh-tw,辻間團地入口
+スパランド豊海入口,en,Spa Land Toyomi Iriguchi
+スパランド豊海入口,ko,스파랜드도요미이리구치
+スパランド豊海入口,zh-cn,ＳＰＡＬＡＮＤ丰海入口
+スパランド豊海入口,zh-tw,ＳＰＡＬＡＮＤ豐海入口
+水家,en,Mizuke
+水家,ko,미즈케
+水家,zh-cn,水家
+水家,zh-tw,水家
+杵築城入口,en,Kitsukijo Iriguchi
+杵築城入口,ko,기쓰키조이리구치
+杵築城入口,zh-cn,杵筑城入口
+杵築城入口,zh-tw,杵築城入口
+大分市美術館,en,Oitashi Bijutsukan
+大分市美術館,ko,오이타시비주쓰칸
+大分市美術館,zh-cn,大分市美术馆
+大分市美術館,zh-tw,大分市美術館
+グランドメルキュール別府湾前,ja,グランドメルキュール別府湾前
+グランドメルキュール別府湾前,ja-Hrkt,ぐらんどめるきゅーるべっぷわん前
+グランドメルキュール別府湾前,en,Grand Mercure Beppu Bay Mae
+グランドメルキュール別府湾前,ko,그랜드 머큐어 벳푸 만마에
+グランドメルキュール別府湾前,zh-cn,别府湾前美爵酒店
+グランドメルキュール別府湾前,zh-tw,別府灣前美爵酒店
+旭日小学校前,ja,旭日小学校前
+旭日小学校前,ja-Hrkt,あさひしょうがっこうまえ
+王子港町,en,Oji Minatomachi
+王子港町,ko,오지미나토마치
+王子港町,zh-cn,王子港町
+王子港町,zh-tw,王子港町
+杵築駅前,en,Kitsuki Eki Mae
+杵築駅前,ko,기쓰키에키마에
+杵築駅前,zh-cn,杵筑站前
+杵築駅前,zh-tw,杵築站前
+ｽｶｲﾀｳﾝ高崎入口,en,Sky Town Takasaki Iriguchi
+ｽｶｲﾀｳﾝ高崎入口,ko,스카이타운타카사키이리구치
+ｽｶｲﾀｳﾝ高崎入口,zh-cn,蓝天城高崎入口
+ｽｶｲﾀｳﾝ高崎入口,zh-tw,藍天城高崎入口
+関の江入口,en,Sekinoe Iriguchi
+関の江入口,ko,세키노에이리구치
+関の江入口,zh-cn,关之江入口
+関の江入口,zh-tw,關之江入口
+高崎４丁目,en,Takasaki 4 Chome
+高崎４丁目,ko,다카사키욘초메
+高崎４丁目,zh-cn,高崎４丁目
+高崎４丁目,zh-tw,高崎４丁目
+黒津崎,en,Kurotsuzaki
+黒津崎,ko,구로쓰자키
+黒津崎,zh-cn,黑津崎
+黒津崎,zh-tw,黑津崎
+花山団地前,en,Hanayama Danchi Mae
+花山団地前,ko,하나야마단치마에
+花山団地前,zh-cn,花山团地前
+花山団地前,zh-tw,花山團地前
+野田,en,Noda [Kitsukishi]
+野田,ko,노다 [기쓰키시]
+野田,zh-cn,野田［杵筑市］
+野田,zh-tw,野田［杵築市］
+立命館アジア太平洋大学,ja,立命館アジア太平洋大学
+立命館アジア太平洋大学,ja-Hrkt,えーぴーゆー
+立命館アジア太平洋大学,en,APU
+立命館アジア太平洋大学,ko,APU
+立命館アジア太平洋大学,zh-cn,ＡＰＵ
+立命館アジア太平洋大学,zh-tw,ＡＰＵ
+大手前,en,Ote Mae
+大手前,ko,오테마에
+大手前,zh-cn,大手前
+大手前,zh-tw,大手前
+昭和通り,en,Showa Dori
+昭和通り,ko,쇼와도리
+昭和通り,zh-cn,昭和通
+昭和通り,zh-tw,昭和通
+下糸原,ja,下糸原
+下糸原,ja-Hrkt,しもいとはる
+東大道2丁目,en,Higashiomichi 2 Chome
+東大道2丁目,ko,히가시오미치니초메
+東大道2丁目,zh-cn,东大道２丁目
+東大道2丁目,zh-tw,東大道２丁目
+高砂町,en,Takasagomachi
+高砂町,ko,다카사고마치
+高砂町,zh-cn,高砂町
+高砂町,zh-tw,高砂町
+堀塚,ja,堀塚
+堀塚,ja-Hrkt,ほりづか
+金谷迫公民館前,en,Kanayasako Kominkan Mae
+金谷迫公民館前,ko,가나야사코코민칸마에
+金谷迫公民館前,zh-cn,金谷迫公民馆前
+金谷迫公民館前,zh-tw,金谷迫公民館前
+合同庁舎稲荷前,en,Godo Chosha Inari Mae
+合同庁舎稲荷前,ko,고도초샤이나리마에
+合同庁舎稲荷前,zh-cn,合同厅舍稻荷前
+合同庁舎稲荷前,zh-tw,合同廳舍稻荷前
+下糸原,en,Shimo Itoharu
+下糸原,ko,시모이토하루
+下糸原,zh-cn,下糸原
+下糸原,zh-tw,下糸原
+豊岡小学校前,en,Toyooka Shogakko Mae
+豊岡小学校前,ko,도요오카쇼갓코마에
+豊岡小学校前,zh-cn,丰冈小学校前
+豊岡小学校前,zh-tw,豐岡小學校前
+大分駅上野の森口,ja,大分駅上野の森口
+大分駅上野の森口,ja-Hrkt,おおいたえきうえののもりぐち
+大分駅上野の森口,en,Oita Eki [Ueno no Moriguchi]
+大分駅上野の森口,ko,오이타에키 [우에노노모리구치]
+大分駅上野の森口,zh-cn,大分站［上野之森口］
+大分駅上野の森口,zh-tw,大分站［上野之森口］
+旭日小学校前,en,Asahi Shogakko Mae
+旭日小学校前,ko,아사히쇼갓코마에
+旭日小学校前,zh-cn,旭日小学校前
+旭日小学校前,zh-tw,旭日小學校前
+魚町,en,Uomachi
+魚町,ko,우오마치
+魚町,zh-cn,鱼町
+魚町,zh-tw,魚町
+竹町赤レンガ通り,ja,竹町赤レンガ通り
+竹町赤レンガ通り,ja-Hrkt,たけまちあかれんがどおり
+竹町赤レンガ通り,en,Takemachi Akarenga Dori
+竹町赤レンガ通り,ko,다케마치아카렌가도리
+竹町赤レンガ通り,zh-cn,竹町红砖通
+竹町赤レンガ通り,zh-tw,竹町紅磚通
+上金谷迫,en,Kami Kanayasako
+上金谷迫,ko,가미카나야사코
+上金谷迫,zh-cn,上金谷迫
+上金谷迫,zh-tw,上金谷迫
+是城,en,Koreshiro
+是城,ko,고레시로
+是城,zh-cn,是城
+是城,zh-tw,是城
+森入口,en,Mori Iriguchi
+森入口,ko,모리이리구치
+森入口,zh-cn,森入口
+森入口,zh-tw,森入口
+西部公民館入口,en,Seibu Kominkan Iriguchi
+西部公民館入口,ko,세이부코민칸이리구치
+西部公民館入口,zh-cn,西部公民馆入口
+西部公民館入口,zh-tw,西部公民館入口
+堀塚,en,Horizuka
+堀塚,ko,호리즈카
+堀塚,zh-cn,堀冢
+堀塚,zh-tw,堀塚
+柑橘試験場前,en,Kankitsu Shikenjo Mae
+柑橘試験場前,ko,간키쓰시켄조마에
+柑橘試験場前,zh-cn,柑橘试验场前
+柑橘試験場前,zh-tw,柑橘試驗場前
+別府郵便局前,en,Beppu Yubinkyoku Mae
+別府郵便局前,ko,벳푸유빈쿄쿠마에
+別府郵便局前,zh-cn,别府邮局前
+別府郵便局前,zh-tw,別府郵局前
+観光港,ja,観光港
+観光港,ja-Hrkt,かんこうこう
+観光港,en,Kankoko(To Oita Airport・Tonkatsu Tei Side)
+観光港,ko,간코항(오이타 공항・돈카츠테이 옆)
+観光港,zh-cn,觀光港(大分机场线・Tonkatsu Tei[Route10])
+観光港,zh-tw,观光港(大分機場線・Tonkatsu Tei[Route10])
+トキハフォーラス前,ja,トキハフォーラス前
+トキハフォーラス前,ja-Hrkt,ちゅうおうどおり
+トキハフォーラス前,en,Chuo Dori ⑥[Oita Bus/Oita Kotsu]
+トキハフォーラス前,ko,추오도리⑥ [오이타버스/오이타코쓰]
+トキハフォーラス前,zh-cn,中央通⑥［大分巴士/大分交通］
+トキハフォーラス前,zh-tw,中央通⑥［大分巴士/大分交通］
+銀座街入口,ja,銀座街入口
+銀座街入口,ja-Hrkt,べっぷきたはま
+銀座街入口,en,Beppu Kitahama(Ginzagai Iriguchi)
+銀座街入口,ko,벳푸키타하마 [긴자가이이리구치]
+銀座街入口,zh-cn,别府北滨［银座街入口］
+銀座街入口,zh-tw,別府北濱［銀座街入口］
+大分交通,ja,大分交通
+大分交通,ja-Hrkt,オオイタコウツウ
+大分交通,en,Oita Kotsu
+大分交通,ko,오이타코쓰
+大分交通,zh-cn,大分交通
+大分交通,zh-tw,大分交通
+鉄輪線,ja,鉄輪線
+鉄輪線,en,Kannawa Line
+鉄輪線,zh-cn,铁轮线
+鉄輪線,zh-tw,鐵輪線
+鉄輪線,ko,철륜선
+別大線,ja,別大線
+別大線,en,Betsudai Line
+別大線,zh-cn,别大线
+別大線,zh-tw,別大線
+別大線,ko,별대선
+下八幡線,ja,下八幡線
+下八幡線,en,Shimohachiman Line
+下八幡線,zh-cn,下八幡线
+下八幡線,zh-tw,下八幡線
+下八幡線,ko,시모하치만선
+県立図書館線,ja,県立図書館線
+県立図書館線,en,Prefectural library line
+県立図書館線,zh-cn,县立图书馆线
+県立図書館線,zh-tw,縣立圖書館線
+県立図書館線,ko,현립 도서관선
+大分空港線（エアライナー）,ja,大分空港線（エアライナー）
+大分空港線（エアライナー）,en,Oita Airport Line (airliner)
+大分空港線（エアライナー）,zh-cn,大分机场线（班机）
+大分空港線（エアライナー）,zh-tw,大分機場線（班機）
+大分空港線（エアライナー）,ko,오이타공항선(에어라이너)
+鶴見ヶ丘線,ja,鶴見ヶ丘線
+鶴見ヶ丘線,en,Tsurumigaoka Line
+鶴見ヶ丘線,zh-cn,鹤见丘线
+鶴見ヶ丘線,zh-tw,鶴見丘線
+鶴見ヶ丘線,ko,쓰루미가오카선
+辻間団地線,ja,辻間団地線
+辻間団地線,en,Tsujima Danchi Line
+辻間団地線,zh-cn,辻間团地线
+辻間団地線,zh-tw,辻間團地線
+辻間団地線,ko,츠지마 단지선
+青葉台線,ja,青葉台線
+青葉台線,en,Aobadai Line
+青葉台線,zh-cn,青葉台线
+青葉台線,zh-tw,青葉台線
+青葉台線,ko,아오바 대선
+APU線,ja,APU線
+APU線,en,APU line
+APU線,zh-cn,APU线
+APU線,zh-tw,APU線
+APU線,ko,APU 라인
+国中スクール線,ja,国中スクール線
+国中スクール線,en,Kunichu School Line
+国中スクール線,zh-cn,国中学校线
+国中スクール線,zh-tw,國中學校線
+国中スクール線,ko,국중 스쿨 라인
+柞原線,ja,柞原線
+柞原線,en,Isuhara Line
+柞原線,zh-cn,柞原线
+柞原線,zh-tw,柞原線
+柞原線,ko,이스하라 선
+国大線,ja,国大線
+国大線,en,Kokudai Line
+国大線,zh-cn,国大线
+国大線,zh-tw,國大線
+国大線,ko,국대선
+5号地線,ja,5号地線
+5号地線,en,Route 5
+5号地線,zh-cn,5号公路
+5号地線,zh-tw,5號公路
+5号地線,ko,5호 지선
+机張原線,ja,机張原線
+机張原線,en,Kityoubaru line
+机張原線,zh-cn,机张原线
+机張原線,zh-tw,机張原線
+机張原線,ko,책상하라선
+関の江団地線,ja,関の江団地線
+関の江団地線,en,Sekinoe housing complex line
+関の江団地線,zh-cn,关江住宅小区线
+関の江団地線,zh-tw,關江住宅小區線
+関の江団地線,ko,세키노에 단지선
+国杵線,ja,国杵線
+国杵線,en,Kuniki Line
+国杵線,zh-cn,国杵线
+国杵線,zh-tw,國杵線
+国杵線,ko,쿠니기선
+スカイタウン高崎線,ja,スカイタウン高崎線
+スカイタウン高崎線,en,Sky Town Takasaki Line
+スカイタウン高崎線,zh-cn,天空城高崎线
+スカイタウン高崎線,zh-tw,天空城高崎線
+スカイタウン高崎線,ko,스카이타운 다카사키선
+大分空港線（湯布院ライナー）,ja,大分空港線（湯布院ライナー）
+大分空港線（湯布院ライナー）,en,Oita Airport Line (Yufuin Liner)
+大分空港線（湯布院ライナー）,zh-cn,大分机场线（汤布院线）
+大分空港線（湯布院ライナー）,zh-tw,大分機場線（湯布院線）
+大分空港線（湯布院ライナー）,ko,오이타 공항선(유후인 라이너)
+大分西中スクール線,ja,大分西中スクール線
+大分西中スクール線,en,Oita Nishichu School Line
+大分西中スクール線,zh-cn,大分西中学校线
+大分西中スクール線,zh-tw,大分西中學校線
+大分西中スクール線,ko,오이타 니시나카 스쿨 라인
+大分きゃんバス,ja,大分きゃんバス
+大分きゃんバス,en,Oita Kyan Bus
+大分きゃんバス,zh-cn,大分中心市街地循环巴士
+大分きゃんバス,zh-tw,大分中心市街地循環巴士
+大分きゃんバス,ko,오이타 짱 버스
+フェリーさんふらわあ前,ja,フェリーさんふらわあ前
+フェリーさんふらわあ前,ja-Hrkt,さんふらわあまえ
+フェリーさんふらわあ前,en,Beppu Kokusai Kankoko
+フェリーさんふらわあ前,ko,벳푸코쿠사이칸코항
+フェリーさんふらわあ前,zh-cn,别府国际观光港
+フェリーさんふらわあ前,zh-tw,別府國際觀光港
+さんふらわあターミナル別府前,ja,さんふらわあターミナル別府前
+さんふらわあターミナル別府前,ja-Hrkt,さんふらわあたーみなるべっぷえき
+さんふらわあターミナル別府前,en,Ferry Sunflower Terminal Beppu-mae
+さんふらわあターミナル別府前,ko,페리씨 후라와아 터미널 벳푸 앞
+さんふらわあターミナル別府前,zh-cn,輪渡Sunflower碼頭別府前
+さんふらわあターミナル別府前,zh-tw,轮渡Sunflower码头别府前
+ホーバーターミナル,ja,ホーバーターミナル
+ホーバーターミナル,ja-Hrkt,ホーバーターミナル
+ホーバーターミナル,en,Hover Terminal
+ホーバーターミナル,zh-cn,悬停终端
+ホーバーターミナル,zh-tw,懸停終端
+ホーバーターミナル,ko,호버 터미널
+ホーバーシャトルバス,ja,ホーバーシャトルバス
+ホーバーシャトルバス,en,Hover Shuttle Bus
+ホーバーシャトルバス,zh-cn,悬浮巴士
+ホーバーシャトルバス,zh-tw,懸浮巴士
+ホーバーシャトルバス,ko,호버 셔틀 버스
+ハーモニーランド,ja,ハーモニーランド
+ハーモニーランド,ja-Hrkt,ハーモニーランド
+ハーモニーランド,en,Harmonyland
+ハーモニーランド,zh-cn,和谐乐园
+ハーモニーランド,zh-tw,和諧樂園
+ハーモニーランド,ko,하모니랜드
+ハーモニーライナー,ja,ハーモニーライナー
+ハーモニーライナー,en,Harmony Liner
+ハーモニーライナー,zh-cn,和谐快线
+ハーモニーライナー,zh-tw,和諧快線
+ハーモニーライナー,ko,하모니 라이너

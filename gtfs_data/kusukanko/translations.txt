@@ -1,0 +1,913 @@
+﻿trans_id,lang,translation
+宇曽,ja,宇曽
+宇曽,zh-cn,宇曽
+宇曽,zh-tw,宇曽
+宇曽,ko,우소
+宇曽,ja-Hrkt,ｳｿ
+宇曽,en,Uso
+童話碑入口,ja,童話碑入口
+童話碑入口,zh-cn,童话碑入口
+童話碑入口,zh-tw,童話碑入口
+童話碑入口,ko,동화비 입구
+童話碑入口,ja-Hrkt,ﾄﾞｳﾜﾋｲﾘｸﾞﾁ
+童話碑入口,en,Douwahiiriguchi
+宝泉寺温泉入口,ja,宝泉寺温泉入口
+宝泉寺温泉入口,zh-cn,宝泉寺温泉入口
+宝泉寺温泉入口,zh-tw,宝泉寺溫泉入口
+宝泉寺温泉入口,ko,호센지 온천 입구
+宝泉寺温泉入口,ja-Hrkt,ﾎｳｾﾝｼﾞｵﾝｾﾝｲﾘｸﾞﾁ
+宝泉寺温泉入口,en,Housenjionseniriguchi
+上長野,ja,上長野
+上長野,zh-cn,上长野
+上長野,zh-tw,上長野
+上長野,ko,가미나가노
+上長野,ja-Hrkt,ｶﾐﾅｶﾞﾉ
+上長野,en,Kaminagano
+中野,ja,中野
+中野,zh-cn,中野
+中野,zh-tw,中野
+中野,ko,나카노
+中野,ja-Hrkt,ﾅｶﾉ
+中野,en,Nakano
+平井入口,ja,平井入口
+平井入口,zh-cn,平井入口
+平井入口,zh-tw,平井入口
+平井入口,ko,히라이 입구
+平井入口,ja-Hrkt,ﾋﾗｲｲﾘｸﾞﾁ
+平井入口,en,Hiraiiriguchi
+塚脇本町,ja,塚脇本町
+塚脇本町,zh-cn,冢胁本町
+塚脇本町,zh-tw,塚脅本町
+塚脇本町,ko,츠카와키 혼마치
+塚脇本町,ja-Hrkt,ﾂｶﾜｷﾎﾝﾏﾁ
+塚脇本町,en,Tsukawaki Honmachi
+二瀬,ja,二瀬
+二瀬,zh-cn,二濑
+二瀬,zh-tw,二瀨
+二瀬,ko,니세
+二瀬,ja-Hrkt,ﾌﾀｾ
+二瀬,en,Futase
+森横町,ja,森横町
+森横町,zh-cn,森横町
+森横町,zh-tw,森横町
+森横町,ko,모리요코초
+森横町,ja-Hrkt,ﾓﾘﾖｺﾏﾁ
+森横町,en,MoriYokomachi
+上村,ja,上村
+上村,zh-cn,上村
+上村,zh-tw,上村
+上村,ko,우에무라
+上村,ja-Hrkt,ｳｴﾑﾗ
+上村,en,Uemura
+伏原,ja,伏原
+伏原,zh-cn,伏原
+伏原,zh-tw,伏原
+伏原,ko,후시하라
+伏原,ja-Hrkt,ﾌｼﾊﾗ
+伏原,en,Fushihara
+耶馬渓平原,ja,耶馬渓平原
+耶馬渓平原,zh-cn,耶马溪平原
+耶馬渓平原,zh-tw,耶馬溪平原
+耶馬渓平原,ko,야마케이 평원
+耶馬渓平原,ja-Hrkt,ﾔﾊﾞｹｲﾋﾗﾊﾞﾙ
+耶馬渓平原,en,Yabakei Hirabaru
+竹の弦,ja,竹の弦
+竹の弦,zh-cn,竹之弦
+竹の弦,zh-tw,竹之弦
+竹の弦,ko,대나무 현
+竹の弦,ja-Hrkt,ﾀｹﾉﾂﾙ
+竹の弦,en,Takenotsuru
+下長野,ja,下長野
+下長野,zh-cn,下长野
+下長野,zh-tw,下長野
+下長野,ko,시모나가노
+下長野,ja-Hrkt,ｼﾓﾅｶﾞﾉ
+下長野,en,Shimonagano
+耶馬渓温泉センター,ja,耶馬渓温泉センター
+耶馬渓温泉センター,zh-cn,耶马溪温泉中心
+耶馬渓温泉センター,zh-tw,耶馬溪溫泉中心
+耶馬渓温泉センター,ko,야마케이 온천 센터
+耶馬渓温泉センター,ja-Hrkt,ﾔﾊﾞｹｲｵﾝｾﾝｾﾝﾀｰ
+耶馬渓温泉センター,en,Yabakei onsen Center
+串野温泉前,ja,串野温泉前
+串野温泉前,zh-cn,串野温泉前
+串野温泉前,zh-tw,串野溫泉前
+串野温泉前,ko,쿠시노 온센마에
+串野温泉前,ja-Hrkt,ｸｼﾉｵﾝｾﾝﾏｴ
+串野温泉前,en,Kushino Onsen mae
+下綾垣,ja,下綾垣
+下綾垣,zh-cn,下綾垣
+下綾垣,zh-tw,下綾垣
+下綾垣,ko,시모 아야가키
+下綾垣,ja-Hrkt,ｼﾓｱﾔｶﾞｷ
+下綾垣,en,Shimoyagaki
+川底温泉,ja,川底温泉
+川底温泉,zh-cn,川底温泉
+川底温泉,zh-tw,川底溫泉
+川底温泉,ko,가와바타 온천
+川底温泉,ja-Hrkt,ｶﾜｿｺｵﾝｾﾝ
+川底温泉,en,Kawasokoonsen
+玖珠警察署前,ja,玖珠警察署前
+玖珠警察署前,zh-cn,玖珠警察署前
+玖珠警察署前,zh-tw,玖珠警察署前
+玖珠警察署前,ko,구주 경찰서 앞
+玖珠警察署前,ja-Hrkt,ｸｽｹｲｻﾂｼｮﾏｴ
+玖珠警察署前,en,Kusukeisatsusho Mae
+白地,ja,白地
+白地,zh-cn,白地
+白地,zh-tw,白地
+白地,ko,흰색 배경
+白地,ja-Hrkt,ｼﾗｼﾞ
+白地,en,Shiraji
+園部,ja,園部
+園部,zh-cn,园部
+園部,zh-tw,園部
+園部,ko,원부
+園部,ja-Hrkt,ｿﾉﾍﾞ
+園部,en,Sonobe
+須山,ja,須山
+須山,zh-cn,须山
+須山,zh-tw,須山
+須山,ko,스야마
+須山,ja-Hrkt,ｽﾔﾏ
+須山,en,Suyama
+平松,ja,平松
+平松,zh-cn,平松
+平松,zh-tw,平松
+平松,ko,히라마츠
+平松,ja-Hrkt,ﾋﾗﾏﾂ
+平松,en,Hiramatsu
+秋満前,ja,秋満前
+秋満前,zh-cn,秋満前
+秋満前,zh-tw,秋満前
+秋満前,ko,아키만전
+秋満前,ja-Hrkt,ｱｷﾐﾂﾏｴ
+秋満前,en,Akimitsu mae
+麻生釣,ja,麻生釣
+麻生釣,zh-cn,麻生钓
+麻生釣,zh-tw,麻生釣
+麻生釣,ko,아소 어업
+麻生釣,ja-Hrkt,ｱｿｳﾂﾞﾙ
+麻生釣,en,Asouzuru
+山下,ja,山下
+山下,zh-cn,山下
+山下,zh-tw,山下
+山下,ko,야마시타
+山下,ja-Hrkt,ﾔﾏｼﾀ
+山下,en,Yamashita
+深耶馬溪温泉,ja,深耶馬溪温泉
+深耶馬溪温泉,zh-cn,深耶马溪温泉
+深耶馬溪温泉,zh-tw,深耶馬溪溫泉
+深耶馬溪温泉,ko,후카야마 온천
+深耶馬溪温泉,ja-Hrkt,ｼﾝﾔﾊﾞｹｲｵﾝｾﾝ
+深耶馬溪温泉,en,Shinyabakeionsen
+富迫,ja,富迫
+富迫,zh-cn,富迫
+富迫,zh-tw,富迫
+富迫,ko,부박
+富迫,ja-Hrkt,ﾄﾐｻｺ
+富迫,en,Tomisako
+池の尾,ja,池の尾
+池の尾,zh-cn,池之尾
+池の尾,zh-tw,池之尾
+池の尾,ko,연못의 꼬리
+池の尾,ja-Hrkt,ｲｹﾉｵ
+池の尾,en,Ikenoo
+牧口,ja,牧口
+牧口,zh-cn,牧口
+牧口,zh-tw,牧口
+牧口,ko,목구
+牧口,ja-Hrkt,ﾏｷｸﾞﾁ
+牧口,en,Makiguchi
+豊後森,ja,豊後森
+豊後森,zh-cn,丰后森
+豊後森,zh-tw,豐後森
+豊後森,ko,분고 숲
+豊後森,ja-Hrkt,ﾌﾞﾝｺﾞﾓﾘ
+豊後森,en,Bungomori
+田平,ja,田平
+田平,zh-cn,田平
+田平,zh-tw,田平
+田平,ko,타히라
+田平,ja-Hrkt,ﾀﾋﾞﾗ
+田平,en,Tabira
+塚脇,ja,塚脇
+塚脇,zh-cn,冢胁
+塚脇,zh-tw,塚脅
+塚脇,ko,츠카와키
+塚脇,ja-Hrkt,ﾂｶﾜｷ
+塚脇,en,Tsukawaki
+菅原,ja,菅原
+菅原,zh-cn,菅原
+菅原,zh-tw,菅原
+菅原,ko,스가와라
+菅原,ja-Hrkt,ｽｶﾞﾜﾗ
+菅原,en,Sugawara
+中原,ja,中原
+中原,zh-cn,中原
+中原,zh-tw,中原
+中原,ko,나카하라
+中原,ja-Hrkt,ﾅｶﾊﾞﾙ
+中原,en,Nakabaru
+串野,ja,串野
+串野,zh-cn,串野
+串野,zh-tw,串野
+串野,ko,쿠시노
+串野,ja-Hrkt,ｸｼﾉ
+串野,en,kushino
+笹掛地蔵尊前,ja,笹掛地蔵尊前
+笹掛地蔵尊前,zh-cn,笹挂地藏尊前
+笹掛地蔵尊前,zh-tw,笹挂地藏尊前
+笹掛地蔵尊前,ko,사사카케 지조존마에
+笹掛地蔵尊前,ja-Hrkt,ｻｻｶｹｼﾞｿﾞｳｿﾝﾏｴ
+笹掛地蔵尊前,en,Sasakakejizouson mae
+耶馬渓中学校前,ja,耶馬渓中学校前
+耶馬渓中学校前,zh-cn,耶马溪中学前
+耶馬渓中学校前,zh-tw,耶馬溪中學前
+耶馬渓中学校前,ko,야마계 중학교 앞
+耶馬渓中学校前,ja-Hrkt,ﾔﾊﾞｹｲﾁｭｳｶﾞｯｺｳﾏｴ
+耶馬渓中学校前,en,Yabakeichugakko mae
+長野,ja,長野
+長野,zh-cn,长野
+長野,zh-tw,長野
+長野,ko,나가노
+長野,ja-Hrkt,ﾅｶﾞﾉ
+長野,en,Nagano
+寺山,ja,寺山
+寺山,zh-cn,寺山
+寺山,zh-tw,寺山
+寺山,ko,테라야마
+寺山,ja-Hrkt,ﾃﾗﾔﾏ
+寺山,en,Terayama
+栄町,ja,栄町
+栄町,zh-cn,荣町
+栄町,zh-tw,榮町
+栄町,ko,사카에마치
+栄町,ja-Hrkt,ｻｶｴﾏﾁ
+栄町,en,Sakaemachi
+引治,ja,引治
+引治,zh-cn,引治
+引治,zh-tw,引治
+引治,ko,인치
+引治,ja-Hrkt,ﾋｷｼﾞ
+引治,en,Hikiji
+深耶馬渓駐車場前,ja,深耶馬渓駐車場前
+深耶馬渓駐車場前,zh-cn,深耶马溪停车场前
+深耶馬渓駐車場前,zh-tw,深耶馬溪停車場前
+深耶馬渓駐車場前,ko,후카야마케이 주차장 앞
+深耶馬渓駐車場前,ja-Hrkt,ｼﾝﾔﾊﾞｹｲﾁｭｳｼｬｼﾞｮｳﾏｴ
+深耶馬渓駐車場前,en,Shinyabakei chushajo mae
+上の市,ja,上の市
+上の市,zh-cn,上之市
+上の市,zh-tw,上之市
+上の市,ko,위 도시
+上の市,ja-Hrkt,ｶﾐﾉｲﾁ
+上の市,en,Kaminoichi
+大隈,ja,大隈
+大隈,zh-cn,大隈
+大隈,zh-tw,大隈
+大隈,ko,오쿠마
+大隈,ja-Hrkt,ｵｵｸﾏ
+大隈,en,Okuma
+串野下,ja,串野下
+串野下,zh-cn,串野下
+串野下,zh-tw,串野下
+串野下,ko,쿠시노시타
+串野下,ja-Hrkt,ｸｼﾉｼﾀ
+串野下,en,kushinoshita
+持田,ja,持田
+持田,zh-cn,持田
+持田,zh-tw,持田
+持田,ko,모치다
+持田,ja-Hrkt,ﾓﾁﾀﾞ
+持田,en,Mochida
+長田,ja,長田
+長田,zh-cn,长田
+長田,zh-tw,長田
+長田,ko,나가타
+長田,ja-Hrkt,ﾁｮｳﾀﾞ
+長田,en,Chouda
+平原入口,ja,平原入口
+平原入口,zh-cn,平原入口
+平原入口,zh-tw,平原入口
+平原入口,ko,평원 입구
+平原入口,ja-Hrkt,ﾋﾗﾊﾞﾙｲﾘｸﾞﾁ
+平原入口,en,Hirabaru Iriguchi
+森本町,ja,森本町
+森本町,zh-cn,森本町
+森本町,zh-tw,森本町
+森本町,ko,모리모토초
+森本町,ja-Hrkt,ﾓﾘﾎﾝﾏﾁ
+森本町,en,Morihonmachi
+西入口,ja,西入口
+西入口,zh-cn,西入口
+西入口,zh-tw,西入口
+西入口,ko,서쪽 입구
+西入口,ja-Hrkt,ﾆｼｲﾘｸﾞﾁ
+西入口,en,Nishiiriguchi
+サンホール前,ja,サンホール前
+サンホール前,zh-cn,sun hall前
+サンホール前,zh-tw,sun hall前
+サンホール前,ko,선홀 앞
+サンホール前,ja-Hrkt,ｻﾝﾎｰﾙﾏｴ
+サンホール前,en,sun hall mae
+東入口,ja,東入口
+東入口,zh-cn,东入口
+東入口,zh-tw,東入口
+東入口,ko,동쪽 입구
+東入口,ja-Hrkt,ﾋｶﾞｼｲﾘｸﾞﾁ
+東入口,en,Higashiiriguchi
+松信,ja,松信
+松信,zh-cn,松信
+松信,zh-tw,松信
+松信,ko,마츠노부
+松信,ja-Hrkt,ﾏﾂﾋﾞﾗ
+松信,en,Matsubira
+長小野入口,ja,長小野入口
+長小野入口,zh-cn,长小野入口
+長小野入口,zh-tw,長小野入口
+長小野入口,ko,나가오노 입구
+長小野入口,ja-Hrkt,ﾅｶﾞｵﾉｲﾘｸﾞﾁ
+長小野入口,en,Nagaonoiriguchi
+鹿倉,ja,鹿倉
+鹿倉,zh-cn,鹿仓
+鹿倉,zh-tw,鹿倉
+鹿倉,ko,가쿠라
+鹿倉,ja-Hrkt,ｶｸﾗ
+鹿倉,en,Kakura
+中原入口,ja,中原入口
+中原入口,zh-cn,中原入口
+中原入口,zh-tw,中原入口
+中原入口,ko,나카하라 입구
+中原入口,ja-Hrkt,ﾅｶﾊﾞﾙｲﾘｸﾞﾁ
+中原入口,en,Nakabaru Iriguchi
+中摩,ja,中摩
+中摩,zh-cn,中摩
+中摩,zh-tw,中摩
+中摩,ko,나카마
+中摩,ja-Hrkt,ﾅｶﾏ
+中摩,en,Nakama
+朝陽橋,ja,朝陽橋
+朝陽橋,zh-cn,朝阳桥
+朝陽橋,zh-tw,朝陽橋
+朝陽橋,ko,아사히바시
+朝陽橋,ja-Hrkt,ｱｻﾋﾊﾞｼ
+朝陽橋,en,Asahibashi
+上桐木,ja,上桐木
+上桐木,zh-cn,上桐木
+上桐木,zh-tw,上桐木
+上桐木,ko,카미 키리
+上桐木,ja-Hrkt,ｶﾐｷﾙｷﾞ
+上桐木,en,Kamikirugi
+元畑入口,ja,元畑入口
+元畑入口,zh-cn,元畑入口
+元畑入口,zh-tw,元畑入口
+元畑入口,ko,모토하타 입구
+元畑入口,ja-Hrkt,ﾓﾄﾊﾞﾀｲﾘｸﾞﾁ
+元畑入口,en,Motobatairiguchi
+南山田小学校前,ja,南山田小学校前
+南山田小学校前,zh-cn,南山田小学校前
+南山田小学校前,zh-tw,南山田小學校前
+南山田小学校前,ko,미나미야마다 초등학교 앞
+南山田小学校前,ja-Hrkt,ﾐﾅﾐﾔﾏﾀﾞｼｮｳｶﾞｯｺｳﾏｴ
+南山田小学校前,en,MinamiYamadashogakko mae
+町田,ja,町田
+町田,zh-cn,町田
+町田,zh-tw,町田
+町田,ko,마치다
+町田,ja-Hrkt,ﾏﾁﾀﾞ
+町田,en,Machida
+鶴ケ原,ja,鶴ケ原
+鶴ケ原,zh-cn,鹤原
+鶴ケ原,zh-tw,鶴原
+鶴ケ原,ko,쓰루가하라
+鶴ケ原,ja-Hrkt,ﾂﾙｶﾞﾊﾗ
+鶴ケ原,en,Tsurugahara
+十文字,ja,十文字
+十文字,zh-cn,十文字
+十文字,zh-tw,十文字
+十文字,ko,십자
+十文字,ja-Hrkt,ｼﾞｭｳﾓﾝｼﾞ
+十文字,en,jumonji
+梶原,ja,梶原
+梶原,zh-cn,梶原
+梶原,zh-tw,梶原
+梶原,ko,카지하라
+梶原,ja-Hrkt,ｶｼﾞﾜﾗ
+梶原,en,Kajiwara
+潜石,ja,潜石
+潜石,zh-cn,潜石
+潜石,zh-tw,潛石
+潜石,ko,잠석
+潜石,ja-Hrkt,ｸｸﾞﾘｲｼ
+潜石,en,kuguriishi
+南山田交流センター,ja,南山田交流センター
+南山田交流センター,zh-cn,南山田交流中心
+南山田交流センター,zh-tw,南山田交流中心
+南山田交流センター,ko,미나미야마다 교류 센터
+南山田交流センター,ja-Hrkt,ﾐﾅﾐﾔﾏﾀﾞｺｳﾘｭｳｾﾝﾀｰ
+南山田交流センター,en,MinamiYamada Koryu Center
+柚の木,ja,柚の木
+柚の木,zh-cn,柚之木
+柚の木,zh-tw,柚之木
+柚の木,ko,유나무
+柚の木,ja-Hrkt,ﾕﾉｷ
+柚の木,en,yunoki
+太田,ja,太田
+太田,zh-cn,太田
+太田,zh-tw,太田
+太田,ko,오타
+太田,ja-Hrkt,ｵｵﾀ
+太田,en,Ota
+耶馬渓支所前,ja,耶馬渓支所前
+耶馬渓支所前,zh-cn,耶马溪店前
+耶馬渓支所前,zh-tw,耶馬溪店前
+耶馬渓支所前,ko,야마계지소 앞
+耶馬渓支所前,ja-Hrkt,ﾔﾊﾞｹｲｼｼｮﾏｴ
+耶馬渓支所前,en,Yabakeishisho mae
+下津留,ja,下津留
+下津留,zh-cn,下津留
+下津留,zh-tw,下津留
+下津留,ko,시모쓰루
+下津留,ja-Hrkt,ｼﾓﾂﾞﾙ
+下津留,en,Shimozuru
+熊谷医院前,ja,熊谷医院前
+熊谷医院前,zh-cn,熊谷诊所前
+熊谷医院前,zh-tw,熊谷診所前
+熊谷医院前,ko,구마가야 의원 앞
+熊谷医院前,ja-Hrkt,ｸﾏｶﾞﾔｲｲﾝﾏｴ
+熊谷医院前,en,Kumagaya Iin mae
+二葉町,ja,二葉町
+二葉町,zh-cn,二叶町
+二葉町,zh-tw,二葉町
+二葉町,ko,후타바초
+二葉町,ja-Hrkt,ﾌﾀﾊﾞﾁｮｳ
+二葉町,en,Futabacho
+森中央小学校前,ja,森中央小学校前
+森中央小学校前,zh-cn,森中央小学校前
+森中央小学校前,zh-tw,森中央小學校前
+森中央小学校前,ko,모리 주오 초등학교 앞
+森中央小学校前,ja-Hrkt,ﾓﾘﾁｭｳｵｳｼｮｳｶﾞｯｺｳﾏｴ
+森中央小学校前,en,Morichuuoushogakko mae
+本村,ja,本村
+本村,zh-cn,本村
+本村,zh-tw,本村
+本村,ko,혼무라
+本村,ja-Hrkt,ﾎﾝﾑﾗ
+本村,en,Honmura
+物部,ja,物部
+物部,zh-cn,物部
+物部,zh-tw,物部
+物部,ko,물건
+物部,ja-Hrkt,ﾓﾉﾍﾞ
+物部,en,Monobe
+平原,ja,平原
+平原,zh-cn,平原
+平原,zh-tw,平原
+平原,ko,평원
+平原,ja-Hrkt,ﾋﾗﾊﾞﾙ
+平原,en,Hirabaru
+池の原,ja,池の原
+池の原,zh-cn,池之原
+池の原,zh-tw,池之原
+池の原,ko,이케하라
+池の原,ja-Hrkt,ｲｹﾉﾊﾙ
+池の原,en,Ikenoharu
+馬勢入口,ja,馬勢入口
+馬勢入口,zh-cn,马勢入口
+馬勢入口,zh-tw,馬勢入口
+馬勢入口,ko,마세 입구
+馬勢入口,ja-Hrkt,ﾏｾﾞｲﾘｸﾞﾁ
+馬勢入口,en,Mazeiriguchi
+綾垣丸塚,ja,綾垣丸塚
+綾垣丸塚,zh-cn,綾垣丸塚
+綾垣丸塚,zh-tw,綾垣丸塚
+綾垣丸塚,ko,아야가키 마루즈카
+綾垣丸塚,ja-Hrkt,ｱﾔｶﾞｷﾏﾙﾂﾞｶ
+綾垣丸塚,en,Ayagakimaruzuka
+生竜,ja,生竜
+生竜,zh-cn,生龙
+生竜,zh-tw,生龍
+生竜,ko,생룡
+生竜,ja-Hrkt,ｲｷﾘｭｳ
+生竜,en,Ikiryuu
+上鴫良,ja,上鴫良
+上鴫良,zh-cn,上鴫良
+上鴫良,zh-tw,上鴫良
+上鴫良,ko,上鴫良
+上鴫良,ja-Hrkt,ｶﾐｼｷﾞﾗ
+上鴫良,en,Kamishigira
+粟野,ja,粟野
+粟野,zh-cn,粟野
+粟野,zh-tw,粟野
+粟野,ko,아와노
+粟野,ja-Hrkt,ｱﾜﾉ
+粟野,en,Awano
+玖珠自衛隊入口,ja,玖珠自衛隊入口
+玖珠自衛隊入口,zh-cn,玖珠自卫队入口
+玖珠自衛隊入口,zh-tw,玖珠自衛隊入口
+玖珠自衛隊入口,ko,구주 자위대 입구
+玖珠自衛隊入口,ja-Hrkt,ｸｽｼﾞｴｲﾀｲｲﾘｸﾞﾁ
+玖珠自衛隊入口,en,Kusujieitai Iriguchi
+壁湯,ja,壁湯
+壁湯,zh-cn,壁湯
+壁湯,zh-tw,壁湯
+壁湯,ko,벽탕
+壁湯,ja-Hrkt,ｶﾍﾞﾕ
+壁湯,en,Kabeyu
+森町,ja,森町
+森町,zh-cn,森町
+森町,zh-tw,森町
+森町,ko,모리마치
+森町,ja-Hrkt,ﾓﾘﾏﾁ
+森町,en,Morimachi
+原井団地,ja,原井団地
+原井団地,zh-cn,原井住宅小区
+原井団地,zh-tw,原井住宅小區
+原井団地,ko,하라이 단지
+原井団地,ja-Hrkt,ﾊﾗｲﾀﾞﾝﾁ
+原井団地,en,Harai Danchi
+田能原,ja,田能原
+田能原,zh-cn,田能原
+田能原,zh-tw,田能原
+田能原,ko,타노하라
+田能原,ja-Hrkt,ﾀﾉｳﾊﾞﾙ
+田能原,en,Tanoubaru
+上中野,ja,上中野
+上中野,zh-cn,上中野
+上中野,zh-tw,上中野
+上中野,ko,우에나카노
+上中野,ja-Hrkt,ｶﾐﾅｶﾉ
+上中野,en,Kaminakano
+春日町,ja,春日町
+春日町,zh-cn,春日町
+春日町,zh-tw,春日町
+春日町,ko,카스가초
+春日町,ja-Hrkt,ｶｽｶﾞﾁｮｳ
+春日町,en,Kasugacho
+坂の上,ja,坂の上
+坂の上,zh-cn,坂之上
+坂の上,zh-tw,坂之上
+坂の上,ko,언덕 위
+坂の上,ja-Hrkt,ｻｶﾉｳｴ
+坂の上,en,Sakanoue
+森御幸町,ja,森御幸町
+森御幸町,zh-cn,森御幸町
+森御幸町,zh-tw,森御幸町
+森御幸町,ko,모리 미유키초
+森御幸町,ja-Hrkt,ﾓﾘﾐﾕｷﾏﾁ
+森御幸町,en,MoriMiyukimachi
+掛地,ja,掛地
+掛地,zh-cn,挂地
+掛地,zh-tw,掛地
+掛地,ko,거지
+掛地,ja-Hrkt,ｶｹｼﾞ
+掛地,en,Kakeji
+古後中学校前,ja,古後中学校前
+古後中学校前,zh-cn,古后中学前
+古後中学校前,zh-tw,古後中學前
+古後中学校前,ko,고고 중학교 앞
+古後中学校前,ja-Hrkt,ｺｺﾞﾁｭｳｶﾞｯｺｳﾏｴ
+古後中学校前,en,Kogochugakkou mae
+川道団地前,ja,川道団地前
+川道団地前,zh-cn,川道团地前
+川道団地前,zh-tw,川道團地前
+川道団地前,ko,강도단지 앞
+川道団地前,ja-Hrkt,ｶﾜﾐﾁﾀﾞﾝﾁﾏｴ
+川道団地前,en,Kawamichi Danchi mae
+内山,ja,内山
+内山,zh-cn,内山
+内山,zh-tw,內山
+内山,ko,우치야마
+内山,ja-Hrkt,ｳﾁﾔﾏ
+内山,en,Uchiyama
+森中学校前,ja,森中学校前
+森中学校前,zh-cn,森中学前
+森中学校前,zh-tw,森中學前
+森中学校前,ko,모리나카 학교 앞
+森中学校前,ja-Hrkt,ﾓﾘﾁｭｳｶﾞｯｺｳﾏｴ
+森中学校前,en,Morichugakkou mae
+仮家,ja,仮家
+仮家,zh-cn,仮家
+仮家,zh-tw,仮家
+仮家,ko,가가
+仮家,ja-Hrkt,ｶﾘﾔ
+仮家,en,Kariya
+杉山,ja,杉山
+杉山,zh-cn,杉山
+杉山,zh-tw,杉山
+杉山,ko,스기야마
+杉山,ja-Hrkt,ｽｷﾞﾔﾏ
+杉山,en,Sugiyama
+上伏原,ja,上伏原
+上伏原,zh-cn,上伏原
+上伏原,zh-tw,上伏原
+上伏原,ko,가미후시하라
+上伏原,ja-Hrkt,ｶﾐﾌｼﾊﾗ
+上伏原,en,Kamifushihara
+小原,ja,小原
+小原,zh-cn,小原
+小原,zh-tw,小原
+小原,ko,오하라
+小原,ja-Hrkt,ｵﾊﾙ
+小原,en,Oharu
+引治駅前,ja,引治駅前
+引治駅前,zh-cn,引治站前
+引治駅前,zh-tw,引治站前
+引治駅前,ko,인지역 앞
+引治駅前,ja-Hrkt,ﾋｷｼﾞｴｷﾏｴ
+引治駅前,en,Hikijieki mae
+弁天橋,ja,弁天橋
+弁天橋,zh-cn,弁天桥
+弁天橋,zh-tw,弁天橋
+弁天橋,ko,벤텐바시
+弁天橋,ja-Hrkt,ﾍﾞﾝﾃﾝﾊﾞｼ
+弁天橋,en,Bentenbashi
+九重町役場前,ja,九重町役場前
+九重町役場前,zh-cn,九重町役所前
+九重町役場前,zh-tw,九重町役所前
+九重町役場前,ko,구에 쵸 동사무소 앞
+九重町役場前,ja-Hrkt,ｺｺﾉｴﾏﾁﾔｸﾊﾞﾏｴ
+九重町役場前,en,Kokonoemachiyakuba mae
+三郷保育園前,ja,三郷保育園前
+三郷保育園前,zh-cn,三乡保育园前
+三郷保育園前,zh-tw,三鄉保育園前
+三郷保育園前,ko,미사토 보육원 앞
+三郷保育園前,ja-Hrkt,ﾐｻﾄﾎｲｸｴﾝﾏｴ
+三郷保育園前,en,Misato Hoikuen mae
+鴫良温泉前,ja,鴫良温泉前
+鴫良温泉前,zh-cn,鴫良温泉前
+鴫良温泉前,zh-tw,鴫良溫泉前
+鴫良温泉前,ko,쿠라 온천 앞
+鴫良温泉前,ja-Hrkt,ｼｷﾞﾗｵﾝｾﾝﾏｴ
+鴫良温泉前,en,Shigiraonsen mae
+寺川,ja,寺川
+寺川,zh-cn,寺川
+寺川,zh-tw,寺川
+寺川,ko,데라가와
+寺川,ja-Hrkt,ﾃﾗｶﾞﾜ
+寺川,en,Teragawa
+道迫,ja,道迫
+道迫,zh-cn,道迫
+道迫,zh-tw,道迫
+道迫,ko,도박
+道迫,ja-Hrkt,ﾄﾞｳﾉｻｺ
+道迫,en,Dounosako
+原,ja,原
+原,zh-cn,原
+原,zh-tw,原
+原,ko,하라
+原,ja-Hrkt,ﾊﾙ
+原,en,Haru
+八木蒔,ja,八木蒔
+八木蒔,zh-cn,八木蒔
+八木蒔,zh-tw,八木蒔
+八木蒔,ko,야기마키
+八木蒔,ja-Hrkt,ﾔｷﾞﾏｷ
+八木蒔,en,Yagimaki
+万年山登山口,ja,万年山登山口
+万年山登山口,zh-cn,万年山登山口
+万年山登山口,zh-tw,萬年山登山口
+万年山登山口,ko,만년산 등산구
+万年山登山口,ja-Hrkt,ﾊﾈﾔﾏﾄｻﾞﾝｸﾞﾁ
+万年山登山口,en,Haneyamatozanguchi
+鷹巣,ja,鷹巣
+鷹巣,zh-cn,鹰巢
+鷹巣,zh-tw,鷹巢
+鷹巣,ko,매
+鷹巣,ja-Hrkt,ﾀｶｽ
+鷹巣,en,Takasu
+十の釣,ja,十の釣
+十の釣,zh-cn,十之钓
+十の釣,zh-tw,十之釣
+十の釣,ko,열 어업
+十の釣,ja-Hrkt,ﾄｳﾉﾂﾙ
+十の釣,en,Tonotsuru
+宝泉寺,ja,宝泉寺
+宝泉寺,zh-cn,宝泉寺
+宝泉寺,zh-tw,宝泉寺
+宝泉寺,ko,호센지
+宝泉寺,ja-Hrkt,ﾎｳｾﾝｼﾞ
+宝泉寺,en,Housenji
+篠矢,ja,篠矢
+篠矢,zh-cn,筱矢
+篠矢,zh-tw,筱矢
+篠矢,ko,시노야
+篠矢,ja-Hrkt,ｼﾉﾔ
+篠矢,en,Shinoya
+山移,ja,山移
+山移,zh-cn,山移
+山移,zh-tw,山移
+山移,ko,야마이
+山移,ja-Hrkt,ﾔﾏｳﾂﾘ
+山移,en,Yamautsuri
+富迫トンネル口,ja,富迫トンネル口
+富迫トンネル口,zh-cn,富迫隧道入口
+富迫トンネル口,zh-tw,富迫隧道入口
+富迫トンネル口,ko,부박 터널 입
+富迫トンネル口,ja-Hrkt,ﾄﾐｻｺﾄﾝﾈﾙｸﾞﾁ
+富迫トンネル口,en,Tomisako Tunnel guchi
+灰原,ja,灰原
+灰原,zh-cn,灰原
+灰原,zh-tw,灰原
+灰原,ko,회원
+灰原,ja-Hrkt,ﾊｲﾊﾞﾙ
+灰原,en,Haibaru
+北大隈,ja,北大隈
+北大隈,zh-cn,北大隈
+北大隈,zh-tw,北大隈
+北大隈,ko,키타오쿠마
+北大隈,ja-Hrkt,ｷﾀｵｵｸﾏ
+北大隈,en,Kitaookuma
+守実温泉,ja,守実温泉
+守実温泉,zh-cn,守実温泉
+守実温泉,zh-tw,守実溫泉
+守実温泉,ko,모리미 온천
+守実温泉,ja-Hrkt,ﾓﾘｻﾞﾈｵﾝｾﾝ
+守実温泉,en,Morizane Onsen
+八幡川底,ja,八幡川底
+八幡川底,zh-cn,八幡川底
+八幡川底,zh-tw,八幡川底
+八幡川底,ko,하치만 강바닥
+八幡川底,ja-Hrkt,ﾔﾊﾀｶﾜｿｺ
+八幡川底,en,Yahata Kawasoko
+井手,ja,井手
+井手,zh-cn,井手
+井手,zh-tw,井手
+井手,ko,이테
+井手,ja-Hrkt,ｲﾃﾞ
+井手,en,ide
+肥前屋,ja,肥前屋
+肥前屋,zh-cn,肥前屋
+肥前屋,zh-tw,肥前屋
+肥前屋,ko,히젠야
+肥前屋,ja-Hrkt,ﾋｾﾞﾝﾔ
+肥前屋,en,Hizenya
+井尻町営住宅前,ja,井尻町営住宅前
+井尻町営住宅前,zh-cn,井尻町营住宅前
+井尻町営住宅前,zh-tw,井尻町營住宅前
+井尻町営住宅前,ko,이지리초영 주택 앞
+井尻町営住宅前,ja-Hrkt,ｲﾉｼﾞﾘﾁｮｳｴｲｼﾞｭｳﾀｸﾏｴ
+井尻町営住宅前,en,Inojirichoeijutaku mae
+柿瀬,ja,柿瀬
+柿瀬,zh-cn,柿濑
+柿瀬,zh-tw,柿瀨
+柿瀬,ko,카키세
+柿瀬,ja-Hrkt,ｶｷｾﾞ
+柿瀬,en,Kakize
+柿坂,ja,柿坂
+柿坂,zh-cn,柿坂
+柿坂,zh-tw,柿坂
+柿坂,ko,카키자카
+柿坂,ja-Hrkt,ｶｷｻｶ
+柿坂,en,Kakisaka
+軍艦岩,ja,軍艦岩
+軍艦岩,zh-cn,战舰岩
+軍艦岩,zh-tw,戰艦岩
+軍艦岩,ko,군함암
+軍艦岩,ja-Hrkt,ｸﾞﾝｶﾝｲﾜ
+軍艦岩,en,Gunkaniwa
+小橋,ja,小橋
+小橋,zh-cn,小桥
+小橋,zh-tw,小橋
+小橋,ko,고바시
+小橋,ja-Hrkt,ｺﾊﾞｼ
+小橋,en,Kobashi
+尾ヶ篠,ja,尾ヶ篠
+尾ヶ篠,zh-cn,尾筱
+尾ヶ篠,zh-tw,尾筱
+尾ヶ篠,ko,오가 시노
+尾ヶ篠,ja-Hrkt,ｵｶﾞｼﾉ
+尾ヶ篠,en,Ogashino
+八重垣,ja,八重垣
+八重垣,zh-cn,八重垣
+八重垣,zh-tw,八重垣
+八重垣,ko,야에가키
+八重垣,ja-Hrkt,ﾔｴｶﾞｷ
+八重垣,en,Yaegaki
+一つ家,ja,一つ家
+一つ家,zh-cn,一家
+一つ家,zh-tw,一家
+一つ家,ko,한 집
+一つ家,ja-Hrkt,ﾋﾄﾂﾔ
+一つ家,en,Hitotsuya
+大九郎,ja,大九郎
+大九郎,zh-cn,大九郎
+大九郎,zh-tw,大九郎
+大九郎,ko,오쿠로
+大九郎,ja-Hrkt,ﾀﾞｲｸﾛｳ
+大九郎,en,Daikurou
+山国役場前,ja,山国役場前
+山国役場前,zh-cn,山国役场前
+山国役場前,zh-tw,山國役場前
+山国役場前,ko,산코쿠 사무소 앞
+山国役場前,ja-Hrkt,ﾔﾏｸﾆﾔｸﾊﾞﾏｴ
+山国役場前,en,Yamakuni Yakuba mae
+専道,ja,専道
+専道,zh-cn,専道
+専道,zh-tw,専道
+専道,ko,전도
+専道,ja-Hrkt,ｾﾝﾄﾞｳ
+専道,en,Sendou
+錦雲峡入口,ja,錦雲峡入口
+錦雲峡入口,zh-cn,錦云峡入口
+錦雲峡入口,zh-tw,錦雲峽入口
+錦雲峡入口,ko,금운협 입구
+錦雲峡入口,ja-Hrkt,ｷﾝｳﾝｷｮｳｲﾘｸﾞﾁ
+錦雲峡入口,en,Kinunkyo Iriguchi
+朝小野,ja,朝小野
+朝小野,zh-cn,朝小野
+朝小野,zh-tw,朝小野
+朝小野,ko,아침 오노
+朝小野,ja-Hrkt,ｱｻｵﾉ
+朝小野,en,Asaono
+綾垣,ja,綾垣
+綾垣,zh-cn,绫垣
+綾垣,zh-tw,綾垣
+綾垣,ko,아야가키
+綾垣,ja-Hrkt,ｱﾔｶﾞｷ
+綾垣,en,Ayagaki
+下桐木,ja,下桐木
+下桐木,zh-cn,下桐木
+下桐木,zh-tw,下桐木
+下桐木,ko,시모 키리
+下桐木,ja-Hrkt,ｼﾓｷﾙｷﾞ
+下桐木,en,Shimokirugi
+原井,ja,原井
+原井,zh-cn,原井
+原井,zh-tw,原井
+原井,ko,하라이
+原井,ja-Hrkt,ﾊﾗｲ
+原井,en,Harai
+立羽田,ja,立羽田
+立羽田,zh-cn,立羽田
+立羽田,zh-tw,立羽田
+立羽田,ko,다테하다
+立羽田,ja-Hrkt,ﾀﾁﾊﾀﾞ
+立羽田,en,Tachihada
+百田,ja,百田
+百田,zh-cn,百田
+百田,zh-tw,百田
+百田,ko,모모다
+百田,ja-Hrkt,ﾋｬｸﾀ
+百田,en,hyakuta
+古後保育園前,ja,古後保育園前
+古後保育園前,zh-cn,古后保育园前
+古後保育園前,zh-tw,古後保育園前
+古後保育園前,ko,고고 보육원 앞
+古後保育園前,ja-Hrkt,ｺｺﾞﾎｲｸｴﾝﾏｴ
+古後保育園前,en,Kogohoikuen mae
+台金入口,ja,台金入口
+台金入口,zh-cn,台金入口
+台金入口,zh-tw,台金入口
+台金入口,ko,대금 입구
+台金入口,ja-Hrkt,ﾀﾞｲｶﾞﾈｲﾘｸﾞﾁ
+台金入口,en,Daiganeiriguchi
+神原,ja,神原
+神原,zh-cn,神原
+神原,zh-tw,神原
+神原,ko,진원
+神原,ja-Hrkt,ｺｳﾊﾞﾙ
+神原,en,Kobaru
+八幡小学校前,ja,八幡小学校前
+八幡小学校前,zh-cn,八幡小学校前
+八幡小学校前,zh-tw,八幡小學校前
+八幡小学校前,ko,하치만 초등학교 앞
+八幡小学校前,ja-Hrkt,ﾔﾊﾀｼｮｳｶﾞｯｺｳﾏｴ
+八幡小学校前,en,Yahata Shogakkou mae
+玖珠観光バス,ja,玖珠観光バス
+玖珠観光バス,zh-cn,玖珠观光巴士
+玖珠観光バス,zh-tw,玖珠觀光巴士
+玖珠観光バス,ko,구주 관광 버스
+玖珠観光バス,ja-Hrkt,クスカンコウバス
+玖珠観光バス,en,Kusukankou Bus
+田能原線,ja,田能原線
+田能原線,en,Tanoharu Line
+田能原線,zh-cn,田野原线
+田能原線,zh-tw,田野原線
+田能原線,ko,다노하라선
+菅原線,ja,菅原線
+菅原線,en,Sugawara Line
+菅原線,zh-cn,菅原线
+菅原線,zh-tw,菅原線
+菅原線,ko,스가와라선
+深耶馬渓線,ja,深耶馬渓線
+深耶馬渓線,en,Shinyabakei Line
+深耶馬渓線,zh-cn,深耶马溪线
+深耶馬渓線,zh-tw,深耶馬溪線
+深耶馬渓線,ko,후카야마 계선
+古後線,ja,古後線
+古後線,en,Kogo Line
+古後線,zh-cn,古后线
+古後線,zh-tw,古後線
+古後線,ko,고고선
+栃木線,ja,栃木線
+栃木線,en,Tochigi Line
+栃木線,zh-cn,栃木线
+栃木線,zh-tw,栃木線
+栃木線,ko,도치기선
+宝泉寺線,ja,宝泉寺線
+宝泉寺線,en,Hosenji Line
+宝泉寺線,zh-cn,宝泉寺线
+宝泉寺線,zh-tw,宝泉寺線
+宝泉寺線,ko,호센지선
