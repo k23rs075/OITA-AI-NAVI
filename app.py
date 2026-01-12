@@ -47,7 +47,6 @@ if not GOOGLE_MAPS_API_KEY:
     print("FATAL: GOOGLE_MAPS_API_KEY not found. Navigation will fail.")
 
 
-# ★★★ ヘルパー関数（距離計算） ★★★
 # 2点間の距離を計算する関数
 def haversine_distance_vector(lat1, lon1, lat2_series, lon2_series):
     R = 6371000  # 地球の半径(m)
@@ -69,7 +68,7 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     return R * c
 
 
-# ★★★ データ読み込みロジック ★★★
+
 GTFS_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gtfs_data')
 LOADED_GTFS = {}
 LOADED_CSV_POIS = None 
@@ -507,7 +506,7 @@ def generate_ai_response_robust(user_message, lat, lon):
     return m
 
 
-# ★修正: スポット詳細取得 (名前でPlace ID検索を追加)
+
 @app.route('/api/get_spot_details', methods=['POST'])
 def get_spot_details():
     d = request.json
@@ -516,7 +515,7 @@ def get_spot_details():
     clean_name = re.sub(r'\[.*?\]\s*', '', nm).strip() if nm else nm
     res = {"name": clean_name, "description": "詳細なし", "payment": "不明", "photo_url": None, "rating": None}
 
-    # ★Place IDがない場合、名前で検索してIDを取得する
+    # Place IDがない場合、名前で検索してIDを取得する
     if not pid and clean_name and GOOGLE_MAPS_API_KEY:
         try:
             find_url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json"
@@ -601,7 +600,7 @@ def search_nearby():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-# 2. GTFSバス検索 (座標のNone判定修正版)
+# 2. GTFSバス検索 
 def search_gtfs_bus_routes(start_lat, start_lon, dest_lat, dest_lon, departure_dt=None):
     candidates = []
     if not LOADED_GTFS: return candidates
@@ -712,8 +711,7 @@ def search_gtfs_bus_routes(start_lat, start_lon, dest_lat, dest_lon, departure_d
                 "segments": segments,
                 "is_raw_path": True,
                 "is_manual": True,
-                
-                # ★修正: start_lat が None の場合は、辞書全体を None にする
+            
                 "start_coords": {'lat': start_lat, 'lon': start_lon} if start_lat else None,
                 "first_stop_coords": {'lat': geometry_points[0][0], 'lon': geometry_points[0][1]},
                 "last_stop_coords": {'lat': geometry_points[-1][0], 'lon': geometry_points[-1][1]},
@@ -754,7 +752,7 @@ def process_chat():
                 curr = (start_geo['lat'], start_geo['lon']) if start_geo else None
                 start_name = "大分駅"
         else:
-            # 出発地にも「大分県」補正をかける（県外から来る場合を除くならここは外してもOK）
+            # 出発地にも「大分県」補正をかける
             search_dep = dep_raw
             if dep_raw and "大分" not in dep_raw and "県" not in dep_raw and "駅" not in dep_raw:
                  search_dep = f"大分県 {dep_raw}"
@@ -766,7 +764,7 @@ def process_chat():
         # 目的地特定
         dest_name = ai_json.get('destination')
         
-        # ★★★ 修正: 目的地検索時に「大分県」を強制的に付与する ★★★
+  
         search_dest_name = dest_name
         # 「大分」が含まれず、かつ座標入力でもない場合に「大分県」を頭につける
         if dest_name and "大分" not in dest_name and "県" not in dest_name:
@@ -781,7 +779,7 @@ def process_chat():
         wps = []; wps_raw = ai_json.get('waypoints')
         if wps_raw and isinstance(wps_raw, list):
             for w in wps_raw:
-                # 経由地にも「大分県」補正
+            
                 search_w = w
                 if w and "大分" not in w:
                     search_w = f"大分県 {w}"
@@ -832,7 +830,7 @@ def process_chat():
             t_origin = start_geo if start_geo else f"{curr[0]},{curr[1]}"
             
             # ---------------------------------------------------------
-            # 1. 自動車ルート (これは常に検索)
+            # 1. 自動車ルート
             # ---------------------------------------------------------
             if wps:
                 wps_str = [f"{w['lat']},{w['lon']}" for w in wps]
@@ -914,7 +912,7 @@ def index():
     cleaned_key = GOOGLE_MAPS_API_KEY.strip() if GOOGLE_MAPS_API_KEY else None
     return render_template('index.html', google_maps_api_key=cleaned_key)
 
-# ファイルの末尾に追加
+load_all_data()
 if __name__ == '__main__':
-    load_all_data()  # ← これが一番大事です！
+    load_all_data()  
     app.run(debug=True, port=5000)
